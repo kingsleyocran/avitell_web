@@ -4,28 +4,46 @@
 
 /* Primary Font */
 @font-face {
-  font-family: "CircularStd";
-  src: url("../../public/assets/fonts/CircularStd-Bold.ttf");
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "CircularStd";
-  src: url("../../public/assets/fonts/CircularStd-Medium.ttf");
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "CircularStd";
-  src: url("../../public/assets/fonts/CircularStd-Book.ttf");
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "CircularStd";
-  src: url("../../public/assets/fonts/CircularStd-BookItalic.ttf");
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-Italic.ttf");
   font-weight: normal;
   font-style: italic;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../../public/assets/fonts/DMSans_18pt-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @layer utilities {
@@ -42,24 +60,24 @@
   }
 
   .primarybold {
-    font-family: "CircularStd";
+    font-family: "DMSans";
     font-weight: bold;
   }
   .primarymedium {
-    font-family: "CircularStd";
+    font-family: "DMSans";
     font-weight: 500;
   }
   .primarynormal {
-    font-family: "CircularStd";
+    font-family: "DMSans";
     font-weight: normal;
   }
   .primarynormalitalic {
-    font-family: "CircularStd";
+    font-family: "DMSans";
     font-weight: normal;
     font-style: italic;
   }
   .primarylight {
-    font-family: "CircularStd";
+    font-family: "DMSans";
     font-weight: light;
   }
 }
@@ -115,12 +133,9 @@
 
 /**THEME DECLARATION*/
 :root {
-  /* Csutom */
-
   /* Background */
-  --background: #fffdf7;
+  --background: #ffffff;
   --background-surface: #faf8f6;
-
   --background-secondary: #f5f1ed;
 
   /* Text */
@@ -140,8 +155,13 @@
 
   /* Accents */
   --accent-dark: #cd503b;
-  --accent-medium: #fd5b40;
+  --accent-medium: #E2862C;
   --accent-light: #ff816c;
+
+  /* Primary */
+  --primary-dark: #002E52;
+  --primary-medium: #5596C2;
+  --primary-light: #ff816c;
 
   /* Icons */
   --icon-primary: #707070;
@@ -195,6 +215,11 @@
   --accent-medium: #fd5b40;
   --accent-light: #ff816c;
 
+  /* Primary */
+  --primary-dark: #002E52;
+  --primary-medium: #5596C2;
+  --primary-light: #ff816c;
+
   /* Icons */
   --icon-primary: #afafaf;
   --icon-secondary: #7c7c7c;
@@ -220,7 +245,7 @@
 }
 
 body {
-  font-family: "CircularStd";
+  font-family: "DMSans";
   font-weight: normal;
   color: var(--text-primary);
   background: var(--background);
@@ -232,6 +257,12 @@ main {
   /* padding-bottom: 0.5rem; */
   display: flex;
   flex-direction: column;
+}
+
+.custom-shadow-md{
+  box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
+-webkit-box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
+-moz-box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
 }
 
 .text-input,

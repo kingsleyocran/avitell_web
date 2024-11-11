@@ -14,7 +14,6 @@ module.exports = {
       colors: {
         "th-background": "var(--background)",
         "th-background-surface": "var(--background-surface)",
-
         "th-background-secondary": "var(--background-secondary)",
 
         "th-text-primary": "var(--text-primary)",
@@ -30,8 +29,9 @@ module.exports = {
         "th-accent-medium": "var(--accent-medium)",
         "th-accent-light": "var(--accent-light)",
 
-        "th-melo-accent-medium": "var(--melo-accent-medium)",
-        "th-melo-accent-back": "var(--melo-accent-back)",
+        "th-primary-dark": "var(--primary-dark)",
+        "th-primary-medium": "var(--primary-medium)",
+        "th-primary-light": "var(--primary-light)",
 
         "th-icon-primary": "var(--icon-primary)",
         "th-icon-secondary": "var(--icon-secondary)",

@@ -1,8 +1,4 @@
-import {
-  contactDetails,
-  navlinks,
-  socialLinks,
-} from "@/utils/content";
+import { navlinks } from "@/utils/content";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -59,7 +55,7 @@ function Footer() {
               </p>
 
               <div className="flex flex-col gap-4">
-                <div className=" flex flex-col gap-3">
+                {/* <div className=" flex flex-col gap-3">
                   {contactDetails.map((contactData, idx) => (
                     <Link
                       key={idx}
@@ -69,11 +65,12 @@ function Footer() {
                       target="_blank"
                     >
                       <div className=" flex flex-row gap-2  items-center paragraph-text">
-                        {contactData.iconDesktop} <p className="max-w-[300px]">{contactData.value}</p>
+                        {contactData.iconDesktop}{" "}
+                        <p className="max-w-[300px]">{contactData.value}</p>
                       </div>
                     </Link>
                   ))}
-                </div>
+                </div> */}
 
                 {/* <div className=" flex flex-row gap-2">
                   {socialLinks.map((socialLink, idx) => (

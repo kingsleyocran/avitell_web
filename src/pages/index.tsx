@@ -1,10 +1,11 @@
-import Footer from "@/components/layout/Footer";
 import CustomHead from "@/components/layout/CustomHead";
-import Header from "@/components/layout/Header";
 import NavigationAnimation from "@/components/animation/navigationAnimation/Stairs";
 import { useEffect, useState } from "react";
 import Lenis from "lenis";
 import { NextPage } from "next";
+import HomeBanner from "@/components/sections/home/HomeBanner";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 interface Props {
   networkMemberData: any;
@@ -133,14 +134,12 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
 
   return (
     <>
-      <CustomHead
-        title="Avitell - Home"
-        jsonLd={jsonLd}
-        metaDataTag={metaDataTag}
-      />
+      <CustomHead title="Avitell" jsonLd={jsonLd} metaDataTag={metaDataTag} />
 
       <NavigationAnimation>
         <Header />
+
+        <HomeBanner />
 
         <Footer />
       </NavigationAnimation>

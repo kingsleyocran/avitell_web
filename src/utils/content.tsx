@@ -86,3 +86,36 @@ export const homeServicesContent = [
 ];
 
 export const contactDetails = [{}];
+
+export const homeAboutContent = {
+  ctaButtonTitle: "Learn more",
+  ctaHref: "/about-us",
+  title:
+    "Empowering Your Business Through Technology. Empowering Your Business",
+  content:
+    "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+};
+
+export const homePlanContent = {
+  title: "Start developing a thorough defense plan",
+  contentList: [
+    {
+      title: "Strong Partnerships",
+      imgUrl: "/assets/images/plan-1.png",
+      content:
+        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
+    },
+    {
+      title: "Relevant, Current Industry Experience",
+      imgUrl: "/assets/images/plan-2.png",
+      content:
+        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
+    },
+    {
+      title: "Accessible & Proactive Management",
+      imgUrl: "/assets/images/plan-3.png",
+      content:
+        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
+    },
+  ],
+};

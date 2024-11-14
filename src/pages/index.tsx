@@ -6,6 +6,8 @@ import { NextPage } from "next";
 import HomeBanner from "@/components/sections/home/HomeBanner";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import HomeAboutSection from "@/components/sections/home/HomeAboutSection";
+import HomePlanSection from "@/components/sections/home/HomePlanSection";
 
 interface Props {
   networkMemberData: any;
@@ -140,6 +142,10 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
         <Header />
 
         <HomeBanner />
+
+        <HomeAboutSection />
+        
+        <HomePlanSection/>
 
         <Footer />
       </NavigationAnimation>

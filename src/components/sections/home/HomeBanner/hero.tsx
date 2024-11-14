@@ -24,12 +24,14 @@ export default function Hero({}: Props) {
         </div>
       </div>
 
-      <div className="absolute z-10 h-700 w-500 flex flex-col justify-center items-start ml-16 gap-4">
-        <h4 className="text-black text-4xl">{homeBannerContent.title}</h4>
+      <div className="absolute z-10 h-700 w-[500px] flex flex-col justify-center items-start ml-16 gap-4">
+        <h1 className="text-black text-5xl">{homeBannerContent.title}</h1>
+
         <p>{homeBannerContent.subText}</p>
+
         <button type="button">
           <Link
-            className={`w-250  text-white rounded-full  flex flex-row items-center
+            className={` text-white rounded-full  flex flex-row gap-12 items-center
           justify-between text-lg md:text-sm tracking-[0px] px-8 py-4  bg-th-primary-medium
           hover:bg-th-primary-dark transition-all duration-200`}
             href={ctaButton.href}

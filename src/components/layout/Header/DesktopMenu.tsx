@@ -37,7 +37,7 @@ export default function DesktopMenu({ navlink }: { navlink: any }) {
                 flex flex-row text-th-text-primary paragraph-text-small tracking-[0px]
                   rounded-full items-center gap-2 px-6 py-2 ring-transparent border-0 outline-none`}
             >
-              {navlink.title}
+              <p className="line-clamp-1">{navlink.title}</p>
               <ArrowDownIcon
                 width="8"
                 height="6"

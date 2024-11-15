@@ -211,8 +211,8 @@
   --textbox-fill: #363636;
 
   /* Accents */
-  --accent-dark: #cd503b;
-  --accent-medium: #fd5b40;
+  --accent-dark: #be6a17;
+  --accent-medium: #E2862C;
   --accent-light: #FFD0A2;
 
   /* Primary */
@@ -263,6 +263,12 @@ main {
   box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
 -webkit-box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
 -moz-box-shadow: 1px 1px 30px -2px rgba(0,0,0,0.21);
+}
+
+.ctaButtonGlow{
+  box-shadow: 0px 0px 11px 1px rgba(255, 255, 255, 0.18);
+  -webkit-box-shadow: 0px 0px 11px 1px rgba(255, 255, 255, 0.18);
+  -moz-box-shadow: 0px 0px 11px 1px rgba(255, 255, 255, 0.18);
 }
 
 .text-input,

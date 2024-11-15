@@ -18,13 +18,13 @@ export default function TextRevealByWord({ text }: TextRevealByWordProps) {
     <div ref={targetRef} className={"relative z-0"}>
       <div
         className={
-          "sticky top-0 mx-auto flex max-w-[700px] items-center bg-transparent"
+          "sticky top-0 mx-auto flex max-w-[500px] lg:max-w-[700px] items-center bg-transparent"
         }
       >
         <h3
           ref={targetRef}
           className={
-            "flex flex-wrap justify-center gap-1 font-medium text-center text-black/20 text-5xl"
+            "flex flex-wrap justify-center gap-1 font-medium text-center text-black/20 text-3xl md:text-4xl lg:text-5xl"
           }
         >
           {words.map((word, i) => {

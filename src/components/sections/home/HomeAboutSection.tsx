@@ -1,17 +1,22 @@
 import RippleEffect from "@/components/animation/RippleEffect";
 import TextRevealByWord from "@/components/animation/TextRevealByWord";
 import { homeAboutContent } from "@/utils/content";
-import Link from "next/link";
 import React from "react";
-import ArrowRightIcon from "../../../../public/assets/icons/menu_arrow_right.svg";
+import LinkButton from "@/components/button/LinkButton";
+import { useMediaQuery } from "react-responsive";
 
 type Props = {};
 
 function HomeAboutSection({}: Props) {
+  const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
+  const isTablet = useMediaQuery({
+    query: "(min-width: 640px) and (max-width: 1024px)",
+  });
+
   return (
-    <div className="bg-gradient-to-t from-[#FBEFE3] via-[#FEFCFA] to-white pt-48">
-      <div className="h-full relative w-full flex flex-col max-w-[1200px] xl:mx-auto  px-10 md:px-12 lg:px-12 ">
-        <div className="w-full flex flex-col gap-6 items-center">
+    <div className="bg-gradient-to-t from-[#FBEFE3] via-[#FEFCFA] to-white md:pt-48">
+      <div className="h-full relative w-full flex flex-col max-w-[1200px] xl:mx-auto   ">
+        <div className="w-full flex flex-col gap-6 items-center px-10 md:px-12 lg:px-12">
           <h6 className="text-xs md:text-xs lg:text-xs uppercase tracking-[7px]">
             ABOUT US
           </h6>
@@ -22,27 +27,14 @@ function HomeAboutSection({}: Props) {
             {homeAboutContent.content}
           </p>
 
-          <button type="button">
-            <Link
-              className={`mt-6  text-white rounded-full  flex flex-row gap-4 items-center
-          justify-between text-lg md:text-sm tracking-[0px] px-8 py-4  bg-th-accent-medium
-          hover:bg-th-accent-dark transition-all duration-200`}
-              href={homeAboutContent.ctaHref}
-              passHref
-            >
-              {homeAboutContent.ctaButtonTitle}
-              <ArrowRightIcon
-                className="fill-white"
-                width="7"
-                height="9"
-                viewBox="0 0 5 7"
-              />
-            </Link>
-          </button>
+          <LinkButton
+            title={homeAboutContent.ctaButtonTitle}
+            href={homeAboutContent.ctaHref}
+          />
         </div>
 
-        <div className="h-350 relative w-full overflow-hidden">
-          <RippleEffect />
+        <div className="h-[230px] md:h-300 lg:h-350 relative w-full overflow-hidden">
+          <RippleEffect mainCircleSize={isMobile ? 20 : 210} />
         </div>
       </div>
     </div>

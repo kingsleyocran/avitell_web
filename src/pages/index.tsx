@@ -1,6 +1,6 @@
 import CustomHead from "@/components/layout/CustomHead";
 import NavigationAnimation from "@/components/animation/navigationAnimation/Stairs";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Lenis from "lenis";
 import { NextPage } from "next";
 import HomeBanner from "@/components/sections/home/HomeBanner";
@@ -8,6 +8,9 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import HomeAboutSection from "@/components/sections/home/HomeAboutSection";
 import HomePlanSection from "@/components/sections/home/HomePlanSection";
+import HomeIndustriesSection from "@/components/sections/home/HomeIndustriesSection";
+import CTASection from "@/components/sections/CTASection";
+import InsightsUpdatesSection from "@/components/sections/InsightsUpdatesSection";
 
 interface Props {
   networkMemberData: any;
@@ -145,7 +148,13 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
 
         <HomeAboutSection />
         
-        <HomePlanSection/>
+        <HomePlanSection />
+        
+        <HomeIndustriesSection />
+        
+        <CTASection />
+        
+        <InsightsUpdatesSection/>
 
         <Footer />
       </NavigationAnimation>

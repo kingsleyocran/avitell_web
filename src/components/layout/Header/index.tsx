@@ -34,11 +34,11 @@ function NavBar() {
       initial={{ y: 0 }}
       animate={{ y: showNavbar ? 0 : -100 }} // Moves the navbar out of view when hidden
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
-      className="bg-th-background h-[55px] w-full fixed z-50"
+      className="bg-white h-[55px] w-full fixed z-50"
     >
       <div
         className={`w-full relative transition-all duration-200 h-[55px]
-        flex flex-row items-center justify-between max-w-[1920px] 2xl:mx-auto gap-16`}
+        flex flex-row items-center justify-between max-w-[1920px] 2xl:mx-auto gap-4`}
       >
         {/* Logo */}
         <Link
@@ -68,11 +68,11 @@ function NavBar() {
                   <Link
                     key={idx}
                     className="flex flex-row text-th-text-primary paragraph-text-small tracking-[0px]
-                  rounded-full items-center gap-2 px-6 py-2 bg-white hover:bg-neutral-100 outline-none"
+                  rounded-full items-center gap-2 px-4 lg:px-6 py-2 bg-white hover:bg-neutral-100 outline-none"
                     href={navlink.href}
                     passHref
                   >
-                    {navlink.title}
+                    <p className="line-clamp-1">{navlink.title}</p>
                   </Link>
                 )}
               </>
@@ -80,13 +80,13 @@ function NavBar() {
 
             {/* CTA Button */}
             <Link
-              className="ml-2 flex flex-row items-center justify-center paragraph-text-small
+              className="ml-2 flex-none flex flex-row items-center justify-center paragraph-text-small
               text-white bg-th-primary-medium hover:bg-th-primary-dark px-6 py-2 rounded-full
               transition-all duration-300"
               href={ctaButton.href}
               passHref
             >
-              {ctaButton.title}
+              <p>{ctaButton.title}</p>
             </Link>
           </div>
 

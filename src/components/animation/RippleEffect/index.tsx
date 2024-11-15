@@ -5,18 +5,16 @@ interface RippleProps {
   mainCircleSize?: number;
   mainCircleOpacity?: number;
   numCircles?: number;
-  className?: string;
 }
 
 const Ripple = React.memo(function Ripple({
   mainCircleSize = 210,
   mainCircleOpacity = 0.54,
   numCircles =5,
-  className,
 }: RippleProps) {
   return (
     <div
-      className={"-bottom-[400px] pointer-events-none select-none absolute inset-0 [mask-image:linear-gradient(to_bottom,white,transparent)]"}
+      className={"-bottom-[300px] md:-bottom-[400px] pointer-events-none select-none absolute inset-0 [mask-image:linear-gradient(to_bottom,white,transparent)]"}
     >
       {Array.from({ length: numCircles }, (_, i) => {
         const size = mainCircleSize + i * 100;

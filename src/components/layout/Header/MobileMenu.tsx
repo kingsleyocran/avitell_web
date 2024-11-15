@@ -1,7 +1,7 @@
 import ArrowRightIcon from "../../../../public/assets/icons/menu_arrow_right.svg";
 import MenuIcon from "../../../../public/assets/icons/menu.svg";
 import CloseIcon from "../../../../public/assets/icons/close.svg";
-import React, { Fragment,  useState } from "react";
+import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { navlinks } from "@/utils/content";
 import Link from "next/link";
@@ -22,11 +22,11 @@ export default function MobileMenu() {
       <button
         onClick={openModal}
         type="button"
-        className="md:hidden text-th-text-primary text-base md:text-sm lg:text-base tracking-[0px]
+        className="md:hidden text-black text-base md:text-sm lg:text-base tracking-[0px]
                   px-4 py-2 
                   rounded-full"
       >
-        <MenuIcon width="30" height="18" viewBox="0 0 36 24" fill="black" />
+        <MenuIcon width="26" height="20" viewBox="0 0 26 20" fill="black" />
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
@@ -54,24 +54,24 @@ export default function MobileMenu() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-th-background-surface text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
                   <div className="grid grid-col-1">
                     {/* Title */}
                     <div
-                      className="flex flex-row items-center justify-end text-th-text-primary text-xl md:text-base lg:text-base tracking-[0px]
-                    pl-8 pr-5 py-4  font-bold"
+                      className="flex flex-row items-center justify-end  text-xl md:text-base lg:text-base tracking-[0px]
+                    pl-8 pr-5 py-4 font-bold"
                     >
                       <button
                         onClick={() => {
                           closeModal();
                         }}
                         type="button"
-                        className="p-3 bg-neutral-600 rounded-full"
+                        className="p-2.5 bg-neutral-500 rounded-full"
                       >
                         <CloseIcon
-                          width="12"
-                          height="12"
-                          viewBox="0 0 27.1 27.1"
+                          width="15"
+                          height="15"
+                          viewBox="0 0 21 21"
                           fill="white"
                         />
                       </button>
@@ -85,16 +85,16 @@ export default function MobileMenu() {
                       type="button"
                     >
                       <Link
-                        className="flex flex-row items-center justify-between text-th-text-primary text-xl md:text-base lg:text-base tracking-[0px]
-                    px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
+                        className="flex flex-row items-center justify-between text-xl md:text-base lg:text-base tracking-[0px]
+                    px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  text-black hover:border-th-stroke-primary"
                         href={"/"}
                         passHref
                       >
                         Home
                         <ArrowRightIcon
-                          width="12"
-                          height="12"
-                          viewBox="0 0 23 23"
+                          width="8"
+                          height="10"
+                          viewBox="0 0 5 7"
                           fill="black"
                         />
                       </Link>
@@ -110,16 +110,16 @@ export default function MobileMenu() {
                         type="button"
                       >
                         <Link
-                          className="flex flex-row items-center justify-between text-th-text-primary text-xl md:text-base lg:text-base tracking-[0px]
+                          className="flex flex-row items-center justify-between text-black text-xl md:text-base lg:text-base tracking-[0px]
                           px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
                           href={navlink.href}
                           passHref
                         >
                           {navlink.title}
                           <ArrowRightIcon
-                            width="12"
-                            height="12"
-                            viewBox="0 0 23 23"
+                            width="8"
+                            height="10"
+                            viewBox="0 0 5 7"
                             fill="black"
                           />
                         </Link>

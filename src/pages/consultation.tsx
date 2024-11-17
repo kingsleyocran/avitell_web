@@ -3,33 +3,25 @@ import NavigationAnimation from "@/components/animation/navigationAnimation/Stai
 import { useEffect } from "react";
 import Lenis from "lenis";
 import { NextPage } from "next";
-import HomeBanner from "@/components/sections/home/HomeBanner";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
-import HomeAboutSection from "@/components/sections/home/HomeAboutSection";
-import HomePlanSection from "@/components/sections/home/HomePlanSection";
-import HomeIndustriesSection from "@/components/sections/home/HomeIndustriesSection";
-import CTASection from "@/components/sections/CTASection";
-import InsightsUpdatesSection from "@/components/sections/InsightsUpdatesSection";
-import MissionVisionSection from "@/components/sections/about/MissionVisionSection";
-import TeamSection from "@/components/sections/about/TeamSection";
-import CertificationsPartnersSection from "@/components/sections/about/CertificationsPartnersSection";
-import AboutBanner from "@/components/sections/about/AboutBanner";
+import ContactForm from "@/components/sections/consultation/ContactForm";
+import ConsultationBanner from "@/components/sections/consultation/ConsultationBanner";
 
 interface Props {
-  pageData: any;
+  networkMemberData: any;
 }
 
 export async function getServerSideProps(context: any) {
   let returnData = null;
   return {
     props: {
-      pageData: returnData,
+      networkMemberData: returnData,
     },
   };
 }
 
-const Homepage: NextPage<Props> = ({ pageData }) => {
+const Homepage: NextPage<Props> = ({ networkMemberData }) => {
   const metaDataTag = {
     title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
     authors: [
@@ -148,17 +140,9 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
       <NavigationAnimation>
         <Header />
 
-        <AboutBanner/>
+        <ConsultationBanner />
 
-        <MissionVisionSection />
-
-        <TeamSection />
-
-        <CertificationsPartnersSection />
-
-        <CTASection />
-
-        <InsightsUpdatesSection />
+        <ContactForm/>
 
         <Footer />
       </NavigationAnimation>

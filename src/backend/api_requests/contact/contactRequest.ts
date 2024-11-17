@@ -1,5 +1,5 @@
 //
-export default async function contactApiRequest(dataPayload) {
+export default async function contactApiRequest(dataPayload: any) {
   var res = await fetch("/api/contact", {
     method: "POST",
     headers: {

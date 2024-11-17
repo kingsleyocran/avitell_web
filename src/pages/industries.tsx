@@ -11,25 +11,21 @@ import HomePlanSection from "@/components/sections/home/HomePlanSection";
 import HomeIndustriesSection from "@/components/sections/home/HomeIndustriesSection";
 import CTASection from "@/components/sections/CTASection";
 import InsightsUpdatesSection from "@/components/sections/InsightsUpdatesSection";
-import MissionVisionSection from "@/components/sections/about/MissionVisionSection";
-import TeamSection from "@/components/sections/about/TeamSection";
-import CertificationsPartnersSection from "@/components/sections/about/CertificationsPartnersSection";
-import AboutBanner from "@/components/sections/about/AboutBanner";
 
 interface Props {
-  pageData: any;
+  networkMemberData: any;
 }
 
 export async function getServerSideProps(context: any) {
   let returnData = null;
   return {
     props: {
-      pageData: returnData,
+      networkMemberData: returnData,
     },
   };
 }
 
-const Homepage: NextPage<Props> = ({ pageData }) => {
+const Homepage: NextPage<Props> = ({ networkMemberData }) => {
   const metaDataTag = {
     title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
     authors: [
@@ -148,17 +144,17 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
       <NavigationAnimation>
         <Header />
 
-        <AboutBanner/>
+        <HomeBanner />
 
-        <MissionVisionSection />
-
-        <TeamSection />
-
-        <CertificationsPartnersSection />
-
+        <HomeAboutSection />
+        
+        <HomePlanSection />
+        
+        <HomeIndustriesSection />
+        
         <CTASection />
-
-        <InsightsUpdatesSection />
+        
+        <InsightsUpdatesSection/>
 
         <Footer />
       </NavigationAnimation>

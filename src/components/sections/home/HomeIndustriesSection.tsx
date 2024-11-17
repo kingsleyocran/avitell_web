@@ -1,20 +1,39 @@
 import { industriesContent } from "@/utils/content";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 type Props = {};
 
 function HomeIndustriesSection({}: Props) {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
+  useEffect(() => {
+    let timer: NodeJS.Timeout;
+
+    if (!isPaused) {
+      timer = setInterval(() => {
+        setSelectedIndex((prevIndex) => (prevIndex + 1) % industriesContent.length);
+      }, 5000); // Change index every 5 seconds
+    }
+
+    return () => clearInterval(timer);
+  }, [isPaused]);
+
+  const handleClick = (index: number) => {
+    setSelectedIndex(index);
+    setIsPaused(true);
+
+    // Resume after 1 minute
+    setTimeout(() => setIsPaused(false), 60000);
+  };
 
   return (
     <div className="bg-white">
-      <div className=" relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24  px-6 md:px-12 lg:px-12 ">
+      <div className="relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24 px-6 md:px-12 lg:px-12">
         {/* Title */}
         <div className="flex flex-row">
-          <h3 className="text-4xl text-black font-medium max-w-[400px]">
-            Industries
-          </h3>
+          <h3 className="text-4xl text-black font-medium max-w-[400px]">Industries</h3>
         </div>
 
         {/* Cards */}
@@ -50,12 +69,11 @@ function HomeIndustriesSection({}: Props) {
             <div className="flex md:flex-row flex-wrap md:justify-between">
               {industriesContent.map((e, index) => (
                 <button
+                  key={index}
                   type="button"
-                  onClick={() => {
-                    setSelectedIndex(index);
-                  }}
+                  onClick={() => handleClick(index)}
                   className={`${
-                    selectedIndex == index
+                    selectedIndex === index
                       ? "border-th-accent-medium hover:border-th-accent-light"
                       : "border-transparent"
                   }
@@ -85,12 +103,10 @@ function HomeIndustriesSection({}: Props) {
                     transition: "opacity 0.8s ease-in-out",
                   }}
                 >
-                  <h4
-                    className="primarynormal mb-0 text-2xl md:text-lg lg:text-2xl"
-                  >
+                  <h4 className="primarynormal mb-0 text-2xl md:text-lg lg:text-2xl">
                     {e.title}
                   </h4>
-                  <p className="text-base md:text-sm ">{e.content}</p>
+                  <p className="text-base md:text-sm">{e.content}</p>
                 </div>
               ))}
             </div>

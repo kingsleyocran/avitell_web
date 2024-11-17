@@ -3,6 +3,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import ArrowDownIcon from "../../../../public/assets/icons/menu_arrow_down.svg";
 import ArrowRightIcon from "../../../../public/assets/icons/menu_arrow_right.svg";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function DesktopMenu({ navlink }: { navlink: any }) {
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
@@ -65,7 +66,7 @@ export default function DesktopMenu({ navlink }: { navlink: any }) {
 
                       return (
                         <DesktopMenuLinkButton
-                        navlink={navlink}
+                          navlink={navlink}
                           isOdd={isOddCount && isLastElement}
                           idx={idx}
                           link={link}
@@ -89,27 +90,31 @@ function DesktopMenuLinkButton({
   link,
   isOdd,
 }: {
-    idx: React.Key;
-    navlink: any;
+  idx: React.Key;
+  navlink: any;
   link: any;
   isOdd: boolean;
 }) {
+  const router = useRouter();
+
+  const navigateToPage = () => {
+    window.location.href = `${navlink.href}/${link.href}`;
+  };
 
   return (
     <button
       key={idx}
       type="button"
       className={`${isOdd ? "col-span-2" : ""}`}
+      onClick={() => navigateToPage()}
     >
-      <Link
+      <div
         className={`transition-all duration-200 text-black hover:text-white fill-black hover:fill-white  flex flex-row items-center
           justify-between text-lg md:text-sm tracking-[0px] px-4 py-4 hover:bg-th-primary-medium`}
-        href={navlink.href + link.href}
-        passHref
       >
         {link.title}
         <ArrowRightIcon width="5" height="7" viewBox="0 0 5 7" />
-      </Link>
+      </div>
     </button>
   );
 }

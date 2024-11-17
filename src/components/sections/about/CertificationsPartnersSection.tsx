@@ -8,7 +8,7 @@ type Props = {};
 export default function Section({}: Props) {
   return (
     <div className="bg-white">
-      <div className="relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24 px-3 md:px-12 lg:px-12">
+      <div className="relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-4 md:py-24 px-3 md:px-12 lg:px-12">
         {/* Title */}
         <div className="flex flex-row">
           <h3 className="text-4xl text-black font-medium max-w-[400px]">
@@ -29,7 +29,7 @@ export default function Section({}: Props) {
 function PartnerCard({ data }: { data: any }) {
   return (
     <div
-      className="w-300 flex-none flex text-start flex-col justify-between p-8 h-200 
+      className="w-[45%] md:w-300 flex-none flex text-start flex-col justify-between p-4 md:p-8 h-200 
     bg-[#F7F7F7] transition-all duration-200"
     >
       <div className="flex flex-row gap-4 justify-between">
@@ -37,13 +37,13 @@ function PartnerCard({ data }: { data: any }) {
 
         <div
           className={`bg-neutral-300 flex-none flex flex-row justify-center items-center rounded-full
-            h-[40px] w-[40px] ransition-all duration-200`}
+            h-[30px] w-[30px]  md:h-[40px] md:w-[40px] ransition-all duration-200`}
         >
           <ArrowUpIcon />
         </div>
       </div>
 
-      <div className="h-[60px] w-full  relative ">
+      <div className="h-[40px] md:h-[60px] w-full  relative ">
         <Image
           src={data.imgUrl}
           alt={data.title}

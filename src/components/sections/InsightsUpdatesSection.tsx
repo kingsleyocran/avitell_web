@@ -54,7 +54,7 @@ function BlogCard({ data }: { data: any }) {
         onMouseLeave={() => {
           setOnHoverComponent(false);
         }}
-        className="flex text-start flex-col justify-between p-8 h-400 flex-1 border-[1px] hover:bg-white border-transparent
+        className="flex text-start flex-col justify-between p-8 h-[320px] md:h-400 flex-1 border-[1px] hover:bg-white border-transparent
     hover:border-neutral-200 bg-[#F7F7F7] transition-all duration-200"
       >
         <div className="flex flex-col gap-4">

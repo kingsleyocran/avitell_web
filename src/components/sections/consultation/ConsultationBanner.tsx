@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import LinkButton from "@/components/button/LinkButton";
 import { aboutBannerContent } from "@/utils/content";
 
 type Props = {};

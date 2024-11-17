@@ -7,7 +7,7 @@ type Props = {};
 export default function Section({}: Props) {
   return (
     <div className="bg-white">
-      <div className="relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-36 px-3 md:px-12 lg:px-12">
+      <div className="relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24 md:py-36 px-3 md:px-12 lg:px-12">
         {/* Title */}
         <div className="flex flex-row">
           <h3 className="text-4xl text-black font-medium max-w-[400px]">
@@ -15,7 +15,7 @@ export default function Section({}: Props) {
           </h3>
         </div>
 
-        <div className="grid grid-cols-3 justify-center gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
           {teamList.map((t, idx) => (
             <TeamCard key={idx} data={t} />
           ))}

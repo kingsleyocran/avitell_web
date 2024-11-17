@@ -35,8 +35,12 @@ function HomeIndustriesSection({ pageData }: Props) {
   return (
     <div>
       <div className="bg-[#002E52]">
-        <div className="relative w-full h-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto pb-24  px-6 md:px-12 lg:px-12 ">
-          <div className="relative h-full flex flex-row">
+        <div
+          className="relative w-full h-full flex flex-col gap-8 max-w-[1200px]
+        xl:mx-auto pb-24  px-6 md:px-12 lg:px-12 "
+        >
+          {/* Desktop */}
+          <div className="relative h-full md:flex flex-row hidden">
             {/* Tab */}
             <div className="flex flex-col md:justify-between w-[40%] gap-2">
               {pageData.subList.map((e, index) => (
@@ -57,7 +61,7 @@ function HomeIndustriesSection({ pageData }: Props) {
             </div>
 
             {/* Content */}
-            <div className="relative h-550 w-[60%] bg-[#3F7295] flex flex-row">
+            <div className="relative h-550 w-[60%] bg-[#3F7295] ">
               {pageData.subList.map((e, index) => (
                 <div
                   key={index}
@@ -66,8 +70,8 @@ function HomeIndustriesSection({ pageData }: Props) {
                     position: "absolute",
                     top: 0,
                     left: 0,
-                    //width: "100%",
-                    //height: "100%",
+                    width: "100%",
+                    height: "100%",
                     opacity: selectedIndex === index ? 1 : 0,
                     transition: "opacity 0.8s ease-in-out",
                   }}
@@ -97,13 +101,48 @@ function HomeIndustriesSection({ pageData }: Props) {
               ))}
             </div>
           </div>
+
+          {/* Mobile */}
+          <div className="flex flex-col gap-8 md:hidden relative  ">
+            {pageData.subList.map((e, index) => (
+              <div
+                key={index}
+                className="text-white p-4 flex flex-col gap-6 bg-[#3F7295]/50"
+              >
+                <h4 className="text-xl ">{e.title}</h4>
+
+                <p className="text-base ">{e.content}</p>
+
+                {/* Feautures */}
+                <div className="bg-white/10 p-4 flex flex-col gap-2">
+                  <p className="text-base font-bold">Features</p>
+                  <ul className="flex flex-col gap-2">
+                    {e.features.map((f, idx) => (
+                      <li className="text-base bg-white/10 p-3">{f}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Benefits */}
+                <div className="bg-black/10 p-4 flex flex-col gap-2">
+                  <p className="text-base font-bold">Benefits</p>
+                  <ul className="flex flex-col gap-2">
+                    {e.benefits.map((f, idx) => (
+                      <li className="flex-1 text-base bg-[#3F7295] p-3">{f}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
       <div className="bg-white">
-        <div className=" relative w-full flex flex-row items-center gap-24 max-w-[1200px] xl:mx-auto py-24  px-6 md:px-12 lg:px-12 ">
+        <div className=" relative w-full flex flex-col md:flex-row items-center gap-12 md:gap-24
+        max-w-[1200px] xl:mx-auto py-12 md:py-24  px-6 md:px-12 lg:px-12 ">
           {/* Images */}
-          <div className="flex-none relative bg-neutral-100 h-500 w-450 ">
+          <div className="flex-none relative bg-neutral-100 h-400 md:h-500 md:w-450 w-full">
             <Image
               src={pageData.imgUrl}
               alt={pageData.title}
@@ -114,7 +153,7 @@ function HomeIndustriesSection({ pageData }: Props) {
           </div>
 
           {/* Content */}
-          <div className="flex flex-col gap-4 flex-1">
+          <div className="flex flex-col gap-4 flex-1 text-black">
             <h4 className="primarynormal mb-0 text-2xl md:text-lg lg:text-3xl ">
               {pageData.whyContent.title}
             </h4>

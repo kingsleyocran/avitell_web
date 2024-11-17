@@ -238,7 +238,7 @@ export default function ContactSection() {
           </div>
 
           {/* Submit Button */}
-          <PrimaryButton  rounded onClicked={() => {}} title={"Submit"} />
+          <PrimaryButton rounded onClicked={() => {}} title={"Submit"} />
         </div>
       </div>
     </div>

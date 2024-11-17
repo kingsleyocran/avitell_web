@@ -1,4 +1,3 @@
-import { checkColorBrightness } from "@/utils/helpers";
 import { LoadingOutlined } from "@ant-design/icons";
 import { Spin } from "antd";
 import React from "react";
@@ -22,7 +21,7 @@ export default function PrimaryButton({
   disabled = false,
   rounded = false,
   type = "button",
-  additionalClassname = "bg-th-accent-medium hover:bg-th-accent-dark",
+  additionalClassname = " ",
 }: Props) {
   return (
     <button
@@ -36,8 +35,8 @@ export default function PrimaryButton({
       } ${
         disabled
           ? "cursor-not-allowed opacity-30"
-          : "active:scale-[99%] hover:scale-[105%]"
-      } h-[45px] md:h-[55px] text-white paragraph-text transition-all duration-200 whitespace-nowrap`}
+          : "hover:bg-th-accent-dark"
+      } bg-th-accent-medium h-[45px] md:h-[55px] text-white paragraph-text transition-all duration-200 whitespace-nowrap`}
     >
       {isLoading ? (
         <Spin

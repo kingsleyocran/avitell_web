@@ -12,7 +12,9 @@ function HomeIndustriesSection({}: Props) {
       <div className=" relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24  px-6 md:px-12 lg:px-12 ">
         {/* Title */}
         <div className="flex flex-row">
-          <h3 className="text-4xl text-black font-medium max-w-[400px]">Industries</h3>
+          <h3 className="text-4xl text-black font-medium max-w-[400px]">
+            Industries
+          </h3>
         </div>
 
         {/* Cards */}
@@ -84,8 +86,7 @@ function HomeIndustriesSection({}: Props) {
                   }}
                 >
                   <h4
-                    className="primarynormal mb-0 text-2xl md:text-lg lg:text-2xl 
-                      "
+                    className="primarynormal mb-0 text-2xl md:text-lg lg:text-2xl"
                   >
                     {e.title}
                   </h4>

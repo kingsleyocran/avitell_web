@@ -74,7 +74,7 @@ function Footer() {
             {/* CTA */}
             <div className="flex flex-col items-center md:items-start gap-2 md:max-w-[200px] lg:max-w-[300px] text-white">
               <h1 className="text-xl">{footerCTASection.title}</h1>
-              <p className="text-sm text-center">{footerCTASection.content}</p>
+              <p className="text-sm text-center md:text-start text-opacity-70 text-white">{footerCTASection.content}</p>
               <Link
                 className="paragraph-text mt-2 bg-[#5596C2] px-6 py-2 text-white tracking-[0px]
                   rounded-full"

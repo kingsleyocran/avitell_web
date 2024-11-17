@@ -18,10 +18,6 @@ export const navlinks = [
     ],
   },
   { href: "/industries", title: "Industries" },
-  {
-    href: "/insights",
-    title: "Insights",
-  },
   { href: "/about-us", title: "About Us" },
 ];
 
@@ -208,4 +204,62 @@ export const sampleBlogList = [
   },
 ];
 
-export const mediumLink = "https://google.com"
+export const mediumLink = "https://google.com";
+
+export const servicesContent = [
+  {
+    id: navlinks[0]?.subPages?.[0]?.href,
+    title: "Network Solutions for Your Business",
+    imgUrl: "/assets/images/plan-1.png",
+    subText:
+      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    subList: [
+      {
+        title: "Design & Implementation",
+        content:
+          "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to \
+        network planning and management. With the prevalence of extensive communication channels, companies cannot rely on a \
+        haphazard approach to network planning and management. With the prevalence of extensive communication channels, companies \
+        cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive communication \
+        channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive \
+        communication channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence \
+        of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. With the \
+        prevalence of extensive communication channels.",
+      },
+      {
+        title: "Monitoring & Management",
+        content:
+          "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to \
+        network planning and management. With the prevalence of extensive communication channels, companies cannot rely on a \
+        haphazard approach to network planning and management. With the prevalence of extensive communication channels, companies \
+        cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive communication \
+        channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive \
+        communication channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence \
+        of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. With the \
+        prevalence of extensive communication channels.",
+      },
+      {
+        title: "Security & Compliance",
+        content:
+          "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to \
+        network planning and management. With the prevalence of extensive communication channels, companies cannot rely on a \
+        haphazard approach to network planning and management. With the prevalence of extensive communication channels, companies \
+        cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive communication \
+        channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence of extensive \
+        communication channels, companies cannot rely on a haphazard approach to network planning and management. With the prevalence \
+        of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. With the \
+        prevalence of extensive communication channels.",
+      },
+    ],
+    whyContent: {
+      title: "Why Choose Us For Your Network Solution Needs?",
+      content:
+        "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
+      We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
+      business success. Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
+      We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive business success. \
+      Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. We combine cutting-edge \
+      technology with a customer-centric approach to deliver tailored network solutions that drive business success.",
+    },
+  },
+];

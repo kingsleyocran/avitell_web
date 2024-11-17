@@ -65,6 +65,7 @@ export default function DesktopMenu({ navlink }: { navlink: any }) {
 
                       return (
                         <DesktopMenuLinkButton
+                        navlink={navlink}
                           isOdd={isOddCount && isLastElement}
                           idx={idx}
                           link={link}
@@ -83,11 +84,13 @@ export default function DesktopMenu({ navlink }: { navlink: any }) {
 }
 
 function DesktopMenuLinkButton({
+  navlink,
   idx,
   link,
   isOdd,
 }: {
-  idx: React.Key;
+    idx: React.Key;
+    navlink: any;
   link: any;
   isOdd: boolean;
 }) {
@@ -101,7 +104,7 @@ function DesktopMenuLinkButton({
       <Link
         className={`transition-all duration-200 text-black hover:text-white fill-black hover:fill-white  flex flex-row items-center
           justify-between text-lg md:text-sm tracking-[0px] px-4 py-4 hover:bg-th-primary-medium`}
-        href={link.href}
+        href={navlink.href + link.href}
         passHref
       >
         {link.title}

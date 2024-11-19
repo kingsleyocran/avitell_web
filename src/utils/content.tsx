@@ -1,7 +1,6 @@
 import HomeServiceVector1 from "../../public/assets/vector/home_service_1.svg";
 import HomeServiceVector2 from "../../public/assets/vector/home_service_1.svg";
 import HomeServiceVector3 from "../../public/assets/vector/home_service_1.svg";
-import HomeServiceVector4 from "../../public/assets/vector/home_service_1.svg";
 import HomeServiceVector5 from "../../public/assets/vector/home_service_1.svg";
 import HomeServiceVector6 from "../../public/assets/vector/home_service_1.svg";
 
@@ -15,8 +14,8 @@ export const navlinks = [
       { href: "/cloud-and-hybrid-services", title: "Cloud & Hybrid Services" },
       { href: "/unified-communications", title: "Unified Communications" },
       {
-        href: "/managed-security-services",
-        title: "Managed Security Services",
+        href: "/advanced-security",
+        title: "Advanced Security",
       },
     ],
   },
@@ -55,43 +54,7 @@ export const homeBannerContent = {
 
 export const homeServicesContent = [
   {
-    title: "Consultings",
-    content:
-      "Our industry-leading IT consulting services can help you achieve a competitive edge by providing highly effective strategies and innovative solutions.",
-    iconDesktop: <HomeServiceVector1 />,
-    iconMobile: (
-      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
-    ),
-  },
-  {
-    title: "Infrastructure",
-    content:
-      "Our IaaS solution provides clients with quick access to the infrastructure they require, without the need for extensive time and resources. ",
-    iconDesktop: <HomeServiceVector2 />,
-    iconMobile: (
-      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
-    ),
-  },
-  {
-    title: "Cloud Management",
-    content:
-      "Our tailored managed services eliminate the expenses and difficulties associated with managing your intricate hybrid Cloud setups.",
-    iconDesktop: <HomeServiceVector3 />,
-    iconMobile: (
-      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
-    ),
-  },
-  {
-    title: "Managed Cybersecurity",
-    content:
-      "Our role as a provider of Azure managed services is to assist clients in operating successfully and securely in the cloud.",
-    iconDesktop: <HomeServiceVector4 />,
-    iconMobile: (
-      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
-    ),
-  },
-  {
-    title: "Networking",
+    title: "Network Solutions",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
     iconDesktop: <HomeServiceVector5 />,
@@ -100,10 +63,37 @@ export const homeServicesContent = [
     ),
   },
   {
-    title: "Azure Solutions",
+    title: "Windows Services",
+    content:
+      "Our industry-leading IT consulting services can help you achieve a competitive edge by providing highly effective strategies and innovative solutions.",
+    iconDesktop: <HomeServiceVector1 />,
+    iconMobile: (
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
+    ),
+  },
+  {
+    title: "Cloud & Hybrid Services",
     content:
       "Throughout your entire Cloud experience, our team of hands-on DevOps experts and Cloud Engineers will guarantee that you fully leverage Azure. ",
     iconDesktop: <HomeServiceVector6 />,
+    iconMobile: (
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
+    ),
+  },
+  {
+    title: "Unified Communications",
+    content:
+      "Our IaaS solution provides clients with quick access to the infrastructure they require, without the need for extensive time and resources. ",
+    iconDesktop: <HomeServiceVector2 />,
+    iconMobile: (
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
+    ),
+  },
+  {
+    title: "Advanced Security",
+    content:
+      "Our tailored managed services eliminate the expenses and difficulties associated with managing your intricate hybrid Cloud setups.",
+    iconDesktop: <HomeServiceVector3 />,
     iconMobile: (
       <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
@@ -278,7 +268,7 @@ export const servicesContent = [
     },
   },
 
-  // Windows Services 
+  // Windows Services
   {
     id: navlinks[0]?.subPages?.[1]?.href,
     title: "Windows Services",
@@ -477,10 +467,10 @@ Additionally, we offer high-quality conferencing tools that foster better relati
     },
   },
 
-  // Managed Security Services //TODO
+  // Advanced Security //TODO
   {
     id: navlinks[0]?.subPages?.[0]?.href,
-    title: "Network Solutions",
+    title: "Advanced Security",
     imgUrl: "/assets/images/plan-1.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",

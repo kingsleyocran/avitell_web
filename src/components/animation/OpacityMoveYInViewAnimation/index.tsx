@@ -1,25 +1,31 @@
 import { motion } from "framer-motion";
+import { ReactNode } from "react";
 import { useInView } from "react-intersection-observer";
 
 export default function MaskText({
-  phrases,
+  children,
   extraClassNames = "text-start",
   animationDelay = 0.075,
+  duration = 0.75,
   triggerOnce = false,
+  positionFrom = 50,
 }: {
-  phrases: string[];
+  children: ReactNode;
   extraClassNames?: string;
   animationDelay?: number;
-  triggerOnce?: boolean;
+  duration?: number;
+    triggerOnce?: boolean;
+    positionFrom: number;
 }) {
   const animation = {
-    initial: { opacity: "0" },
+    initial: { opacity: "0", y: positionFrom },
     enter: (i: number) => ({
       opacity: "100%",
+      y: 0,
       transition: {
-        duration: 0.75,
+        duration: duration,
         ease: [0.33, 1, 0.68, 1],
-        delay: i === 1 ? animationDelay : animationDelay + 0.075 * i,
+        delay: animationDelay,
       },
     }),
   };
@@ -31,20 +37,16 @@ export default function MaskText({
 
   return (
     <div ref={ref}>
-      {phrases.map((phrase, index) => {
-        return (
-          <div key={index} className={extraClassNames + " " + "m-0 "}>
-            <motion.p
-              custom={index}
-              variants={animation}
-              initial="initial"
-              animate={inView ? "enter" : ""}
-            >
-              {phrase}
-            </motion.p>
-          </div>
-        );
-      })}
+      <div key={1} className={extraClassNames + " " + "m-0"}>
+        <motion.p
+          custom={1}
+          variants={animation}
+          initial="initial"
+          animate={inView ? "enter" : ""}
+        >
+          {children}
+        </motion.p>
+      </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ type Props = {}
 
 function HomeBanner({}: Props) {
   return (
-    <div className='bg-white'>
+    <div className='bg-white relative w-full overflow-hidden'>
       <Hero />
       
       <Services/>

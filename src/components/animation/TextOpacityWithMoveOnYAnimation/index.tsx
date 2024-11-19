@@ -5,17 +5,20 @@ export default function MaskText({
   phrases,
   extraClassNames = "text-start",
   animationDelay = 0.075,
+  positionFrom = 50,
   triggerOnce = false,
 }: {
   phrases: string[];
   extraClassNames?: string;
   animationDelay?: number;
   triggerOnce?: boolean;
+  positionFrom: number;
 }) {
   const animation = {
-    initial: { opacity: "0" },
+    initial: { opacity: "0", y: positionFrom },
     enter: (i: number) => ({
       opacity: "100%",
+      y: 0,
       transition: {
         duration: 0.75,
         ease: [0.33, 1, 0.68, 1],

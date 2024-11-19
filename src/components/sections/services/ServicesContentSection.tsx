@@ -1,6 +1,8 @@
 import { industriesContent, servicesContent } from "@/utils/content";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
+import OpacityInViewAnimation from "@/components/animation/OpacityInViewAnimation";
 
 type Props = {
   pageData: (typeof servicesContent)[0];
@@ -139,8 +141,10 @@ function HomeIndustriesSection({ pageData }: Props) {
       </div>
 
       <div className="bg-white">
-        <div className=" relative w-full flex flex-col md:flex-row items-center gap-12 md:gap-24
-        max-w-[1200px] xl:mx-auto py-12 md:py-24  px-6 md:px-12 lg:px-12 ">
+        <div
+          className=" relative w-full flex flex-col md:flex-row items-center gap-12 md:gap-24
+        max-w-[1200px] xl:mx-auto py-12 md:py-24  px-6 md:px-12 lg:px-12 "
+        >
           {/* Images */}
           <div className="flex-none relative bg-neutral-100 h-400 md:h-500 md:w-450 w-full">
             <Image
@@ -155,14 +159,22 @@ function HomeIndustriesSection({ pageData }: Props) {
           {/* Content */}
           <div className="flex flex-col gap-4 flex-1 text-black">
             <h4 className="primarynormal mb-0 text-2xl md:text-lg lg:text-3xl ">
-              {pageData.whyContent.title}
+              <TextOpacityWithMoveOnYAnimation
+                positionFrom={90}
+                phrases={[pageData.whyContent.title]}
+                animationDelay={0.5}
+              />
             </h4>
 
+            
+            
+            <OpacityInViewAnimation animationDelay={0.9}>
             {pageData.whyContent.content
               .split("\n\n")
               .map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
+            </OpacityInViewAnimation>
           </div>
         </div>
       </div>

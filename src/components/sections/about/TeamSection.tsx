@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { teamList } from "@/utils/content";
+import TextOpacityInViewAnimation from "@/components/animation/TextOpacityInViewAnimation";
+import OpacityMoveYInViewAnimation from "@/components/animation/OpacityMoveYInViewAnimation";
 
 type Props = {};
 
@@ -11,13 +13,21 @@ export default function Section({}: Props) {
         {/* Title */}
         <div className="flex flex-row">
           <h3 className="text-4xl text-black font-medium max-w-[400px]">
-            Meet The Team
+            <TextOpacityInViewAnimation
+              phrases={["Meet The Team"]}
+              animationDelay={0.5}
+            />
           </h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
           {teamList.map((t, idx) => (
-            <TeamCard key={idx} data={t} />
+            <OpacityMoveYInViewAnimation
+              animationDelay={0.3 + idx * 0.2}
+              positionFrom={90}
+            >
+              <TeamCard key={idx} data={t} />
+            </OpacityMoveYInViewAnimation>
           ))}
         </div>
       </div>

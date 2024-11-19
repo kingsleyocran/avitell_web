@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { ctaButton, ctaSection } from "@/utils/content";
 import LinkButton from "@/components/button/LinkButton";
+import OpacityMoveYInViewAnimation from "../animation/OpacityMoveYInViewAnimation";
+import TextOpacityInViewAnimation from "../animation/TextOpacityInViewAnimation";
+import OpacityInViewAnimation from "../animation/OpacityInViewAnimation";
 
 type Props = {};
 
@@ -27,20 +30,40 @@ export default function CTASection({}: Props) {
         className=" relative w-full flex flex-col items-center gap-8 max-w-[1200px] xl:mx-auto py-24
       px-6 md:px-12 lg:px-12 "
       >
-        <div
-          className="text-center text-white bg-th-accent-medium w-full max-w-[800px]
-        gap-4 rounded-lg py-16 px-12 md:px-16 lg:px-24 flex flex-col items-center justify-center"
+        <OpacityMoveYInViewAnimation
+          animationDelay={0.3}
+          positionFrom={50}
+          triggerOnce
         >
-          <h1 className="text-3xl">{ctaSection.title}</h1>
+          <div
+            className="text-center text-white bg-th-accent-medium w-full max-w-[800px]
+        gap-4 rounded-lg py-16 px-12 md:px-16 lg:px-24 flex flex-col items-center justify-center"
+          >
+            <h1 className="text-3xl">
+              <TextOpacityInViewAnimation
+                phrases={[ctaSection.title]}
+                animationDelay={0.7}
+                extraClassNames="text-center"
+              />
+            </h1>
 
-          <p className="">{ctaSection.content}</p>
+            <p>
+              <TextOpacityInViewAnimation
+                phrases={[ctaSection.content]}
+                animationDelay={0.9}
+                extraClassNames="text-center"
+              />
+            </p>
 
-          <LinkButton
-            classNames="bg-[#F8A85A] ctaButtonGlow border border-[#FFD0A2] hover:bg-th-accent-dark"
-            title={ctaButton.title}
-            href={ctaButton.href}
-          />
-        </div>
+            <OpacityInViewAnimation animationDelay={1}>
+              <LinkButton
+                classNames="bg-[#F8A85A] ctaButtonGlow border border-[#FFD0A2] hover:bg-th-accent-dark"
+                title={ctaButton.title}
+                href={ctaButton.href}
+              />
+            </OpacityInViewAnimation>
+          </div>
+        </OpacityMoveYInViewAnimation>
       </div>
     </div>
   );

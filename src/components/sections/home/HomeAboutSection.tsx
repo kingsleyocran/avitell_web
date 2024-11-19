@@ -4,6 +4,8 @@ import { homeAboutContent } from "@/utils/content";
 import React from "react";
 import LinkButton from "@/components/button/LinkButton";
 import { useMediaQuery } from "react-responsive";
+import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
+import OpacityMoveYInViewAnimation from "@/components/animation/OpacityMoveYInViewAnimation";
 
 type Props = {};
 
@@ -24,13 +26,20 @@ function HomeAboutSection({}: Props) {
           <TextRevealByWord text={homeAboutContent.title} />
 
           <p className="text-black paragraph-text max-w-[600px] text-center">
-            {homeAboutContent.content}
+            <TextOpacityWithMoveOnYAnimation
+              positionFrom={50}
+              phrases={[homeAboutContent.content]}
+              animationDelay={0.5}
+              extraClassNames="text-center"
+            />
           </p>
 
-          <LinkButton
-            title={homeAboutContent.ctaButtonTitle}
-            href={homeAboutContent.ctaHref}
-          />
+          <OpacityMoveYInViewAnimation positionFrom={50} animationDelay={0.6}>
+            <LinkButton
+              title={homeAboutContent.ctaButtonTitle}
+              href={homeAboutContent.ctaHref}
+            />
+          </OpacityMoveYInViewAnimation>
         </div>
 
         <div className="h-[230px] md:h-300 lg:h-350 relative w-full overflow-hidden">

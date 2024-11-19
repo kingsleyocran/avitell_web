@@ -11,17 +11,18 @@ export default function Services({ }: Props) {
   const isTablet = useMediaQuery({
     query: "(min-width: 640px) and (max-width: 1024px)",
   });
+
   
   return (
     <div className="bg-white">
       <div
         className="h-full relative w-full flex flex-row
-    max-w-[1200px] xl:mx-auto  px-6 md:px-12 lg:px-12 "
+    max-w-[1200px] xl:mx-auto pt-36 lg:pt-0  px-6 md:px-12 lg:px-12 z-0"
       >
         <div className="md:basis-3/5 py-36">
           <div className="grid grid-cols-2 gap-x-10 md:gap-x-24 md:gap-y-24 gap-y-12">
             {homeServicesContent.map((e, idx) => (
-              <OpacityInViewAnimation animationDelay={0.5}>
+              <OpacityInViewAnimation animationDelay={idx % 2 === 0 ? 0.5 : 0.8}>
                 <div key={idx} className="flex flex-col gap-8">
                   {isMobile ? e.iconMobile : e.iconDesktop}
 
@@ -37,7 +38,7 @@ export default function Services({ }: Props) {
           </div>
         </div>
         
-        <div className="md:basis-2/5 hidden md:flex flex-row justify-evenly">
+        <div className="md:basis-2/5 z-0 hidden md:flex flex-row justify-evenly">
           {Array.from({ length: isTablet ? 2 : 3 }).map((_, index) => (
             <div className="h-full w-full relative ">
               <Image

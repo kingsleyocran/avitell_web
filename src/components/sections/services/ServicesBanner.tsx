@@ -3,6 +3,8 @@ import Image from "next/image";
 import { ctaButton, homeBannerContent, servicesContent } from "@/utils/content";
 import LinkButton from "@/components/button/LinkButton";
 import { useMediaQuery } from "react-responsive";
+import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
+import OpacityInViewAnimation from "@/components/animation/OpacityInViewAnimation";
 
 type Props = {
   pageData: (typeof servicesContent)[0];
@@ -56,18 +58,30 @@ export default function Section({ pageData }: Props) {
         {/* Content */}
         <div className="px-6 md:px-0 flex-none w-full md:w-[500px] md:h-full flex flex-col items-center justify-center gap-1 md:gap-4">
           <h1 className="text-white text-3xl md:text-4xl lg:text-4xl text-center">
-            {pageData.title}
+            <TextOpacityWithMoveOnYAnimation
+              positionFrom={90}
+              phrases={[pageData.title]}
+              animationDelay={0.5}
+              extraClassNames="text-center"
+            />
           </h1>
 
           <p className="text-white text-opacity-60 text-center">
-            {pageData.subText}
+            <TextOpacityWithMoveOnYAnimation
+              positionFrom={60}
+              phrases={[pageData.subText]}
+              animationDelay={0.7}
+              extraClassNames="text-center"
+            />
           </p>
 
-          <LinkButton
-            classNames="ctaButtonGlow bg-th-primary-medium  hover:bg-th-accent-medium"
-            title={ctaButton.title}
-            href={ctaButton.href}
-          />
+          <OpacityInViewAnimation animationDelay={1}>
+            <LinkButton
+              classNames="ctaButtonGlow bg-th-primary-medium  hover:bg-th-accent-medium"
+              title={ctaButton.title}
+              href={ctaButton.href}
+            />
+          </OpacityInViewAnimation>
         </div>
 
         {/* Right Image */}

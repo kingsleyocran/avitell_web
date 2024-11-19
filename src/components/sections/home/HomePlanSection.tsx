@@ -8,12 +8,13 @@ import {
   useTransform,
 } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
+import TextOpacityInViewAnimation from "@/components/animation/TextOpacityInViewAnimation";
 
 type Props = {};
 
 function HomePlanSection({}: Props) {
   return (
-    <div className="bg-th-primary-dark">
+    <div className="bg-th-primary-dark overflow-hidden">
       <div
         className="md:h-[780px] lg:h-[850px] relative w-full flex flex-col gap-12 md:gap-4 max-w-[1200px]
       xl:mx-auto py-24 px-6 md:px-12 lg:px-12 "
@@ -21,7 +22,10 @@ function HomePlanSection({}: Props) {
         {/* Title */}
         <div className="flex flex-row">
           <h3 className="text-4xl font-medium text-white md:max-w-[330px] lg:max-w-[400px]">
-            {homePlanContent.title}
+            <TextOpacityInViewAnimation
+              phrases={[homePlanContent.title]}
+              animationDelay={0.5}
+            />
           </h3>
         </div>
 

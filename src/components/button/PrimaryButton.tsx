@@ -33,10 +33,9 @@ export default function PrimaryButton({
       } flex flex-row justify-center items-center ${
         rounded ? "rounded-full" : "rounded-lg"
       } ${
-        disabled
-          ? "cursor-not-allowed opacity-30"
-          : "hover:bg-th-accent-dark"
-      } bg-th-accent-medium h-[45px] md:h-[55px] text-white paragraph-text transition-all duration-200 whitespace-nowrap`}
+        disabled ? "cursor-not-allowed opacity-30" : "hover:bg-th-accent-dark"
+      } bg-th-accent-medium h-[55px] md:h-[55px] text-white font-medium paragraph-text
+       transition-all duration-200 whitespace-nowrap`}
     >
       {isLoading ? (
         <Spin

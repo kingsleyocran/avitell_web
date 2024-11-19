@@ -1,5 +1,6 @@
 import {
   ctaButton,
+  footerContactDetails,
   footerCTASection,
   navlinks,
   termPrivacyList,
@@ -18,7 +19,7 @@ function Footer() {
             className="flex flex-col md:flex-row gap-12 md:gap-2
           justify-between items-center md:items-start h-full mx-4 pt-16 md:mx-8"
           >
-            <div className="flex flex-col items-center md:items-start gap-4 ">
+            <div className="flex flex-col items-center md:items-start gap-3 ">
               {/* Logo */}
               <Link
                 className=" flex gap-1 relative h-[95px] w-[260px]"
@@ -49,6 +50,40 @@ function Footer() {
                   Austin
                 </p>
               </div>
+
+              <div className="flex flex-col ">
+                <div className="flex flex-row gap-2 items-end">
+                  <p className="paragraph-text font-light text-white tracking-[0px]">
+                    Call us on:
+                  </p>
+                  <Link
+                    href={footerContactDetails.phone}
+                    passHref
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <p className="paragraph-text font-light hover:underline text-th-primary-light tracking-[0px]">
+                      {footerContactDetails.phone}
+                    </p>
+                  </Link>
+                </div>
+
+                <div className="flex flex-row gap-2 items-end">
+                  <p className="paragraph-text font-light text-white tracking-[0px]">
+                    Email:
+                  </p>
+                  <Link
+                    href={footerContactDetails.email}
+                    passHref
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <p className="paragraph-text text-th-accent-medium font-light hover:underline tracking-[0px]">
+                      {footerContactDetails.email}
+                    </p>
+                  </Link>
+                </div>
+              </div>
             </div>
 
             {/* Sitemap */}
@@ -74,7 +109,9 @@ function Footer() {
             {/* CTA */}
             <div className="flex flex-col items-center md:items-start gap-2 md:max-w-[200px] lg:max-w-[300px] text-white">
               <h1 className="text-xl">{footerCTASection.title}</h1>
-              <p className="text-sm text-center md:text-start text-opacity-70 text-white">{footerCTASection.content}</p>
+              <p className="text-sm text-center md:text-start text-opacity-70 text-white">
+                {footerCTASection.content}
+              </p>
               <Link
                 className="paragraph-text mt-2 bg-[#5596C2] px-6 py-2 text-white tracking-[0px]
                   rounded-full"

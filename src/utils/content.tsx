@@ -29,6 +29,11 @@ export const ctaSection = {
     "We should have a conversation about finding a solution that aligns with both your business objectives and technical requirements.",
 };
 
+export const footerContactDetails = {
+  phone: "214-713-7194",
+  email: "contact@avitell.com",
+};
+
 export const footerCTASection = {
   title: "Discover How We Work",
   content:
@@ -584,6 +589,12 @@ export const visionText =
 
 export const aboutBannerContent = {
   title: "Network Solutions for Your Business",
+  subText:
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+};
+
+export const contactBannerContent = {
+  title: "Contact",
   subText:
     "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
 };

@@ -8,7 +8,7 @@ import OpacityInViewAnimation from "../animation/OpacityInViewAnimation";
 
 type Props = {};
 
-export default function CTASection({}: Props) {
+export default function Section({}: Props) {
   return (
     <div className="relative h-600 md:h-500 lg:h-500 w-full bg-white">
       <div className="absolute h-600 md:h-500 lg:h-500 w-full z-0">

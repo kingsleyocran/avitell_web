@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 type Props = {};
 
-function InsightsUpdatesSection({}: Props) {
+function Section({}: Props) {
   return (
     <div className="bg-white">
       <div className=" relative w-full flex flex-col gap-8 max-w-[1200px] xl:mx-auto py-24  px-6 md:px-12 lg:px-12 ">
@@ -100,4 +100,4 @@ function BlogCard({ data }: { data: any }) {
   );
 }
 
-export default InsightsUpdatesSection;
+export default Section;

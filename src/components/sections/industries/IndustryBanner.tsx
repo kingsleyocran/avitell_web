@@ -4,7 +4,7 @@ import { contactBannerContent } from "@/utils/content";
 
 type Props = {};
 
-export default function ConsultationBanner({}: Props) {
+export default function Section({}: Props) {
   return (
     <div className="bg-th-primary-dark relative">
       <div className="z-10 relative w-full flex flex-col gap-8 max-w-[1600px] xl:mx-auto pt-[80px] px-6 md:px-12 lg:px-12">

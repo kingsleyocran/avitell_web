@@ -8,7 +8,7 @@ type Props = {
   pageData: (typeof servicesContent)[0];
 };
 
-function HomeIndustriesSection({ pageData }: Props) {
+function Section({ pageData }: Props) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
@@ -39,7 +39,7 @@ function HomeIndustriesSection({ pageData }: Props) {
       <div className="bg-[#002E52]">
         <div
           className="relative w-full h-full flex flex-col gap-8 max-w-[1200px]
-        xl:mx-auto pb-24  px-6 md:px-12 lg:px-12 "
+        xl:mx-auto pb-24 px-6 md:px-12 lg:px-12 "
         >
           {/* Desktop */}
           <div className="relative h-full md:flex flex-row hidden">
@@ -182,4 +182,4 @@ function HomeIndustriesSection({ pageData }: Props) {
   );
 }
 
-export default HomeIndustriesSection;
+export default Section;

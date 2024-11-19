@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ctaButton, homeBannerContent, servicesContent } from "@/utils/content";
+import { ctaButton, servicesContent } from "@/utils/content";
 import LinkButton from "@/components/button/LinkButton";
 import { useMediaQuery } from "react-responsive";
 import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";

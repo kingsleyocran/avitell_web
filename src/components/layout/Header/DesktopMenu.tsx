@@ -1,8 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 import ArrowDownIcon from "../../../../public/assets/icons/menu_arrow_down.svg";
 import ArrowRightIcon from "../../../../public/assets/icons/menu_arrow_right.svg";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function DesktopMenu({ navlink }: { navlink: any }) {

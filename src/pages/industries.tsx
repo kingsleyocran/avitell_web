@@ -5,6 +5,8 @@ import Lenis from "lenis";
 import { NextPage } from "next";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import IndustryBanner from "@/components/sections/industries/IndustryBanner";
+import IndustrySection from "@/components/sections/industries/IndustrySection";
 
 interface Props {
   pageData: any;
@@ -137,6 +139,10 @@ const Page: NextPage<Props> = ({ pageData }) => {
 
       <NavigationAnimation>
         <Header />
+
+        <IndustryBanner />
+
+        <IndustrySection />
 
         <Footer />
       </NavigationAnimation>

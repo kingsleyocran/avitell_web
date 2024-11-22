@@ -1,4 +1,4 @@
-import { industriesContent, servicesContent } from "@/utils/content";
+import { servicesContent } from "@/utils/content";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";

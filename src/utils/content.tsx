@@ -105,8 +105,6 @@ export const homeServicesContent = [
   },
 ];
 
-export const contactDetails = [{}];
-
 export const homeAboutContent = {
   ctaButtonTitle: "Learn more",
   ctaHref: "/about-us",
@@ -518,7 +516,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
 
   // Advanced Security //TODO
   {
-    id: navlinks[0]?.subPages?.[0]?.href,
+    id: navlinks[0]?.subPages?.[4]?.href,
     title: "Advanced Security",
     imgUrl: "/assets/images/plan-1.png",
     subText:

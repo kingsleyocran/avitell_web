@@ -68,7 +68,7 @@ function NavBar() {
                   <Link
                     key={idx}
                     className="flex flex-row text-th-text-primary paragraph-text-small tracking-[0px]
-                    rounded-full items-center gap-2 px-4 lg:px-6 py-2 bg-white hover:bg-neutral-100 outline-none"
+                  rounded-full items-center gap-2 px-4 lg:px-6 py-2 bg-white hover:bg-neutral-100 outline-none"
                     href={navlink.href}
                     passHref
                   >

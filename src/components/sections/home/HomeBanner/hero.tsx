@@ -75,7 +75,7 @@ export default function Hero({}: Props) {
           left: isMobile ? "170px" : isTablet ? "400px" : isDesktop ? "1007px" : "1207px",
           top: isMobile ? "500px" : isTablet ? "530px" : isDesktop ? "50px" : "50px",
           width: isMobile ? "2273px" : isTablet ? "2273px" : isDesktop ? "2273px" : "2273px",
-          height: isMobile ? "200px" : isTablet ? "300px" : isDesktop ? "400px" : "400px",
+          height: isMobile ? "200px" : isTablet ? "300px" : isDesktop ? "400px" : "800px",
         }}
         initial={{ opacity: 0 }} // Start fully transparent
         animate={{ opacity: 1 }} // End fully visible

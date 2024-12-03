@@ -35,29 +35,19 @@ function Footer() {
                 />
               </Link>
 
-              <div className="flex flex-row gap-3 ">
+              <div className="flex flex-row gap-3 mb-4">
                 <p className="paragraph-text font-light text-white tracking-[0px]">
-                  Dallas
-                </p>
-                <div className=" w-[2px] bg-white/30"> </div>
-
-                <p className="paragraph-text font-light text-white tracking-[0px]">
-                  Houston
-                </p>
-                <div className=" w-[2px] bg-white/30"> </div>
-
-                <p className="paragraph-text font-light text-white tracking-[0px]">
-                  Austin
+                  {footerContactDetails.address}
                 </p>
               </div>
 
-              <div className="flex flex-col ">
-                <div className="flex flex-row gap-2 items-end">
+              <div className="flex flex-col items-center md:items-start">
+                <div className="flex flex-row gap-2 ">
                   <p className="paragraph-text font-light text-white tracking-[0px]">
                     Call us on:
                   </p>
                   <Link
-                    href={footerContactDetails.phone}
+                    href={`tel:${footerContactDetails.phone}`}
                     passHref
                     rel="noopener noreferrer"
                     target="_blank"
@@ -68,12 +58,12 @@ function Footer() {
                   </Link>
                 </div>
 
-                <div className="flex flex-row gap-2 items-end">
+                <div className="flex flex-row gap-2">
                   <p className="paragraph-text font-light text-white tracking-[0px]">
                     Email:
                   </p>
                   <Link
-                    href={footerContactDetails.email}
+                    href={`mailto:${footerContactDetails.email}`}
                     passHref
                     rel="noopener noreferrer"
                     target="_blank"

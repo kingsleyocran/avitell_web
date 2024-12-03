@@ -11,6 +11,7 @@ import HomePlanSection from "@/components/sections/home/HomePlanSection";
 import HomeIndustriesSection from "@/components/sections/home/HomeIndustriesSection";
 import CTASection from "@/components/sections/CTASection";
 import InsightsUpdatesSection from "@/components/sections/InsightsUpdatesSection";
+import CertificationsPartnersSection from "@/components/sections/about/CertificationsPartnersSection";
 
 interface Props {
   networkMemberData: any;
@@ -151,6 +152,8 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
         <HomePlanSection />
         
         <HomeIndustriesSection />
+
+        <CertificationsPartnersSection />
         
         <CTASection />
         

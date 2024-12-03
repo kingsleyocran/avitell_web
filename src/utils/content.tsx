@@ -31,7 +31,8 @@ export const ctaSection = {
 
 export const footerContactDetails = {
   phone: "214-713-7194",
-  email: "contact@avitell.com",
+  email: "Info@avitelltechnologies.com",
+  address: "500 N Central Expressway, Suite 500. Plano, Texas 75074",
 };
 
 export const footerCTASection = {
@@ -59,7 +60,7 @@ export const homeBannerContent = {
 
 export const homeServicesContent = [
   {
-    title: "Network Solutions",
+    title: "Enterprise Network Solutions",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
     iconDesktop: <HomeServiceVector5 />,
@@ -129,13 +130,13 @@ export const homePlanContent = {
       title: "Relevant, Current Industry Experience",
       imgUrl: "/assets/images/plan-2.png",
       content:
-        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
+        "Applying up-to-date industry knowledge and practical expertise to provide innovative solutions in Cloud and Cybersecurity, based on our comprehensive experience and skillset.",
     },
     {
       title: "Accessible & Proactive Management",
       imgUrl: "/assets/images/plan-3.png",
       content:
-        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
+        "Our management style is both accessible and proactive. Our team of US-based professionals keeps a watchful eye on your critical systems around the clock, every day of the year, and is always ready to anticipate your needs.",
     },
   ],
 };
@@ -208,7 +209,7 @@ export const servicesContent = [
   // Network Solutions //TODO
   {
     id: navlinks[0]?.subPages?.[0]?.href,
-    title: "Network Solutions",
+    title: "Enterprise Network Solutions",
     imgUrl: "/assets/images/plan-1.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
@@ -262,7 +263,7 @@ export const servicesContent = [
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Network Solution Needs?",
+      title: "Why Choose Us For Your Enterprise Network Solutions Needs?",
       content:
         "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
       We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
@@ -338,7 +339,7 @@ Our services also include Active Directory management, simplifying user access, 
 Additionally, we provide secure remote desktop solutions with flexible remote work capabilities, enhanced collaboration, and robust security for remote access. Together, these solutions ensure efficient operations, secure environments, and seamless connectivity across teams.”",
     },
   },
-
+  
   // Cloud & Hybrid Services //TODO
   {
     id: navlinks[0]?.subPages?.[2]?.href,
@@ -474,14 +475,14 @@ Additionally, we offer high-quality conferencing tools that foster better relati
 
   // Advanced Security //TODO
   {
-    id: navlinks[0]?.subPages?.[0]?.href,
+    id: navlinks[0]?.subPages?.[4]?.href,
     title: "Advanced Security",
     imgUrl: "/assets/images/plan-1.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
       {
-        title: "Server Management",
+        title: "Firewall and VPN",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -497,7 +498,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
 
       {
-        title: "Active Directory",
+        title: "Appilcaiton Visibility Control",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -513,7 +514,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
 
       {
-        title: "Remote Desktop Solutions",
+        title: "Advance Threat Protection",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -529,7 +530,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Network Solution Needs?",
+      title: "Why Choose Us For Your Advanced Security Needs?",
       content:
         "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
               We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
@@ -547,6 +548,10 @@ export const partnersList = [
     imgUrl: "/assets/images/partners/google.png",
   },
   {
+    title: "Microsoft",
+    imgUrl: "/assets/images/partners/microsoft.png",
+  },
+  {
     title: "Palo Alto Network",
     imgUrl: "/assets/images/partners/paloalto.png",
   },
@@ -561,6 +566,14 @@ export const partnersList = [
   {
     title: "Cisco",
     imgUrl: "/assets/images/partners/cisco.png",
+  },
+  {
+    title: "VM Ware",
+    imgUrl: "/assets/images/partners/VMWare.png",
+  },
+  {
+    title: "Ruckus",
+    imgUrl: "/assets/images/partners/ruckus.png",
   },
 ];
 

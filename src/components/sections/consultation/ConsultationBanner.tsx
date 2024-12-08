@@ -35,7 +35,7 @@ export default function Section() {
       </div>
 
       <div
-        className="absolute pt-[50px] z-10 h-800 md:h-600 w-full  flex flex-col justify-center"
+        className="absolute pt-[50px] z-10 h-800 md:h-600 w-full  flex flex-col"
       >
         <div className="flex flex-col md:flex-row items-end md:items-center
       justify-center md:justify-between gap-12 md:gap-12 max-w-[1200px] xl:mx-auto px-6 md:px-12 lg:px-12 ">

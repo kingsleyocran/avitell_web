@@ -1,4 +1,4 @@
-import { industriesHomeContent } from "@/utils/content";
+import { industriesContent } from "@/utils/content";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import TextOpacityInViewAnimation from "@/components/animation/TextOpacityInViewAnimation";
@@ -16,7 +16,7 @@ function HomeIndustriesSection({}: Props) {
     if (!isPaused) {
       timer = setInterval(() => {
         setSelectedIndex(
-          (prevIndex) => (prevIndex + 1) % industriesHomeContent.length
+          (prevIndex) => (prevIndex + 1) % industriesContent.length
         );
       }, 5000); // Change index every 5 seconds
     }
@@ -50,7 +50,7 @@ function HomeIndustriesSection({}: Props) {
           <div className="relative h-full flex flex-col md:flex-row gap-12 md:gap-8 lg:gap-12">
             {/* Images */}
             <div className="flex-none relative h-300 w-full md:h-[440px] md:w-300 lg:h-350 lg:w-350">
-              {industriesHomeContent.map((e, index) => (
+              {industriesContent.map((e, index) => (
                 <div
                   key={index}
                   style={{
@@ -77,7 +77,7 @@ function HomeIndustriesSection({}: Props) {
             <div className="flex-1">
               {/* Tab */}
               <div className="flex md:flex-row flex-wrap md:justify-between">
-                {industriesHomeContent.map((e, index) => (
+                {industriesContent.map((e, index) => (
                   <button
                     key={index}
                     type="button"
@@ -99,7 +99,7 @@ function HomeIndustriesSection({}: Props) {
 
               {/* Content */}
               <div className="relative h-[300px] md:h-350 lg:h-300 w-full">
-                {industriesHomeContent.map((e, index) => (
+                {industriesContent.map((e, index) => (
                   <div
                     key={index}
                     className="flex flex-col gap-4 pt-12 text-black"

@@ -141,7 +141,7 @@ export const homePlanContent = {
   ],
 };
 
-export const industriesHomeContent = [
+export const industriesContent = [
   {
     industry: "Healthcare",
     title: "With the prevalence of Healthcare",
@@ -178,50 +178,6 @@ export const industriesHomeContent = [
     imgUrl: "/assets/images/plan-2.png",
   },
 ];
-
-export const industriesBannerContent = {
-  title: "Our Industries",
-  subText:
-    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
-};
-
-export const industriesPageContent = [
-  {
-    industry: "Healthcare",
-    title: "With the prevalence of Healthcare",
-    content:
-      "With the prevalence of Healthcare, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
-  },
-  {
-    industry: "Finance",
-    title: "With the prevalence of Finance",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
-  },
-  {
-    industry: "Education",
-    title: "With the prevalence of extensive Education",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-3.png",
-  },
-  {
-    industry: "Retail",
-    title: "With the prevalence of extensive Retail",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
-  },
-  {
-    industry: "Manufacturing",
-    title: "With the prevalence of extensive Manufacturing",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
-  },
-]
 
 export const sampleBlogList = [
   {
@@ -383,6 +339,7 @@ Our services also include Active Directory management, simplifying user access, 
 Additionally, we provide secure remote desktop solutions with flexible remote work capabilities, enhanced collaboration, and robust security for remote access. Together, these solutions ensure efficient operations, secure environments, and seamless connectivity across teams.”",
     },
   },
+  
   
   // Cloud & Hybrid Services //TODO
   {
@@ -596,6 +553,10 @@ export const partnersList = [
     imgUrl: "/assets/images/partners/microsoft.png",
   },
   {
+    title: "Microsoft",
+    imgUrl: "/assets/images/partners/microsoft.png",
+  },
+  {
     title: "Palo Alto Network",
     imgUrl: "/assets/images/partners/paloalto.png",
   },
@@ -610,6 +571,14 @@ export const partnersList = [
   {
     title: "Cisco",
     imgUrl: "/assets/images/partners/cisco.png",
+  },
+  {
+    title: "VM Ware",
+    imgUrl: "/assets/images/partners/VMWare.png",
+  },
+  {
+    title: "Ruckus",
+    imgUrl: "/assets/images/partners/ruckus.png",
   },
   {
     title: "VM Ware",

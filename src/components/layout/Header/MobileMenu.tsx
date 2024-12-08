@@ -7,12 +7,10 @@ import { navlinks } from "@/utils/content";
 import Link from "next/link";
 
 export default function MobileMenu() {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [servicesIsOpen, setServicesIsOpen] = useState<boolean>(false);
+  let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
     setIsOpen(false);
-    setServicesIsOpen(false);
   }
 
   function openModal() {
@@ -28,7 +26,7 @@ export default function MobileMenu() {
                   px-4 py-2 
                   rounded-full"
       >
-        <MenuIcon width="26" height="20" viewBox="0 0 26 20" fill="#2866A3" />
+        <MenuIcon width="26" height="20" viewBox="0 0 26 20" fill="black" />
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
@@ -45,10 +43,7 @@ export default function MobileMenu() {
             <div className="fixed h-[100vh] inset-0 bg-black/50" />
           </Transition>
 
-          <div
-            className="fixed inset-0 overflow-y-auto "
-            data-lenis-prevent="true"
-          >
+          <div className="fixed inset-0 overflow-y-auto">
             <div className="flex min-h-full items-center justify-center p-4 text-center">
               <Transition
                 as={Fragment}
@@ -59,8 +54,8 @@ export default function MobileMenu() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md max-h-[500px] transform overflow-y-auto rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
-                  <div className="grid grid-col-1 transition-all duration-200">
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
+                  <div className="grid grid-col-1">
                     {/* Title */}
                     <div
                       className="flex flex-row items-center justify-end  text-xl md:text-base lg:text-base tracking-[0px]
@@ -107,81 +102,28 @@ export default function MobileMenu() {
 
                     {/* Navigation Links */}
                     {navlinks.slice(0).map((navlink, idx) => (
-                      <>
-                        {navlink.subPages ? (
-                          <>
-                            {/** Button with Subpages */}
-                            <button
-                              key={idx}
-                              onClick={() => {
-                                setServicesIsOpen(!servicesIsOpen);
-                              }}
-                              className="flex flex-row items-center justify-between text-black text-xl md:text-base lg:text-base tracking-[0px]
-                          transition-all duration-200 px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
-                              type="button"
-                            >
-                              {navlink.title}
-                              <ArrowRightIcon
-                                width="8"
-                                height="10"
-                                viewBox="0 0 5 7"
-                                fill="black"
-                                className={`${
-                                  servicesIsOpen
-                                    ? "rotate-[270deg]"
-                                    : "rotate-[90deg]"
-                                }`}
-                              />
-                            </button>
-
-                            {/** Button with Subpages */}
-                            {servicesIsOpen &&
-                              navlink.subPages.slice(0).map((link, idx) => (
-                                <button
-                                  key={idx}
-                                  onClick={() => {
-                                    window.location.href = `${navlink.href}/${link.href}`;
-                                    closeModal();
-                                  }}
-                                  type="button"
-                                  className="ml-12 flex flex-row items-center justify-between text-black text-xl md:text-base lg:text-base tracking-[0px]
-                                    transition-all duration-200 px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
-                                >
-                                  {link.title}
-                                  <ArrowRightIcon
-                                    width="8"
-                                    height="10"
-                                    viewBox="0 0 5 7"
-                                    fill="black"
-                                  />
-                                </button>
-                              ))}
-                          </>
-                        ) : (
-                          <button
-                            key={idx}
-                            onClick={() => {
-                              closeModal();
-                            }}
-                            type="button"
-                          >
-                            <Link
-                              className="flex flex-row items-center justify-between text-black text-xl md:text-base lg:text-base tracking-[0px]
-                          transition-all duration-200 px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
-                              href={navlink.href}
-                              passHref
-                            >
-                              {navlink.title}
-                              <ArrowRightIcon
-                                width="8"
-                                height="10"
-                                viewBox="0 0 5 7"
-                                fill="black"
-                              />
-                            </Link>
-                          </button>
-                        )}
-                      </>
+                      <button
+                        key={idx}
+                        onClick={() => {
+                          closeModal();
+                        }}
+                        type="button"
+                      >
+                        <Link
+                          className="flex flex-row items-center justify-between text-black text-xl md:text-base lg:text-base tracking-[0px]
+                          px-8 py-8 active:scale-95 active:bg-th-menu-highlight-secondary  hover:border-th-stroke-primary"
+                          href={navlink.href}
+                          passHref
+                        >
+                          {navlink.title}
+                          <ArrowRightIcon
+                            width="8"
+                            height="10"
+                            viewBox="0 0 5 7"
+                            fill="black"
+                          />
+                        </Link>
+                      </button>
                     ))}
                   </div>
                 </Dialog.Panel>

@@ -4,6 +4,11 @@ import HomeServiceVector3 from "../../public/assets/vector/home_service_3.svg";
 import HomeServiceVector4 from "../../public/assets/vector/home_service_4.svg";
 import HomeServiceVector5 from "../../public/assets/vector/home_service_5.svg";
 
+import ProcessVector1 from "../../public/assets/vector/process_1.svg";
+import ProcessVector2 from "../../public/assets/vector/process_2.svg";
+import ProcessVector3 from "../../public/assets/vector/process_3.svg";
+import ProcessVector4 from "../../public/assets/vector/process_4.svg";
+
 export const navlinks = [
   {
     href: "/services",
@@ -147,35 +152,35 @@ export const industriesHomeContent = [
     title: "With the prevalence of Healthcare",
     content:
       "With the prevalence of Healthcare, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/industries/healthcare.png",
   },
   {
     industry: "Finance",
     title: "With the prevalence of Finance",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
+    imgUrl: "/assets/images/industries/finance.png",
   },
   {
     industry: "Education",
     title: "With the prevalence of extensive Education",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-3.png",
+    imgUrl: "/assets/images/industries/education.png",
   },
   {
     industry: "Retail",
     title: "With the prevalence of extensive Retail",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/industries/retail.png",
   },
   {
     industry: "Manufacturing",
     title: "With the prevalence of extensive Manufacturing",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
+    imgUrl: "/assets/images/industries/manufacturing.png",
   },
 ];
 
@@ -191,37 +196,37 @@ export const industriesPageContent = [
     title: "With the prevalence of Healthcare",
     content:
       "With the prevalence of Healthcare, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/industries/healthcare.png",
   },
   {
     industry: "Finance",
     title: "With the prevalence of Finance",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
+    imgUrl: "/assets/images/industries/finance.png",
   },
   {
     industry: "Education",
     title: "With the prevalence of extensive Education",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-3.png",
+    imgUrl: "/assets/images/industries/education.png",
   },
   {
     industry: "Retail",
     title: "With the prevalence of extensive Retail",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/industries/retail.png",
   },
   {
     industry: "Manufacturing",
     title: "With the prevalence of extensive Manufacturing",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    imgUrl: "/assets/images/plan-2.png",
+    imgUrl: "/assets/images/industries/manufacturing.png",
   },
-]
+];
 
 export const sampleBlogList = [
   {
@@ -383,8 +388,7 @@ Our services also include Active Directory management, simplifying user access, 
 Additionally, we provide secure remote desktop solutions with flexible remote work capabilities, enhanced collaboration, and robust security for remote access. Together, these solutions ensure efficient operations, secure environments, and seamless connectivity across teams.”",
     },
   },
-  
-  
+
   // Cloud & Hybrid Services //TODO
   {
     id: navlinks[0]?.subPages?.[2]?.href,
@@ -589,8 +593,8 @@ Additionally, we offer high-quality conferencing tools that foster better relati
 
 export const partnersList = [
   {
-    title: "Google",
-    imgUrl: "/assets/images/partners/google.png",
+    title: "VM Ware",
+    imgUrl: "/assets/images/partners/vmware.png",
   },
   {
     title: "Microsoft",
@@ -605,20 +609,12 @@ export const partnersList = [
     imgUrl: "/assets/images/partners/sophos.png",
   },
   {
-    title: "WatchGuard",
-    imgUrl: "/assets/images/partners/watchguard.png",
+    title: "Ruckus",
+    imgUrl: "/assets/images/partners/ruckus.png",
   },
   {
     title: "Cisco",
     imgUrl: "/assets/images/partners/cisco.png",
-  },
-  {
-    title: "VM Ware",
-    imgUrl: "/assets/images/partners/VMWare.png",
-  },
-  {
-    title: "Ruckus",
-    imgUrl: "/assets/images/partners/ruckus.png",
   },
 ];
 
@@ -648,11 +644,108 @@ export const visionText =
 export const aboutBannerContent = {
   title: "About Us",
   subText:
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
 };
 
-export const contactBannerContent = {
+export const ourPrcocessContent = {
+  title: "Our Process",
+  subTitle:
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+  processList: [
+    {
+      title: "Plan",
+      iconDesktop: <ProcessVector1  width="80" height="80" viewBox="0 0 106 106"/>,
+      iconMobile: <ProcessVector1 width="40" height="40" viewBox="0 0 106 106"/>,
+      content: (
+        <p>
+          Before project execution, it is common to have a preliminary phase of
+          discovery and prototyping.
+          <br />
+          <br />
+          The initial steps of a project typically involve defining the scope,
+          gathering requirements, establishing an architecture, and developing a
+          detailed work breakdown and schedule.",
+        </p>
+      ),
+    },
+    {
+      title: "Design",
+      iconDesktop: <ProcessVector2 width="80" height="80" viewBox="0 0 106 106"/>,
+      iconMobile: <ProcessVector2 width="40" height="40" viewBox="0 0 106 106"/>,
+      content: (
+        <p>
+          Our strategy involves iterating to achieve early learning and ROI by
+          conducting research and analysis, creating a detailed design, and
+          defining test scenarios.
+        </p>
+      ),
+    },
+    {
+      title: "Implement",
+      iconDesktop: <ProcessVector3 width="90" height="95" viewBox="0 0 120 95" />,
+      iconMobile: <ProcessVector3 width="40" height="45" viewBox="0 0 120 95" />,
+      content: (
+        <ul className=" text-start">
+          <li className="list-disc">
+            Break down work into multiple iterations of planning, designing, and
+            implementing.
+          </li>
+          <li className="list-disc">Carry out engineering tasks and provide a solution.</li>
+          <li className="list-disc">Perform testing to validate the solution.</li>
+          <li className="list-disc">Execute the cutover process and launch the solution.</li>
+        </ul>
+      ),
+    },
+    {
+      title: "Manage",
+      iconDesktop: <ProcessVector4 width="80" height="80" viewBox="0 0 106 106"/>,
+      iconMobile: <ProcessVector4 width="40" height="40" viewBox="0 0 106 106"/>,
+      content: (
+        <p>
+          We provide comprehensive system administration, management, and
+          optimization services, which include round-the-clock monitoring,
+          patching and maintenance, as well as continuous efforts to enhance and
+          optimize your systems.
+        </p>
+      ),
+    },
+  ],
+};
+
+export const contactContent = {
   title: "Schedule a consultation with us",
   subText:
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+  formTitle: "Arrange a complimentary 30-minute consultation.",
+  formText:
+    "Would you like to schedule a brief conversation to discuss your organization's IT strategy, services, business solutions, compliance concerns, or any other high-priority technology matters? Please feel free to use our calendar to set up a convenient time. We are excited to learn more about your organization, share our approach, and offer our assistance in delivering value to you regularly and promptly. We are committed to supporting you in every way we can.",
+  processTitle:
+    "How our consultation process works and what can be anticipated from it?",
+  process: [
+    {
+      title: "Strategy Session",
+      content:
+        "We'll delve into your current configuration and future objectives, guiding you through our IT approach and illustrating how it might be applicable to your situation.",
+    },
+    {
+      title: "Technology Assessment",
+      content:
+        "Our engineering team will examine your system, evaluate the infrastructure, and identify any security weaknesses to deliver a thorough solution.",
+    },
+    {
+      title: "Solutions Presentation",
+      content:
+        "We will thoroughly evaluate the assessment and provide recommendations to enhance your surroundings. Upon agreeing to the proposed terms, we will furnish you with a definitive cost and contract indicating your commencement date.",
+    },
+    {
+      title: "Executive Q&A Session",
+      content:
+        "Your executive team will be given the chance to engage in a discussion with us regarding the presented information, during which we will address and resolve any queries or apprehensions they may have.",
+    },
+    {
+      title: "Kick-Off Meeting",
+      content:
+        "Avitell will introduce you to your new IT department and provide guidance on how to access support and initiate your first project.",
+    },
+  ],
 };

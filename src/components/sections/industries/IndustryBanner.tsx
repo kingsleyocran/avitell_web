@@ -8,9 +8,9 @@ export default function Section({}: Props) {
   return (
     <div className="bg-white relative">
       <div className="z-10 relative w-full flex flex-col gap-8 max-w-[1600px] xl:mx-auto pt-[60px] px-6 md:px-12 lg:px-12">
-        <div className="h-450 w-full relative ">
+        <div className="h-550 w-full relative ">
           <Image
-            src={"/assets/images/about-banner.png"}
+            src={"/assets/images/industries-banner.png"}
             alt={"about-banner-image"}
             fill
             style={{

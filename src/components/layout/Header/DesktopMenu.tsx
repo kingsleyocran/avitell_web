@@ -1,8 +1,7 @@
 import { Popover, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 import ArrowDownIcon from "../../../../public/assets/icons/menu_arrow_down.svg";
 import ArrowRightIcon from "../../../../public/assets/icons/menu_arrow_right.svg";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function DesktopMenu({ navlink }: { navlink: any }) {
@@ -33,8 +32,7 @@ export default function DesktopMenu({ navlink }: { navlink: any }) {
         {({ open }) => (
           <>
             <Popover.Button
-              className={`
-                ${!isPopoverOpen ? "bg-white" : "bg-neutral-100"}
+              className={`${!isPopoverOpen ? "bg-white" : "bg-neutral-100"}
                 flex flex-row text-th-text-primary paragraph-text-small tracking-[0px]
                   rounded-full items-center gap-2 px-6 py-2 ring-transparent border-0 outline-none`}
             >

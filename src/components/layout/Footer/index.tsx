@@ -36,7 +36,7 @@ function Footer() {
               </Link>
 
               <div className="flex flex-row gap-3 mb-4">
-                <p className="paragraph-text font-light text-white tracking-[0px]">
+                <p className="paragraph-text text-center md:text-start font-light text-white tracking-[0px]">
                   {footerContactDetails.address}
                 </p>
               </div>
@@ -74,6 +74,11 @@ function Footer() {
                   </Link>
                 </div>
               </div>
+
+              <p className="flex flex-row gap-3 mb-4 paragraph-text text-center md:text-start font-light text-white tracking-[0px]">
+                Dallas <div className=" w-[2px] bg-white/30"> </div> Austin{" "}
+                <div className=" w-[2px] bg-white/30"> </div> Houston
+              </p>
             </div>
 
             {/* Sitemap */}

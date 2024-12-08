@@ -15,6 +15,7 @@ import MissionVisionSection from "@/components/sections/about/MissionVisionSecti
 import TeamSection from "@/components/sections/about/TeamSection";
 import CertificationsPartnersSection from "@/components/sections/about/CertificationsPartnersSection";
 import AboutBanner from "@/components/sections/about/AboutBanner";
+import OurProcessSection from "@/components/sections/about/OurProcessSection";
 
 interface Props {
   pageData: any;
@@ -148,13 +149,15 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
       <NavigationAnimation>
         <Header />
 
-        <AboutBanner/>
+        <AboutBanner />
 
         <MissionVisionSection />
 
-        <TeamSection />
+        <OurProcessSection />
 
-        <CertificationsPartnersSection />
+        {/* <TeamSection /> */}
+
+        {/* <CertificationsPartnersSection /> */}
 
         <CTASection />
 

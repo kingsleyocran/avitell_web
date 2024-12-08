@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import ContactForm from "@/components/sections/consultation/ContactForm";
 import ConsultationBanner from "@/components/sections/consultation/ConsultationBanner";
+import ConsultationProcess from "@/components/sections/consultation/ConsultationProcess";
 
 interface Props {
   networkMemberData: any;
@@ -141,6 +142,8 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
         <Header />
 
         <ConsultationBanner />
+
+        <ConsultationProcess/>
 
         <ContactForm/>
 

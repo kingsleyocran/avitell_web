@@ -34,10 +34,10 @@ function NavBar() {
       initial={{ y: 0 }}
       animate={{ y: showNavbar ? 0 : -100 }} // Moves the navbar out of view when hidden
       transition={{ type: "spring", stiffness: 300, damping: 30 }}
-      className="bg-white h-[55px] w-full fixed z-50"
+      className="bg-white h-[65px] w-full fixed z-50"
     >
       <div
-        className={`w-full relative transition-all duration-200 h-[55px]
+        className={`w-full relative transition-all duration-200 h-[65px]
         flex flex-row items-center justify-between max-w-[1920px] 2xl:mx-auto gap-4`}
       >
         {/* Logo */}
@@ -46,7 +46,7 @@ function NavBar() {
           href={"/"}
           passHref
         >
-          <div className="relative h-[40px] w-[100px]">
+          <div className="relative h-[60px] w-[130px]">
             <Image
               src={"/assets/brand/logo.png"}
               alt={"avitell_logo"}

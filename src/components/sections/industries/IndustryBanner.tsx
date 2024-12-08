@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { contactBannerContent, industriesBannerContent } from "@/utils/content";
+import { industriesBannerContent } from "@/utils/content";
 
 type Props = {};
 

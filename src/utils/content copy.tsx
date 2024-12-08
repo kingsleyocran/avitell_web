@@ -1,8 +1,8 @@
 import HomeServiceVector1 from "../../public/assets/vector/home_service_1.svg";
-import HomeServiceVector2 from "../../public/assets/vector/home_service_2.svg";
-import HomeServiceVector3 from "../../public/assets/vector/home_service_3.svg";
-import HomeServiceVector4 from "../../public/assets/vector/home_service_4.svg";
-import HomeServiceVector5 from "../../public/assets/vector/home_service_5.svg";
+import HomeServiceVector2 from "../../public/assets/vector/home_service_1.svg";
+import HomeServiceVector3 from "../../public/assets/vector/home_service_1.svg";
+import HomeServiceVector5 from "../../public/assets/vector/home_service_1.svg";
+import HomeServiceVector6 from "../../public/assets/vector/home_service_1.svg";
 
 export const navlinks = [
   {
@@ -31,8 +31,7 @@ export const ctaSection = {
 
 export const footerContactDetails = {
   phone: "214-713-7194",
-  email: "info@avitelltechnologies.com",
-  address: "500 N Central Expressway, Suite 500. Plano, Texas 75074",
+  email: "contact@avitell.com",
 };
 
 export const footerCTASection = {
@@ -60,10 +59,10 @@ export const homeBannerContent = {
 
 export const homeServicesContent = [
   {
-    title: "Enterprise Network Solutions",
+    title: "Network Solutions",
     content:
       "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
-    iconDesktop: <HomeServiceVector1 />,
+    iconDesktop: <HomeServiceVector5 />,
     iconMobile: (
       <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
@@ -72,41 +71,39 @@ export const homeServicesContent = [
     title: "Windows Services",
     content:
       "Our industry-leading IT consulting services can help you achieve a competitive edge by providing highly effective strategies and innovative solutions.",
-    iconDesktop: <HomeServiceVector2 />,
+    iconDesktop: <HomeServiceVector1 />,
     iconMobile: (
-      <HomeServiceVector2 width="90" height="90" viewBox="0 0 106 106" />
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
   },
   {
     title: "Cloud & Hybrid Services",
     content:
       "Throughout your entire Cloud experience, our team of hands-on DevOps experts and Cloud Engineers will guarantee that you fully leverage Azure. ",
-    iconDesktop: <HomeServiceVector3 />,
+    iconDesktop: <HomeServiceVector6 />,
     iconMobile: (
-      <HomeServiceVector3 width="90" height="90" viewBox="0 0 106 106" />
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
   },
   {
     title: "Unified Communications",
     content:
       "Our IaaS solution provides clients with quick access to the infrastructure they require, without the need for extensive time and resources. ",
-    iconDesktop: <HomeServiceVector4 />,
+    iconDesktop: <HomeServiceVector2 />,
     iconMobile: (
-      <HomeServiceVector4 width="90" height="90" viewBox="0 0 106 106" />
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
   },
   {
     title: "Advanced Security",
     content:
       "Our tailored managed services eliminate the expenses and difficulties associated with managing your intricate hybrid Cloud setups.",
-    iconDesktop: <HomeServiceVector5 />,
+    iconDesktop: <HomeServiceVector3 />,
     iconMobile: (
-      <HomeServiceVector5 width="90" height="90" viewBox="0 0 106 106" />
+      <HomeServiceVector1 width="90" height="90" viewBox="0 0 106 106" />
     ),
   },
 ];
-
-export const contactDetails = [{}];
 
 export const homeAboutContent = {
   ctaButtonTitle: "Learn more",
@@ -130,13 +127,13 @@ export const homePlanContent = {
       title: "Relevant, Current Industry Experience",
       imgUrl: "/assets/images/plan-2.png",
       content:
-        "Applying up-to-date industry knowledge and practical expertise to provide innovative solutions in Cloud and Cybersecurity, based on our comprehensive experience and skillset.",
+        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
     },
     {
       title: "Accessible & Proactive Management",
       imgUrl: "/assets/images/plan-3.png",
       content:
-        "Our management style is both accessible and proactive. Our team of US-based professionals keeps a watchful eye on your critical systems around the clock, every day of the year, and is always ready to anticipate your needs.",
+        "At Avitell, we believe in fostering robust and individualized partnerships with our clients. Through open communication, transparency, and trust, we are able to cater to each client's specific requirements and build lasting relationships.",
     },
   ],
 };
@@ -253,7 +250,7 @@ export const servicesContent = [
   // Network Solutions //TODO
   {
     id: navlinks[0]?.subPages?.[0]?.href,
-    title: "Enterprise Network Solutions",
+    title: "Network Solutions",
     imgUrl: "/assets/images/plan-1.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
@@ -307,7 +304,7 @@ export const servicesContent = [
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Enterprise Network Solutions Needs?",
+      title: "Why Choose Us For Your Network Solution Needs?",
       content:
         "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
       We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
@@ -383,7 +380,7 @@ Our services also include Active Directory management, simplifying user access, 
 Additionally, we provide secure remote desktop solutions with flexible remote work capabilities, enhanced collaboration, and robust security for remote access. Together, these solutions ensure efficient operations, secure environments, and seamless connectivity across teams.”",
     },
   },
-  
+
   // Cloud & Hybrid Services //TODO
   {
     id: navlinks[0]?.subPages?.[2]?.href,
@@ -526,7 +523,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
       {
-        title: "Firewall and VPN",
+        title: "Server Management",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -542,7 +539,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
 
       {
-        title: "Appilcaiton Visibility Control",
+        title: "Active Directory",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -558,7 +555,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
 
       {
-        title: "Advance Threat Protection",
+        title: "Remote Desktop Solutions",
         content:
           "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
         features: [
@@ -574,7 +571,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Advanced Security Needs?",
+      title: "Why Choose Us For Your Network Solution Needs?",
       content:
         "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
               We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
@@ -592,10 +589,6 @@ export const partnersList = [
     imgUrl: "/assets/images/partners/google.png",
   },
   {
-    title: "Microsoft",
-    imgUrl: "/assets/images/partners/microsoft.png",
-  },
-  {
     title: "Palo Alto Network",
     imgUrl: "/assets/images/partners/paloalto.png",
   },
@@ -610,14 +603,6 @@ export const partnersList = [
   {
     title: "Cisco",
     imgUrl: "/assets/images/partners/cisco.png",
-  },
-  {
-    title: "VM Ware",
-    imgUrl: "/assets/images/partners/VMWare.png",
-  },
-  {
-    title: "Ruckus",
-    imgUrl: "/assets/images/partners/ruckus.png",
   },
 ];
 
@@ -645,13 +630,13 @@ export const visionText =
   "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.";
 
 export const aboutBannerContent = {
-  title: "About Us",
+  title: "Network Solutions for Your Business",
   subText:
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
 };
 
 export const contactBannerContent = {
-  title: "Schedule a consultation with us",
+  title: "Contact",
   subText:
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
 };

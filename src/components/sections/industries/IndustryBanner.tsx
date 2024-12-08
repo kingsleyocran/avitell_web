@@ -26,7 +26,7 @@ export default function Section({}: Props) {
         <div className="relative h-full w-full flex flex-col gap-8 max-w-[1600px] xl:mx-auto px-6 md:px-12 lg:px-12">
           <div
             className="p-6 md:p-12 h-full rounded-b-[10px] w-full bg-gradient-to-t 
-          from-black via-black/50 to-transparent relative"
+          from-[#3F7295] via-[#3F7295]/50 to-transparent relative"
           >
             <div className="flex-none md:w-[500px] h-full flex flex-col justify-end gap-4">
               <h1 className="text-white text-3xl md:text-4xl lg:text-4xl text-start">

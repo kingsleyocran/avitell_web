@@ -109,7 +109,7 @@ export default function ContactSection() {
 
   return (
     <div className="bg-th-primary-dark">
-      <div className="relative bg-th-primary-dark w-full flex flex-col items-center gap-8 max-w-[1200px] xl:mx-auto py-36 px-6 md:px-12 lg:px-12">
+      <div className="relative bg-th-primary-dark w-full flex flex-col items-center gap-8 max-w-[1200px] xl:mx-auto pb-36 px-6 md:px-12 lg:px-12">
         <div className="w-full max-w-2xl flex flex-col gap-6">
           {/* Name */}
           <div className="flex flex-col">

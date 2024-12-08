@@ -16,7 +16,7 @@ function HomeAboutSection({}: Props) {
   });
 
   return (
-    <div className="bg-gradient-to-t from-[#FBEFE3] via-[#FEFCFA] to-white md:pt-48">
+    <div className="bg-gradient-to-t from-[#FBEFE3] via-[#FEFCFA] to-white md:pt-0">
       <div className="h-full relative w-full flex flex-col max-w-[1200px] xl:mx-auto   ">
         <div className="w-full flex flex-col gap-6 items-center px-10 md:px-12 lg:px-12">
           <h6 className="text-xs md:text-xs lg:text-xs uppercase tracking-[7px]">

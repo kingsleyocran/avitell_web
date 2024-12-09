@@ -28,7 +28,7 @@ function Footer() {
               >
                 <Image
                   src={"/assets/brand/logo-2.png"}
-                  alt={"gscn_logo"}
+                  alt={"avitell technologies logo"}
                   fill
                   style={{ objectFit: "contain" }}
                   priority
@@ -87,12 +87,33 @@ function Footer() {
                 Sitemap
               </p>
               <div className="flex flex-col items-center md:items-start gap-3 md:gap-2">
-                {navlinks.map((navlink, idx) => (
+                {navlinks.map((navlink, idx) =>
+                  !navlink.subPages ? (
+                    <Link
+                      key={idx}
+                      className="paragraph-text text-white tracking-[0px]
+                  rounded-full hover:bg-th-primary-medium transition-all duration-200 px-3 py-1 bg-transparent"
+                      href={navlink.href}
+                      passHref
+                    >
+                      {navlink.title}
+                    </Link>
+                  ) : (
+                    <></>
+                  )
+                )}
+              </div>
+
+              <p className="text-white text-opacity-70 text-sm md:text-xs px-3 mt-6">
+                Service Solutions
+              </p>
+              <div className="flex flex-col items-center md:items-start gap-3 md:gap-2">
+                {navlinks[0]!.subPages!.map((navlink, idx) => (
                   <Link
                     key={idx}
                     className="paragraph-text text-white tracking-[0px]
                   rounded-full hover:bg-th-primary-medium transition-all duration-200 px-3 py-1 bg-transparent"
-                    href={navlink.href}
+                    href={navlinks[0].href + navlink.href}
                     passHref
                   >
                     {navlink.title}

@@ -1,3 +1,4 @@
+import OpacityMoveYInViewAnimation from "@/components/animation/OpacityMoveYInViewAnimation";
 import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
 import { missionText, visionText } from "@/utils/content";
 import React from "react";
@@ -18,11 +19,9 @@ export default function Section({}: Props) {
             />
           </h3>
           <p className="text-white text-lg md:text-base flex-1">
-            <TextOpacityWithMoveOnYAnimation
-              positionFrom={60}
-              phrases={[missionText]}
-              animationDelay={0.7}
-            />
+            <OpacityMoveYInViewAnimation positionFrom={60} animationDelay={0.7}>
+              {missionText}
+            </OpacityMoveYInViewAnimation>
           </p>
         </div>
 
@@ -36,11 +35,9 @@ export default function Section({}: Props) {
             />
           </h3>
           <p className="text-white text-lg md:text-base flex-1">
-            <TextOpacityWithMoveOnYAnimation
-              positionFrom={60}
-              phrases={[visionText]}
-              animationDelay={0.7}
-            />
+            <OpacityMoveYInViewAnimation positionFrom={60} animationDelay={0.7}>
+              {visionText}
+            </OpacityMoveYInViewAnimation>
           </p>
         </div>
       </div>

@@ -31,13 +31,7 @@ export default function Section({}: Props) {
                 </OpacityInViewAnimation>
 
                 <OpacityInViewAnimation animationDelay={0.2}>
-                  {i.content.split("\n\n").map((paragraph, index) => (
-                    <>
-                      <p className="text-base md:text-sm" key={index}>{paragraph}</p>
-                      <p className="text-base md:text-sm" key={index}>{paragraph}</p>
-                      <p className="text-base md:text-sm" key={index}>{paragraph}</p>
-                    </>
-                  ))}
+                  <p className="text-base md:text-sm">{i.content}</p>
                 </OpacityInViewAnimation>
               </div>
             </div>

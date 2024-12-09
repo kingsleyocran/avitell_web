@@ -45,7 +45,7 @@ export default function Hero({}: Props) {
                   positionFrom={90}
                   phrases={[homeBannerContent.title]}
                   animationDelay={0.5}
-                />
+                /> 
               </h1>
             </h1>
 
@@ -73,7 +73,7 @@ export default function Hero({}: Props) {
         from-[#5799C4] via-[#5799C4] to-[#2866A3] ml-[37px]"
         style={{
           left: isMobile ? "170px" : isTablet ? "400px" : isDesktop ? "1007px" : "1207px",
-          top: isMobile ? "500px" : isTablet ? "530px" : isDesktop ? "50px" : "50px",
+          top: isMobile ? "500px" : isTablet ? "530px" : isDesktop ? "60px" : "60px",
           width: isMobile ? "2273px" : isTablet ? "2273px" : isDesktop ? "2273px" : "2273px",
           height: isMobile ? "200px" : isTablet ? "300px" : isDesktop ? "400px" : "800px",
         }}
@@ -91,7 +91,7 @@ export default function Hero({}: Props) {
         initial={{ left: "100vw", top: "100vh" }}
         animate={{
           left: isMobile ? "100px" : isTablet ? "300px" : isDesktop ? "730px" : "930px",
-          top: isMobile ? "470px" : isTablet ? "470px" : isDesktop ? "45px" : "45px",
+          top: isMobile ? "470px" : isTablet ? "470px" : isDesktop ? "55px" : "55px",
         }}
         transition={{
           delay: 1, // Start animation after 1 second
@@ -113,7 +113,7 @@ export default function Hero({}: Props) {
         initial={{ left: "100vw", top: "100vh" }}
         animate={{
           left: isMobile ? "50px" : isTablet ? "250px" : isDesktop ? "570px" : "770px",
-          top: isMobile ? "570px" : isTablet ? "595px" : isDesktop ? "327px" : "327px",
+          top: isMobile ? "570px" : isTablet ? "595px" : isDesktop ? "337px" : "337px",
         }}
         transition={{
           delay: 1.3, // Start animation after 1 second

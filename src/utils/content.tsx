@@ -116,10 +116,9 @@ export const contactDetails = [{}];
 export const homeAboutContent = {
   ctaButtonTitle: "Learn more",
   ctaHref: "/about-us",
-  title:
-    "Empowering Your Business Through Technology. Empowering Your Business",
+  title: "Transforming Businesses with Smarter, Scalable IT Solutions",
   content:
-    "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    "Since 2017, Avitell Technologies has been a trusted partner for small and medium-sized enterprises (SMEs), delivering tailored IT solutions that drive growth, innovation, and security. With over a decade of expertise in network, cloud, and cybersecurity, we help businesses across industries — from healthcare to finance — modernize IT infrastructures, enhance operational efficiency, and achieve compliance. Our mission is to provide reliable, cost-effective IT support, enabling businesses to focus on their core operations while we manage their technology needs. Experience proactive, end-to-end IT solutions designed to keep your business ahead of the curve.",
 };
 
 export const homePlanContent = {
@@ -149,81 +148,268 @@ export const homePlanContent = {
 export const industriesHomeContent = [
   {
     industry: "Healthcare",
-    title: "With the prevalence of Healthcare",
+    title: "Transforming Healthcare with Secure, Scalable IT Solutions",
     content:
-      "With the prevalence of Healthcare, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+      "Avitell Technologies delivers tailored IT solutions to meet the unique demands of the healthcare industry. From scalable infrastructures and 24/7 operational support to seamless cloud transitions, Avitell empowers healthcare providers to enhance collaboration, streamline workflows, and enable faster decision-making. With advanced cybersecurity and HIPAA compliance at the core, they safeguard sensitive patient data and ensure regulatory adherence. As a strategic partner, Avitell supports healthcare transformation by modernizing IT infrastructures and building future-ready digital environments that prioritize patient care and operational excellence.",
     imgUrl: "/assets/images/industries/healthcare.png",
   },
   {
     industry: "Finance",
-    title: "With the prevalence of Finance",
+    title: "Powering Financial Growth with Secure, Scalable IT Solutions",
     content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+      "Avitell Technologies delivers tailored IT solutions to meet the precision, efficiency, and security demands of the finance sector. From scalable infrastructures and real-time data access to advanced cybersecurity, Avitell empowers financial organizations to optimize operations, enhance client experiences, and drive growth. Their solutions ensure compliance with standards like PCI DSS and GDPR, safeguarding sensitive financial data. As a strategic partner, Avitell supports digital transformation by modernizing legacy systems, securing IT frameworks, and integrating next-gen financial technologies for sustainable success in a rapidly evolving industry.",
     imgUrl: "/assets/images/industries/finance.png",
   },
   {
     industry: "Education",
-    title: "With the prevalence of extensive Education",
+    title:
+      "Empowering Education with Scalable IT & Secure Digital Learning Solutions",
     content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+      "Avitell Technologies delivers advanced IT solutions tailored to modern education. By providing scalable infrastructures, seamless connectivity, and secure cloud-based learning platforms, Avitell empowers educational institutions to enhance learning experiences, foster collaboration, and drive operational efficiency. Their advanced cybersecurity solutions protect student data and ensure compliance with regulations like FERPA. As a strategic partner, Avitell supports digital transformation by modernizing legacy systems, integrating next-gen learning technologies, and enabling institutions to thrive in the digital age. ",
     imgUrl: "/assets/images/industries/education.png",
   },
   {
     industry: "Retail",
-    title: "With the prevalence of extensive Retail",
+    title:
+      "Driving Retail Innovation with Scalable IT & Cybersecurity Solutions",
     content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+      "Avitell Technologies delivers advanced IT solutions tailored to the fast-paced retail sector. From omnichannel networks and cloud-based inventory management to data-driven decision-making, Avitell empowers retailers to boost efficiency, enhance customer engagement, and achieve long-term growth. With a focus on advanced cybersecurity and PCI DSS compliance, they protect customer data and business operations. As a strategic partner, Avitell supports retail transformation by modernizing IT systems, integrating innovative technologies, and enhancing both digital and in-store experiences",
     imgUrl: "/assets/images/industries/retail.png",
   },
   {
     industry: "Manufacturing",
-    title: "With the prevalence of extensive Manufacturing",
+    title:
+      "Powering Smart Manufacturing with Scalable IT & Cybersecurity Solutions",
     content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+      "Avitell Technologies delivers advanced IT solutions tailored to the unique demands of the manufacturing sector. From scalable infrastructures and real-time analytics to robust cybersecurity and regulatory compliance, Avitell empowers manufacturers to optimize processes, boost productivity, and drive sustainable growth. As a strategic partner, they modernize legacy systems, integrate IoT and AI, and support digital transformation to maintain a competitive edge. ",
     imgUrl: "/assets/images/industries/manufacturing.png",
   },
 ];
 
 export const industriesBannerContent = {
-  title: "Our Industries",
+  title: "Industry-Focused IT Solutions for Lasting Impact",
   subText:
-    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell Technologies delivers tailored IT solutions that power growth, efficiency, and security across key industries. From healthcare and finance to education, retail, and manufacturing, we provide scalable infrastructures, cloud integration, and advanced cybersecurity to meet each sector’s unique demands. Our industry-specific expertise enables seamless operations, regulatory compliance, and digital transformation, helping businesses stay agile and competitive. No matter the industry, Avitell Technologies is your partner in driving innovation, optimizing workflows, and securing your digital future.",
 };
 
 export const industriesPageContent = [
   {
     industry: "Healthcare",
-    title: "With the prevalence of Healthcare",
-    content:
-      "With the prevalence of Healthcare, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    title: "Transforming Healthcare with Secure, Scalable IT Solutions",
+    content: (
+      <>
+        With deep expertise in healthcare IT and a steadfast focus on
+        innovation, Avitell Technologies specializes in creating tailored
+        solutions that address the unique challenges of the healthcare industry.
+        We understand the critical importance of seamless communication,
+        efficient workflows, and uncompromising security in delivering quality
+        patient care.
+        <br />
+        <br />
+        Our approach combines state-of-the-art technology with industry best
+        practices to enhance your network performance, ensuring that your
+        systems are reliable, scalable, and optimized for 24/7 healthcare
+        operations. By facilitating smooth transitions to cloud or hybrid
+        environments, we empower healthcare providers with secure and flexible
+        access to critical data, enabling better collaboration and faster
+        decision-making.
+        <br />
+        <br />
+        Security is at the core of everything we do. With advanced cybersecurity
+        measures, we protect sensitive patient data and help you navigate
+        complex regulatory requirements like HIPAA, so you can focus on what
+        matters most delivering excellent care.
+        <br />
+        <br />
+        At Avitell Technologies, we are not just service providers; we are
+        partners in your journey toward technology-driven healthcare
+        transformation. Whether you are looking to modernize your IT
+        infrastructure or build a future-ready digital environment, our team is
+        here to support you every step of the way.
+        <br />
+        <br />
+        Ready to revolutionize your healthcare technology? Contact us today to
+        discuss your needs and explore how Avitell Technologies can help your
+        organization thrive.
+      </>
+    ),
     imgUrl: "/assets/images/industries/healthcare.png",
   },
   {
     industry: "Finance",
-    title: "With the prevalence of Finance",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    title: "Powering Financial Growth with Secure, Scalable IT Solutions",
+    content: (
+      <>
+        Avitell Technologies brings extensive expertise in financial IT
+        solutions and a strong focus on innovation to deliver customized
+        services that address the unique demands of the finance industry. In a
+        field where precision, efficiency, and security are critical, we help
+        organizations optimize their operations, elevate client experiences, and
+        stay competitive in a rapidly changing digital environment.
+        <br />
+        <br />
+        We ensure your IT infrastructure is reliable, scalable, and built for
+        performance. From boosting network efficiency to deploying cloud and
+        hybrid solutions, our services provide the backbone for seamless
+        financial operations, enabling real-time data access and enhanced
+        collaboration across teams and systems.
+        <br />
+        <br />
+        Data security is at the heart of everything we do. Our advanced
+        cybersecurity solutions are designed to protect sensitive financial data
+        from ever-evolving threats while ensuring full compliance with
+        regulatory standards such as PCI DSS and GDPR. By prioritizing security,
+        we help build trust and confidence with your clients.
+        <br />
+        <br />
+        At Avitell Technologies, we are more than a service provider—we are your
+        partner in digital transformation. Whether you’re modernizing legacy
+        systems, securing your IT framework, or integrating cutting-edge
+        technologies, we are committed to driving innovation, growth, and
+        long-term success for your organization.
+        <br />
+        <br />
+        Ready to redefine your financial technology? Get in touch with Avitell
+        Technologies today and explore how we can help your business thrive in
+        the digital era.
+      </>
+    ),
     imgUrl: "/assets/images/industries/finance.png",
   },
   {
     industry: "Education",
-    title: "With the prevalence of extensive Education",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    title:
+      "Empowering Education with Scalable IT & Secure Digital Learning Solutions",
+    content: (
+      <>
+        Avitell Technologies is committed to driving innovation in the education
+        sector by providing cutting-edge IT solutions that address the evolving
+        needs of modern learning environments. In a world where technology is
+        integral to teaching, collaboration, and research, we empower
+        educational institutions to enhance operational efficiency, elevate
+        learning experiences, and foster meaningful connections among students,
+        educators, and administrators.
+        <br />
+        <br />
+        We specialize in designing and implementing scalable, secure IT
+        infrastructures tailored to the unique demands of schools, universities,
+        and training organizations. From high-performance networks supporting
+        seamless connectivity to flexible cloud and hybrid solutions, our
+        services enable real-time learning, improve accessibility, and support
+        dynamic collaboration.
+        <br />
+        <br />
+        Recognizing the critical importance of safeguarding sensitive data, we
+        deliver advanced cybersecurity solutions to protect student records and
+        institutional information against emerging threats. Our expertise
+        ensures compliance with education-specific regulations such as FERPA,
+        helping institutions maintain trust and operational integrity.
+        <br />
+        <br />
+        At Avitell Technologies, we go beyond providing services; we serve as a
+        trusted partner in your digital transformation journey. Whether
+        modernizing outdated systems, developing secure and efficient digital
+        learning platforms, or integrating state-of-the-art technologies, we are
+        dedicated to helping educational institutions excel in an increasingly
+        digital landscape.
+        <br />
+        <br />
+        Elevate the future of education with technology that inspires success.
+        Contact Avitell Technologies today to learn how we can empower your
+        institution to achieve its goals.
+      </>
+    ),
     imgUrl: "/assets/images/industries/education.png",
   },
   {
     industry: "Retail",
-    title: "With the prevalence of extensive Retail",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    title:
+      "Driving Retail Innovation with Scalable IT & Cybersecurity Solutions",
+    content: (
+      <>
+        Avitell Technologies is a leader in providing advanced IT solutions for
+        the retail sector, offering innovative services designed to meet the
+        unique demands of today’s dynamic retail landscape. In an industry where
+        exceptional customer experiences, operational efficiency, and data
+        security are critical to success, we enable retailers to optimize their
+        operations, elevate customer engagement, and achieve long-term growth.
+        <br />
+        <br />
+        Our expertise lies in designing scalable, high-performance IT
+        infrastructures tailored to the fast-paced requirements of retail
+        businesses. From reliable networks that support seamless omnichannel
+        operations to flexible cloud and hybrid solutions that streamline
+        inventory management and enable data-driven decision-making, our
+        solutions empower retailers to adapt and excel in a competitive market.
+        <br />
+        <br />
+        Data security is a top priority at Avitell Technologies. We deliver
+        advanced cybersecurity solutions to protect sensitive customer
+        information and safeguard business operations against emerging threats.
+        Our services also ensure compliance with industry standards such as PCI
+        DSS, helping retailers maintain trust and uphold their brand reputation.
+        <br />
+        <br />
+        At Avitell Technologies, we are more than a service provider—we are your
+        strategic partner in driving retail transformation. Whether modernizing
+        IT systems, implementing innovative technologies, or enhancing digital
+        and physical retail experiences, we are committed to helping your
+        business succeed in an ever-evolving retail environment.
+        <br />
+        <br />
+        Discover how technology can transform your retail operations. Contact
+        Avitell Technologies today to learn how we can help your business
+        thrive.
+      </>
+    ),
     imgUrl: "/assets/images/industries/retail.png",
   },
   {
     industry: "Manufacturing",
-    title: "With the prevalence of extensive Manufacturing",
-    content:
-      "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.  With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management. ",
+    title:
+      "Powering Smart Manufacturing with Scalable IT & Cybersecurity Solutions",
+    content: (
+      <>
+        Avitell Technologies is a leading provider of advanced IT solutions for
+        the manufacturing sector, offering innovative services designed to meet
+        the unique challenges of today’s complex manufacturing environments. In
+        an industry where operational efficiency, scalability, and data security
+        are essential, we empower manufacturers to optimize their processes,
+        enhance productivity, and drive sustainable growth.
+        <br />
+        <br />
+        We specialize in designing and implementing robust, scalable IT
+        infrastructures that cater to the specific demands of manufacturing
+        operations. From high-performance networks that ensure seamless
+        communication across facilities to flexible cloud and hybrid solutions
+        that optimize supply chain management, production monitoring, and
+        real-time data analytics, our solutions enable manufacturers to stay
+        ahead of the curve and maintain a competitive advantage.
+        <br />
+        <br />
+        Data security and regulatory compliance are top priorities for
+        manufacturers, and Avitell Technologies provides advanced cybersecurity
+        solutions to protect sensitive operational data, intellectual property,
+        and supply chain information from evolving threats. Our expertise
+        ensures adherence to industry standards, enabling manufacturers to
+        safeguard their assets while maintaining compliance with relevant
+        regulations.
+        <br />
+        <br />
+        At Avitell Technologies, we are more than just a service provider—we are
+        your strategic partner in driving digital transformation within
+        manufacturing. Whether modernizing legacy systems, enhancing production
+        workflows, or integrating advanced technologies such as IoT and AI, we
+        are committed to helping your business innovate, improve efficiency, and
+        achieve long-term success.
+        <br />
+        <br />
+        Unlock the potential of your manufacturing operations with cutting-edge
+        technology solutions. Contact Avitell Technologies today to learn how we
+        can support your business in achieving operational excellence and
+        sustainable growth.
+      </>
+    ),
     imgUrl: "/assets/images/industries/manufacturing.png",
   },
 ];
@@ -636,15 +822,79 @@ export const teamList = [
   },
 ];
 
-export const missionText =
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.";
-export const visionText =
-  "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.";
+export const missionText = (
+  <>
+    At Avitell Technologies, our mission is to empower small and medium-sized
+    enterprises (SMEs) with innovative, reliable, and scalable IT solutions that
+    drive operational efficiency, optimize technology infrastructure, and
+    facilitate sustainable growth. We are dedicated to providing businesses with
+    the expertise, tools, and support necessary to navigate the complexities of
+    modern technology, enabling them to stay competitive in an increasingly
+    dynamic digital landscape.
+    <br />
+    <br />
+    Our purpose is to bridge the gap between businesses and the rapidly evolving
+    technological environment. Through tailored IT services in security, cloud
+    integration, data management, and IT infrastructure modernization, we aim to
+    alleviate the technological challenges faced by our clients, allowing them
+    to focus on their core operations and business objectives.
+    <br />
+    <br />
+    Guided by our core values of customer-centricity, integrity, innovation, and
+    excellence, we prioritize the development of long-term, trusted partnerships
+    with our clients. We are committed to providing proactive IT support,
+    implementing cutting-edge solutions, and ensuring the highest standards of
+    security and compliance. By delivering strategic IT services, we help
+    businesses maximize their technology investments, drive efficiency, and
+    foster growth.
+    <br />
+    <br />
+    At Avitell Technologies, we are dedicated to continuous improvement,
+    ensuring that we remain at the forefront of industry advancements to meet
+    the evolving needs of our clients. Through our commitment to excellence and
+    operational efficiency, we aim to make a positive impact on our clients,
+    industries, and communities, creating long-lasting value and success.
+  </>
+);
+
+export const visionText = (
+  <>
+    At Avitell Technologies, our vision is to establish ourselves as the premier
+    provider of innovative, reliable, and scalable IT solutions for small and
+    medium-sized enterprises (SMEs) across key industries. We strive to be
+    recognized as a trusted partner in digital transformation, delivering
+    exceptional value through our expertise in network infrastructure, security,
+    cloud solutions, and IT modernization.
+    <br />
+    <br />
+    Looking ahead, we aim to lead the industry by pioneering advancements in
+    artificial intelligence, automation, and cloud technologies, enabling
+    businesses to operate more efficiently, securely, and competitively in an
+    increasingly digital world. We aspire to set new standards of excellence,
+    driving innovation and enhancing operational capabilities for our clients,
+    while maintaining the highest levels of security and compliance.
+    <br />
+    <br />
+    Internally, we are committed to fostering a culture of collaboration,
+    continuous learning, and professional growth. We aim to attract, develop,
+    and retain top talent by offering an environment that encourages creativity,
+    innovation, and work-life balance. Our team members will be empowered to
+    contribute meaningfully to our success, and we will continue to invest in
+    their growth and development.
+    <br />
+    <br />
+    Ultimately, our goal is to create a lasting impact by enabling businesses to
+    fully leverage the power of technology to achieve their goals. We seek to
+    leave a legacy of transformative change, supporting the growth and success
+    of our clients and contributing to the advancement of the IT industry as a
+    whole.
+  </>
+);
 
 export const aboutBannerContent = {
   title: "About Us",
   subText:
-    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "Avitell Technologies empowers small and medium-sized enterprises (SMEs) with cutting-edge IT solutions that drive growth, security, and operational excellence. Since 2017, we’ve partnered with businesses across healthcare, finance, retail, and more to modernize IT systems, enhance cloud capabilities, and fortify cybersecurity. Backed by over a decade of industry experience, we deliver scalable, cost-effective solutions that enable businesses to thrive in an ever-evolving digital landscape. Let us handle your IT needs so you can focus on driving your business forward.",
 };
 
 export const ourPrcocessContent = {
@@ -654,8 +904,12 @@ export const ourPrcocessContent = {
   processList: [
     {
       title: "Plan",
-      iconDesktop: <ProcessVector1  width="80" height="80" viewBox="0 0 106 106"/>,
-      iconMobile: <ProcessVector1 width="40" height="40" viewBox="0 0 106 106"/>,
+      iconDesktop: (
+        <ProcessVector1 width="80" height="80" viewBox="0 0 106 106" />
+      ),
+      iconMobile: (
+        <ProcessVector1 width="40" height="40" viewBox="0 0 106 106" />
+      ),
       content: (
         <p>
           Before project execution, it is common to have a preliminary phase of
@@ -670,8 +924,12 @@ export const ourPrcocessContent = {
     },
     {
       title: "Design",
-      iconDesktop: <ProcessVector2 width="80" height="80" viewBox="0 0 106 106"/>,
-      iconMobile: <ProcessVector2 width="40" height="40" viewBox="0 0 106 106"/>,
+      iconDesktop: (
+        <ProcessVector2 width="80" height="80" viewBox="0 0 106 106" />
+      ),
+      iconMobile: (
+        <ProcessVector2 width="40" height="40" viewBox="0 0 106 106" />
+      ),
       content: (
         <p>
           Our strategy involves iterating to achieve early learning and ROI by
@@ -682,24 +940,38 @@ export const ourPrcocessContent = {
     },
     {
       title: "Implement",
-      iconDesktop: <ProcessVector3 width="90" height="95" viewBox="0 0 120 95" />,
-      iconMobile: <ProcessVector3 width="40" height="45" viewBox="0 0 120 95" />,
+      iconDesktop: (
+        <ProcessVector3 width="90" height="95" viewBox="0 0 120 95" />
+      ),
+      iconMobile: (
+        <ProcessVector3 width="40" height="45" viewBox="0 0 120 95" />
+      ),
       content: (
         <ul className=" text-start">
           <li className="list-disc">
             Break down work into multiple iterations of planning, designing, and
             implementing.
           </li>
-          <li className="list-disc">Carry out engineering tasks and provide a solution.</li>
-          <li className="list-disc">Perform testing to validate the solution.</li>
-          <li className="list-disc">Execute the cutover process and launch the solution.</li>
+          <li className="list-disc">
+            Carry out engineering tasks and provide a solution.
+          </li>
+          <li className="list-disc">
+            Perform testing to validate the solution.
+          </li>
+          <li className="list-disc">
+            Execute the cutover process and launch the solution.
+          </li>
         </ul>
       ),
     },
     {
       title: "Manage",
-      iconDesktop: <ProcessVector4 width="80" height="80" viewBox="0 0 106 106"/>,
-      iconMobile: <ProcessVector4 width="40" height="40" viewBox="0 0 106 106"/>,
+      iconDesktop: (
+        <ProcessVector4 width="80" height="80" viewBox="0 0 106 106" />
+      ),
+      iconMobile: (
+        <ProcessVector4 width="40" height="40" viewBox="0 0 106 106" />
+      ),
       content: (
         <p>
           We provide comprehensive system administration, management, and

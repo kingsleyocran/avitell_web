@@ -28,7 +28,7 @@ export default function Section({}: Props) {
             className="p-6 md:p-12 h-full rounded-b-[10px] w-full bg-gradient-to-t 
           from-[#5596C2] via-[#5596C2]/90 to-transparent relative"
           >
-            <div className="flex-none md:w-[500px] h-full flex flex-col justify-end gap-4">
+            <div className="flex-none md:max-w-[900px] h-full flex flex-col justify-end gap-4">
               <h1 className="text-white text-3xl md:text-4xl lg:text-4xl text-start">
                 {industriesBannerContent.title}
               </h1>

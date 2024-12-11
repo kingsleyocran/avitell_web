@@ -187,9 +187,9 @@ export const industriesHomeContent = [
 ];
 
 export const industriesBannerContent = {
-  title: "Industry-Focused IT Solutions for Lasting Impact",
+  title: "Industry Specific IT Solutions That Leave a Mark",
   subText:
-    "Avitell Technologies delivers tailored IT solutions that power growth, efficiency, and security across key industries. From healthcare and finance to education, retail, and manufacturing, we provide scalable infrastructures, cloud integration, and advanced cybersecurity to meet each sector’s unique demands. Our industry-specific expertise enables seamless operations, regulatory compliance, and digital transformation, helping businesses stay agile and competitive. No matter the industry, Avitell Technologies is your partner in driving innovation, optimizing workflows, and securing your digital future.",
+    "Avitell Technologies delivers custom IT solutions that drive growth, efficiency, and security for important sectors with major industry specificity. Starting from healthcare and finance, to education, retail, and manufacturing, we offer scalable infrastructures along with cloud integration and advanced security which caters to the unique demands of every sector. This allows for improved operations with ease in compliance to regulations and digital transformation for agility and competitiveness. Thus, Avitell Technologies is a partner that drives innovation to optimize workflows while securing the digital future for any industry.",
 };
 
 export const industriesPageContent = [
@@ -824,70 +824,29 @@ export const teamList = [
 
 export const missionText = (
   <>
-    At Avitell Technologies, our mission is to empower small and medium-sized
-    enterprises (SMEs) with innovative, reliable, and scalable IT solutions that
-    drive operational efficiency, optimize technology infrastructure, and
-    facilitate sustainable growth. We are dedicated to providing businesses with
-    the expertise, tools, and support necessary to navigate the complexities of
-    modern technology, enabling them to stay competitive in an increasingly
-    dynamic digital landscape.
-    <br />
-    <br />
-    Our purpose is to bridge the gap between businesses and the rapidly evolving
-    technological environment. Through tailored IT services in security, cloud
-    integration, data management, and IT infrastructure modernization, we aim to
-    alleviate the technological challenges faced by our clients, allowing them
-    to focus on their core operations and business objectives.
-    <br />
-    <br />
-    Guided by our core values of customer-centricity, integrity, innovation, and
-    excellence, we prioritize the development of long-term, trusted partnerships
-    with our clients. We are committed to providing proactive IT support,
-    implementing cutting-edge solutions, and ensuring the highest standards of
-    security and compliance. By delivering strategic IT services, we help
-    businesses maximize their technology investments, drive efficiency, and
-    foster growth.
-    <br />
-    <br />
-    At Avitell Technologies, we are dedicated to continuous improvement,
-    ensuring that we remain at the forefront of industry advancements to meet
-    the evolving needs of our clients. Through our commitment to excellence and
-    operational efficiency, we aim to make a positive impact on our clients,
-    industries, and communities, creating long-lasting value and success.
+    Avitell Technologies aims to provide cutting-edge, scalable, and secure
+    information technology solutions for the optimization of the operations and
+    productivity of small and medium enterprises to achieve sustainable growth.
+    It specializes in cybersecurity, cloud integration, IT infrastructure, and
+    data management. These are special services specifically prepared to tackle
+    the unique challenges of the dynamic digital landscape. Avitell Technologies
+    upholds the principles of integrity, innovation, and excellence in building
+    a partnership of trust with the customer. The company is always committed to
+    improving its services and leading the industry to drive real value for its
+    clients while contributing to their long-term success.
   </>
 );
 
 export const visionText = (
   <>
-    At Avitell Technologies, our vision is to establish ourselves as the premier
-    provider of innovative, reliable, and scalable IT solutions for small and
-    medium-sized enterprises (SMEs) across key industries. We strive to be
-    recognized as a trusted partner in digital transformation, delivering
-    exceptional value through our expertise in network infrastructure, security,
-    cloud solutions, and IT modernization.
-    <br />
-    <br />
-    Looking ahead, we aim to lead the industry by pioneering advancements in
-    artificial intelligence, automation, and cloud technologies, enabling
-    businesses to operate more efficiently, securely, and competitively in an
-    increasingly digital world. We aspire to set new standards of excellence,
-    driving innovation and enhancing operational capabilities for our clients,
-    while maintaining the highest levels of security and compliance.
-    <br />
-    <br />
-    Internally, we are committed to fostering a culture of collaboration,
-    continuous learning, and professional growth. We aim to attract, develop,
-    and retain top talent by offering an environment that encourages creativity,
-    innovation, and work-life balance. Our team members will be empowered to
-    contribute meaningfully to our success, and we will continue to invest in
-    their growth and development.
-    <br />
-    <br />
-    Ultimately, our goal is to create a lasting impact by enabling businesses to
-    fully leverage the power of technology to achieve their goals. We seek to
-    leave a legacy of transformative change, supporting the growth and success
-    of our clients and contributing to the advancement of the IT industry as a
-    whole.
+    Our vision is to become a trusted pioneer in innovatory and scalable IT
+    solutions that enable SMEs within core sectors. Creating a new benchmark for
+    excellence, by leading the way in the progression of security, cloud
+    technologies, and IT modernization to help businesses succeed within a
+    constantly changing digital world. Creating an environment that fosters
+    teamwork, learning, and development to ensure our staff stays at the leading
+    edge of technological innovation. Inspiring a legacy with positive change by
+    enabling clients to transform industries through a commitment to excellence.
   </>
 );
 

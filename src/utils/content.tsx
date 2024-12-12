@@ -445,7 +445,7 @@ export const servicesContent = [
   {
     id: navlinks[0]?.subPages?.[0]?.href,
     title: "Enterprise Network Solutions",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/services/network.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
@@ -513,7 +513,7 @@ export const servicesContent = [
   {
     id: navlinks[0]?.subPages?.[1]?.href,
     title: "Windows Services",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/services/windows.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
@@ -579,7 +579,7 @@ Additionally, we provide secure remote desktop solutions with flexible remote wo
   {
     id: navlinks[0]?.subPages?.[2]?.href,
     title: "Cloud & Hybrid Services",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/services/cloud.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
@@ -647,7 +647,7 @@ Additionally, we provide secure remote desktop solutions with flexible remote wo
   {
     id: navlinks[0]?.subPages?.[3]?.href,
     title: "Unified Communications",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/services/communications.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
@@ -712,7 +712,7 @@ Additionally, we offer high-quality conferencing tools that foster better relati
   {
     id: navlinks[0]?.subPages?.[4]?.href,
     title: "Advanced Security",
-    imgUrl: "/assets/images/plan-1.png",
+    imgUrl: "/assets/images/services/security.png",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [

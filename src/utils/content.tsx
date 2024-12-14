@@ -59,8 +59,7 @@ export const termPrivacyList = [
 export const homeBannerContent = {
   title: "Empowering Your Business Through Technology",
   subText:
-    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a \
-    result, you can expect a dynamic, superior, and constantly improving environment.",
+    "At Avitell, we harness the power of advanced project management methodologies to ensure every project is executed with precision and excellence. This approach guarantees a dynamic, high-quality environment that is always evolving to meet your business's needs. With us, you can expect consistent improvement and outstanding results, every time.",
 };
 
 export const homeServicesContent = [
@@ -187,9 +186,9 @@ export const industriesHomeContent = [
 ];
 
 export const industriesBannerContent = {
-  title: "Industry Specific IT Solutions That Leave a Mark",
+  title: "Specialized IT Solutions That Make a Difference",
   subText:
-    "Avitell Technologies delivers custom IT solutions that drive growth, efficiency, and security for important sectors with major industry specificity. Starting from healthcare and finance, to education, retail, and manufacturing, we offer scalable infrastructures along with cloud integration and advanced security which caters to the unique demands of every sector. This allows for improved operations with ease in compliance to regulations and digital transformation for agility and competitiveness. Thus, Avitell Technologies is a partner that drives innovation to optimize workflows while securing the digital future for any industry.",
+    "At Avitell Technologies, we provide tailored IT solutions that help grow, organise and protect businesses in strategic industries with very defined industry focus. From the healthcare industry to the finance industry, education, retail and manufacturing, we offer flexible infrastructures combined with cloud integration and advanced security that meet the particular needs of every industry. This makes it possible to enhance the effectiveness of the operations with simplicity of the compliance and Compliancy, as well as to prepare for the digital transformation for increased competitiveness. Therefore, Avitell Technologies is a partner that enables progress to enhance the performance of any organization and create a sustainable digital strategy for the future.",
 };
 
 export const industriesPageContent = [
@@ -198,39 +197,35 @@ export const industriesPageContent = [
     title: "Transforming Healthcare with Secure, Scalable IT Solutions",
     content: (
       <>
-        With deep expertise in healthcare IT and a steadfast focus on
-        innovation, Avitell Technologies specializes in creating tailored
-        solutions that address the unique challenges of the healthcare industry.
-        We understand the critical importance of seamless communication,
-        efficient workflows, and uncompromising security in delivering quality
-        patient care.
+        With the help of the extensive knowledge in healthcare IT and a constant
+        emphasis on advancement, Avitell Technologies is able to offer
+        sophisticated solutions that meet the specific needs of the healthcare
+        sector. We realize the importance of the efficient communication,
+        effective flows and high level of security in providing the best patient
+        care.
         <br />
         <br />
-        Our approach combines state-of-the-art technology with industry best
-        practices to enhance your network performance, ensuring that your
-        systems are reliable, scalable, and optimized for 24/7 healthcare
-        operations. By facilitating smooth transitions to cloud or hybrid
-        environments, we empower healthcare providers with secure and flexible
-        access to critical data, enabling better collaboration and faster
-        decision-making.
+        Our approach also integrates modern technology and best practices in the
+        industry for improving your network performance to make your systems
+        strong, flexible and fine-tuned for the round-the-clock operation of
+        healthcare facilities. This way, we assist the healthcare organizations
+        to make seamless transitions to the cloud or hybrid environments, and
+        help them get secure and reliable access to the most important
+        information to support better cooperation and quicker decision-making.
         <br />
         <br />
-        Security is at the core of everything we do. With advanced cybersecurity
-        measures, we protect sensitive patient data and help you navigate
-        complex regulatory requirements like HIPAA, so you can focus on what
-        matters most delivering excellent care.
+        It is our core value and we embed it in all our activities. Through
+        implementing strong cybersecurity measures, we ensure the safety of
+        patients’ information and assist you in meeting such compliance
+        standards as HIPAA, so that you can concentrate on your primary task of
+        providing excellent healthcare services.
         <br />
         <br />
-        At Avitell Technologies, we are not just service providers; we are
-        partners in your journey toward technology-driven healthcare
-        transformation. Whether you are looking to modernize your IT
-        infrastructure or build a future-ready digital environment, our team is
-        here to support you every step of the way.
-        <br />
-        <br />
-        Ready to revolutionize your healthcare technology? Contact us today to
-        discuss your needs and explore how Avitell Technologies can help your
-        organization thrive.
+        At Avitell Technologies, we are not only service providers, we are your
+        partners in the process of achieving the healthcare of the future
+        powered by technology. If you wish to enhance your IT systems or design
+        a new advanced digital system, our experts will guide you throughout the
+        process.
       </>
     ),
     imgUrl: "/assets/images/industries/healthcare.png",
@@ -240,38 +235,35 @@ export const industriesPageContent = [
     title: "Powering Financial Growth with Secure, Scalable IT Solutions",
     content: (
       <>
-        Avitell Technologies brings extensive expertise in financial IT
-        solutions and a strong focus on innovation to deliver customized
-        services that address the unique demands of the finance industry. In a
-        field where precision, efficiency, and security are critical, we help
-        organizations optimize their operations, elevate client experiences, and
-        stay competitive in a rapidly changing digital environment.
+        Avitell Technologies is a company that offers financial IT solutions and
+        is highly vested in providing innovative services to meet the needs of
+        the financial industry. In an industry where accuracy and fast results
+        are crucial, we assist organizations to improve on their performance,
+        offer a better experience to their clients and adapt to changes through
+        the use of digital technologies.
         <br />
         <br />
-        We ensure your IT infrastructure is reliable, scalable, and built for
-        performance. From boosting network efficiency to deploying cloud and
-        hybrid solutions, our services provide the backbone for seamless
-        financial operations, enabling real-time data access and enhanced
-        collaboration across teams and systems.
+        We make your IT structure strong, flexible and capable of meeting your
+        goals. From improving the network efficiency to implementing cloud and
+        hybrid solutions, our services form foundation the for smooth and
+        effective financial management, which offers real-time data and
+        integration of various departments and systems.
         <br />
         <br />
-        Data security is at the heart of everything we do. Our advanced
-        cybersecurity solutions are designed to protect sensitive financial data
-        from ever-evolving threats while ensuring full compliance with
-        regulatory standards such as PCI DSS and GDPR. By prioritizing security,
-        we help build trust and confidence with your clients.
+        Security of data is our priority and we pay much attention to it in our
+        work. Our state-of-the-art cybersecurity measures are put in place to
+        safeguard high-risk financial information while also meeting the most
+        stringent industry regulations including the PCI DSS and the GDPR. This
+        is why we focus on security to ensure that your clients are assured of
+        the security of their information.
         <br />
         <br />
-        At Avitell Technologies, we are more than a service provider—we are your
-        partner in digital transformation. Whether you’re modernizing legacy
-        systems, securing your IT framework, or integrating cutting-edge
-        technologies, we are committed to driving innovation, growth, and
-        long-term success for your organization.
-        <br />
-        <br />
-        Ready to redefine your financial technology? Get in touch with Avitell
-        Technologies today and explore how we can help your business thrive in
-        the digital era.
+        At Avitell Technologies, it is not just a question of offering a
+        service; it is a question of being your preferred partner in the digital
+        transformation. Whether it is to evolve and modernize systems, to secure
+        the framework of your IT system or to integrate new technologies, we
+        strive to support you in the innovation, development, and sustainability
+        of your business.
       </>
     ),
     imgUrl: "/assets/images/industries/finance.png",
@@ -282,41 +274,36 @@ export const industriesPageContent = [
       "Empowering Education with Scalable IT & Secure Digital Learning Solutions",
     content: (
       <>
-        Avitell Technologies is committed to driving innovation in the education
-        sector by providing cutting-edge IT solutions that address the evolving
-        needs of modern learning environments. In a world where technology is
-        integral to teaching, collaboration, and research, we empower
-        educational institutions to enhance operational efficiency, elevate
-        learning experiences, and foster meaningful connections among students,
-        educators, and administrators.
+        Avitell Technologies is focused on delivering advanced IT solutions that
+        support the advancement of the education system and help to meet the
+        challenges of the modern educational environment. In the modern world
+        where technology plays an essential role in teaching, collaboration, and
+        research, we help the educational institutions to improve performance,
+        increase effectiveness of learning, and facilitate interactions between
+        students, educators, and administrative staff.
         <br />
         <br />
-        We specialize in designing and implementing scalable, secure IT
-        infrastructures tailored to the unique demands of schools, universities,
-        and training organizations. From high-performance networks supporting
-        seamless connectivity to flexible cloud and hybrid solutions, our
-        services enable real-time learning, improve accessibility, and support
-        dynamic collaboration.
+        We offer the design and implementation of efficient and robust IT
+        structures that are adaptable to the specific nature of schools,
+        universities and training institutions. From highly effective networking
+        solutions that enhance data transmission to the most effective cloud and
+        hybrid solutions, we provide real time learning, enhanced accessibility
+        and effective collaboration.
         <br />
         <br />
-        Recognizing the critical importance of safeguarding sensitive data, we
-        deliver advanced cybersecurity solutions to protect student records and
-        institutional information against emerging threats. Our expertise
-        ensures compliance with education-specific regulations such as FERPA,
-        helping institutions maintain trust and operational integrity.
+        Understanding the need for protection of sensitive information, we offer
+        robust cybersecurity solutions for student records and other
+        institutional information to help fight the increasing threats. Our
+        services also ensure that the institutions adhere to education related
+        laws such as the FERPA and ensure that the integrity of the institutions
+        is not compromised.
         <br />
         <br />
-        At Avitell Technologies, we go beyond providing services; we serve as a
-        trusted partner in your digital transformation journey. Whether
-        modernizing outdated systems, developing secure and efficient digital
-        learning platforms, or integrating state-of-the-art technologies, we are
-        dedicated to helping educational institutions excel in an increasingly
-        digital landscape.
-        <br />
-        <br />
-        Elevate the future of education with technology that inspires success.
-        Contact Avitell Technologies today to learn how we can empower your
-        institution to achieve its goals.
+        At Avitell Technologies, we don’t just offer services and walk away; we
+        are your partner in your digital change process. Whether it is the need
+        to upgrade old systems, creating secure and effective digital learning
+        platforms or implementing advanced technologies in education
+        institutions, we are here to offer support.
       </>
     ),
     imgUrl: "/assets/images/industries/education.png",
@@ -327,39 +314,37 @@ export const industriesPageContent = [
       "Driving Retail Innovation with Scalable IT & Cybersecurity Solutions",
     content: (
       <>
-        Avitell Technologies is a leader in providing advanced IT solutions for
-        the retail sector, offering innovative services designed to meet the
-        unique demands of today’s dynamic retail landscape. In an industry where
-        exceptional customer experiences, operational efficiency, and data
-        security are critical to success, we enable retailers to optimize their
-        operations, elevate customer engagement, and achieve long-term growth.
+        Avitell Technologies is a premier provider of state-of-the-art IT
+        solutions for the retail industry and provides premium services that
+        cater to the current needs of the retail industry. In an industry where
+        customer satisfaction, productivity and data protection are the key
+        factors to success, we assist the retailers to enhance their business,
+        create better customer interactions and sustainable development.
         <br />
         <br />
-        Our expertise lies in designing scalable, high-performance IT
-        infrastructures tailored to the fast-paced requirements of retail
-        businesses. From reliable networks that support seamless omnichannel
-        operations to flexible cloud and hybrid solutions that streamline
-        inventory management and enable data-driven decision-making, our
-        solutions empower retailers to adapt and excel in a competitive market.
+        Our specialization is built on creating robust and efficient IT
+        structures that address the needs of the retail industry that operates
+        in the conditions of high dynamics and constant innovations. From stable
+        networks that facilitate effective omnichannel strategies to the
+        efficient and flexible cloud and hybrid solutions that optimize
+        inventory and support data-oriented decisions, we provide the retailers
+        with the tools they require to thrive in the current market.
         <br />
         <br />
-        Data security is a top priority at Avitell Technologies. We deliver
-        advanced cybersecurity solutions to protect sensitive customer
-        information and safeguard business operations against emerging threats.
-        Our services also ensure compliance with industry standards such as PCI
-        DSS, helping retailers maintain trust and uphold their brand reputation.
+        Avitell Technologies has the security of data as one of its core values.
+        We offer high level of cybersecurity services that ensure the privacy of
+        the customers’ data and prevention against the increasing risks. The
+        services also ensure that the industry standards such as the PCI DSS are
+        met so that retailers are able to build and maintain the trust and their
+        brand image.
         <br />
         <br />
-        At Avitell Technologies, we are more than a service provider—we are your
-        strategic partner in driving retail transformation. Whether modernizing
-        IT systems, implementing innovative technologies, or enhancing digital
-        and physical retail experiences, we are committed to helping your
-        business succeed in an ever-evolving retail environment.
-        <br />
-        <br />
-        Discover how technology can transform your retail operations. Contact
-        Avitell Technologies today to learn how we can help your business
-        thrive.
+        At Avitell Technologies, we go beyond being a service provider to being
+        your partner in the pursuit of retail revolution. In pursuing such
+        objectives as the improvement of IT systems, integration of new
+        technologies, improvement of the digital and physical interactions with
+        customers, we are ready to contribute to your business’s growth within
+        the new generation of retail.
       </>
     ),
     imgUrl: "/assets/images/industries/retail.png",
@@ -370,44 +355,38 @@ export const industriesPageContent = [
       "Powering Smart Manufacturing with Scalable IT & Cybersecurity Solutions",
     content: (
       <>
-        Avitell Technologies is a leading provider of advanced IT solutions for
-        the manufacturing sector, offering innovative services designed to meet
-        the unique challenges of today’s complex manufacturing environments. In
-        an industry where operational efficiency, scalability, and data security
-        are essential, we empower manufacturers to optimize their processes,
-        enhance productivity, and drive sustainable growth.
+        Avitell Technologies is a top IT solutions company that delivers
+        innovative and comprehensive IT solutions for the manufacturing industry
+        to address the complexities of modern manufacturing environments. In an
+        industry which demands effectiveness, flexibility, and protection of the
+        information, we enable manufacturers to improve their activities,
+        increase output and grow sustainably.
         <br />
         <br />
-        We specialize in designing and implementing robust, scalable IT
-        infrastructures that cater to the specific demands of manufacturing
-        operations. From high-performance networks that ensure seamless
-        communication across facilities to flexible cloud and hybrid solutions
-        that optimize supply chain management, production monitoring, and
-        real-time data analytics, our solutions enable manufacturers to stay
-        ahead of the curve and maintain a competitive advantage.
+        We offer professional services in the design and deployment of robust
+        and flexible IT structures that address the peculiar needs of
+        manufacturing plants. From highly effective networks for linking
+        different production facilities to the efficient and flexible cloud and
+        hybrid systems for managing the supply chain, production, and real-time
+        analysis of data, our solutions help manufacturers to keep up with the
+        changes and gain the edge over the competitors.
         <br />
         <br />
-        Data security and regulatory compliance are top priorities for
-        manufacturers, and Avitell Technologies provides advanced cybersecurity
-        solutions to protect sensitive operational data, intellectual property,
-        and supply chain information from evolving threats. Our expertise
-        ensures adherence to industry standards, enabling manufacturers to
-        safeguard their assets while maintaining compliance with relevant
-        regulations.
+        Manufacturing plants cannot afford to compromise on the security of
+        their data and compliance with various regulations and that is why
+        Avitell Technologies offers high-tech cybersecurity solutions for
+        protection of operational data, intellectual property, and supply chain
+        from increasing risks. Our knowledge and experience help manufacturers
+        meet industry standards and protect their assets while also meeting the
+        set legal requirements.
         <br />
         <br />
-        At Avitell Technologies, we are more than just a service provider—we are
-        your strategic partner in driving digital transformation within
-        manufacturing. Whether modernizing legacy systems, enhancing production
-        workflows, or integrating advanced technologies such as IoT and AI, we
-        are committed to helping your business innovate, improve efficiency, and
-        achieve long-term success.
-        <br />
-        <br />
-        Unlock the potential of your manufacturing operations with cutting-edge
-        technology solutions. Contact Avitell Technologies today to learn how we
-        can support your business in achieving operational excellence and
-        sustainable growth.
+        At Avitell Technologies, it is not just a simple provision of services
+        that we offer to our clients, we are their partners in the process of
+        transformation of the manufacturing industry. In the areas for example,
+        upgrading the old systems, improving the production processes or
+        adopting new technologies like IoT and AI, we are ready to assist you to
+        enhance your business and achieve the sustainability
       </>
     ),
     imgUrl: "/assets/images/industries/manufacturing.png",
@@ -509,7 +488,7 @@ export const servicesContent = [
     },
   },
 
-  // Windows Services
+  // Windows Services //DONE
   {
     id: navlinks[0]?.subPages?.[1]?.href,
     title: "Windows Services",
@@ -518,138 +497,143 @@ export const servicesContent = [
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
       {
-        title: "Server Management",
+        title: "Windows Server Management and Support",
         content:
-          "We provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "Windows Servers are the backbone of many business infrastructures, and proper management ensures stability, security, and performance. Regular maintenance and proactive management of these servers are crucial to keeping operations running smoothly.",
         features: [
-          "Monitoring and maintenance of Windows servers.",
-          "Regular updates and patch management.",
-          "Backup and disaster recovery solutions.",
+          "Server Configuration and Optimization",
+          "Virtualization Support",
+          "Performance Tuning",
+          "High Availability and Load Balancing",
+          "Cost Management and Resource Optimization",
         ],
         benefits: [
-          "Increased uptime and reliability.",
-          "Enhanced security and compliance.",
-          "Reduced operational costs through efficient management.",
+          "System monitoring and optimization to ensure servers run efficiently.",
+          "Patch management and security updates to protect against vulnerabilities.",
+          "Disaster recovery planning to minimize downtime in case of failure.",
+          "Backup solutions to safeguard business-critical data.",
+          "24/7 support to handle any issues that arise, ensuring minimal disruption.",
         ],
       },
 
       {
-        title: "Active Directory",
+        title: "Windows Desktop Support and Management",
         content:
-          "We provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "The devices that are used with Windows are very important in the daily work of the company. Managing such devices effectively, securing them and making sure that they are functioning at their best enables employees to work efficiently with utmost convenience and without much interference from the IT department.",
         features: [
-          "User account creation and management.",
-          "Group policy management.",
-          "Security auditing and reporting.",
+          "Software Installation and Updates",
+          "User Account Management",
+          "Remote Support and Troubleshooting",
         ],
         benefits: [
-          "Simplified user access management.",
-          "Improved security through centralized control.",
-          "Enhanced productivity with efficient user provisioning.",
+          "Proactive monitoring and performance optimization of Windows desktops.",
+          "Security enforcement with anti-virus, firewall, and malware protection.",
+          "Software deployment and patch management to keep systems up-to-date.",
+          "Remote desktop support for quick troubleshooting and resolution of issues, no matter where your team is located.",
+          "Customization and configuration management to align with your business’s specific needs.",
         ],
       },
 
       {
-        title: "Remote Desktop Solutions",
+        title: "Windows Active Directory (AD) Management",
         content:
-          "We provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "Active Directory is very important as it is used for user authentication, group policies and access control.  Having an efficient AD structure helps in proper user authentication and access to resources besides supporting security and compliance standards.",
         features: [
-          "Remote Desktop Services (RDS) setup and management.",
-          "VPN solutions for secure connections.",
-          "User training and support.",
+          "User and Group Management",
+          "Access Control and Permissions Management",
+          "Group Policy Management",
+          "Monitoring and Auditing",
         ],
         benefits: [
-          "Flexibility for remote work.",
-          "Enhanced security for remote access.",
-          "Improved collaboration among teams.",
+          "Centralized user management for easier control over user accounts, groups, and permissions.",
+          "Group Policy configuration to enforce security policies and settings across the network.",
+          "Directory synchronization with cloud services like Microsoft 365 for hybrid environments.",
+          "Secure remote access and single sign-on capabilities, improving both user experience and security.",
+          "Audit and compliance support for tracking user activities and ensuring regulatory compliance.",
         ],
       },
     ],
     whyContent: {
       title: "Why Choose Us For Your Windows Service Needs?",
       content:
-        "Avitell leverages top-notch project management methodologies to deliver exceptional Windows Services solutions, ensuring a dynamic and continually improving environment tailored to business needs.\n\n \
-We offer comprehensive server management to optimize performance, security, and reliability through continuous monitoring, updates, and disaster recovery, resulting in increased uptime, enhanced compliance, and reduced operational costs. \n\n \
-Our services also include Active Directory management, simplifying user access, improving security with centralized controls, and boosting productivity through efficient user provisioning.\n\n \
-Additionally, we provide secure remote desktop solutions with flexible remote work capabilities, enhanced collaboration, and robust security for remote access. Together, these solutions ensure efficient operations, secure environments, and seamless connectivity across teams.”",
+        "At Avitell Technologies, we provide complete, reliable and secure Windows services that are designed to meet the specific requirements of your business. With the management of your Windows servers, desktops and Active Directory we guarantee efficient system functioning, high performance, and increased security of your IT systems. Our preventive approach to system monitoring, software updates, and user access control helps you to prevent potential problems before they occur while our 24/7 support ensures that you get the help you need anytime you need it. Let us help you achieve best in class Windows services that match your business growth, safeguard your valuable information and increase efficiency.",
     },
   },
 
-  // Cloud & Hybrid Services //TODO
+  // Cloud & Hybrid Services //DONE
   {
     id: navlinks[0]?.subPages?.[2]?.href,
     title: "Cloud & Hybrid Services",
     imgUrl: "/assets/images/services/cloud.png",
     subText:
-      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+      "Achieve your business’s greatest potential with our Cloud & Hybrid Services which provide the adaptability, security and manageability that you require to grow. Whether you wish to optimize processes, improve collaboration or protect your business from disruption, we have the solutions that can take you to the next level in today’s environment. ",
     subList: [
       {
-        title: "Server Management",
+        title: "Comprehensive Backup and Disaster Recovery",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
-        features: [
-          "Monitoring and maintenance of Windows servers.",
-          "Regular updates and patch management.",
-          "Backup and disaster recovery solutions.",
-        ],
+          "Every business is at risk of losing data, getting hacked by ransomware or facing downtime. Having a reliable backup and disaster recovery solution in place is a way of protecting the business from such threats. ",
+        features: ["Backup", "Disaster Recovery", "Security", "Management"],
         benefits: [
-          "Increased uptime and reliability.",
-          "Enhanced security and compliance.",
-          "Reduced operational costs through efficient management.",
+          "Regular, automated backups for critical workloads.",
+          "Rapid recovery options to minimize downtime.",
+          "Compliance with data retention regulations.",
+          "Hybrid options: on-premises backup with replication to the cloud for redundancy.",
         ],
       },
 
       {
-        title: "Active Directory",
+        title: "Scalable and Secure Infrastructure Management",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "The hybrid model involves integration of on-premise and cloud-based solutions which can be intricate to manage. Customers require efficient infrastructure to manage the costs and ensure the security of the operations.",
         features: [
-          "User account creation and management.",
-          "Group policy management.",
-          "Security auditing and reporting.",
+          "Infrastructure Scalability",
+          "Security and Compliance",
+          "Performance Optimization",
+          "Integration and Automation",
+          "High Availability and Redundancy",
         ],
         benefits: [
-          "Simplified user access management.",
-          "Improved security through centralized control.",
-          "Enhanced productivity with efficient user provisioning.",
+          "Proactive monitoring and management of workloads in both on-prem and cloud environments.",
+          "Autoscaling capabilities to handle varying workloads.",
+          "Security services, such as identity and access management (IAM), encryption, and advanced threat protection.",
+          "Cloud cost optimization and resource utilization analysis.",
         ],
       },
 
       {
-        title: "Remote Desktop Solutions",
+        title: "End-to-End Productivity and Collaboration Tools Integration",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "It is essential for businesses to have efficient communication and collaboration tools in order to enhance the productivity of remote workers. ",
         features: [
-          "Remote Desktop Services (RDS) setup and management.",
-          "VPN solutions for secure connections.",
-          "User training and support.",
+          "Productivity Tools Integration",
+          "Advanced Communication Tools",
+          "Secure Collaboration",
+          "Hybrid and Remote Work Support",
+          "Integration with Business Applications",
+          "Automation and Workflow Enhancements",
         ],
         benefits: [
-          "Flexibility for remote work.",
-          "Enhanced security for remote access.",
-          "Improved collaboration among teams.",
+          "Deployment and support for Microsoft 365 or Google Workspace for collaboration and productivity.",
+          "Unified communication tools like Microsoft Teams or Zoom.",
+          "Integration with existing business applications (CRM, ERP, etc.).",
+          "Data security and compliance policies for sensitive communications and documents.",
         ],
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Network Solution Needs?",
+      title: "Why Choose Us for Your Cloud & Hybrid Services?",
       content:
-        "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-        We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
-        business success. Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-        We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive business success. \
-        Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. We combine cutting-edge \
-        technology with a customer-centric approach to deliver tailored network solutions that drive business success.",
+        "At Avitell Technologies, we offer customized cloud and hybrid solutions that help you to sustain your business with the best backup and disaster recovery services that reduce time loss and safeguard your essential information. The solutions we offer are comprehensive and flexible to help you meet business needs and minimize downtime in case of an incident. Our secure and flexible infrastructure management enhances performance, is cost effective and also meets all the compliance requirements while providing your employees with effective productivity tools such as Microsoft 365 and collaboration tools. We have years of experience in IT and have successfully completed many projects, we offer comprehensive services, management, and monitoring as well as custom solutions that are tailored to your business needs. Join us and make your IT environment future-proof, secure, and high-performing. ",
     },
   },
 
-  // Unified Communications
+  // Unified Communications// done
   {
     id: navlinks[0]?.subPages?.[3]?.href,
     title: "Unified Communications",
     imgUrl: "/assets/images/services/communications.png",
     subText:
-      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+      "Whether you're working in the office, remotely, or on the go, our Unified Communications tools ensure that you can communicate efficiently and securely. From enhancing team collaboration to improving customer service, we provide the technology you need to keep your business connected, agile, and ahead of the competition. Choose us for a future-proof, all-in-one solution that simplifies your communication and elevates your business.",
     subList: [
       {
         title: "VoIP Systems",
@@ -702,77 +686,75 @@ Additionally, we provide secure remote desktop solutions with flexible remote wo
     whyContent: {
       title: "Why Choose Us For Your Unified Communications Needs?",
       content:
-        "Our team of experienced network engineers combines cutting-edge technology with a customer-centric approach to deliver tailored solutions under Unified Communications. Leveraging robust project management methodologies, we ensure a dynamic and continuously improving environment that meets business needs.\n\n \
-We provide scalable systems that enable clear and reliable communication, enhance mobility for remote workers, and integrate seamlessly with existing applications, leading to significant cost savings and flexibility. Our solutions improve productivity through real-time communication, streamline project coordination, and centralize access to essential resources.  \n\n \
-Additionally, we offer high-quality conferencing tools that foster better relationships with remote teams, reduce travel costs, and support effective virtual meetings. Together, these solutions drive efficiency, connectivity, and success across your organization",
+        "At Avitell Technologies we offer an all-inclusive solution that integrates all your communication requirements making sure that your team is always connected and effective. Our VoIP services, video conferencing and instant messaging tools are fully integrated to provide high quality, reliable communication with real time collaboration capabilities. With such flexible and affordable options, we assist your company to change with the market and expand as a firm, enhancing the effectiveness of operations.",
     },
   },
 
-  // Advanced Security //TODO
+  // Advanced Security //DONE
   {
     id: navlinks[0]?.subPages?.[4]?.href,
     title: "Advanced Security",
     imgUrl: "/assets/images/services/security.png",
     subText:
-      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+      "In the modern world where technology is rapidly expanding, cyber threats are also increasing at an unprecedented rate. At Avitell Technologies, we offer advanced security services to meet the latest threats and protect your data, applications, and networks. With threat detection, monitoring, and encryption, we guarantee the security of your ordinary business threat from management, all using possible proactive threats. threat We detection, offer real-time you monitoring, comprehensive and security state-of-the-art solutions that go a mile beyond just encryption. Our approach to security is comprehensive and strategic; we employ the latest technologies and the expertise of our security professionals to manage and mitigate all your security risks.",
     subList: [
       {
-        title: "Firewall and VPN",
+        title: "Advanced Endpoint Protection",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "As workforces become more geographically dispersed and work from remote locations, the endpoints which include the laptops, smartphones, and workstations are at high risks of getting hacked. This is where advanced endpoint protection comes in handy to ensure that these devices are protected from threats that may include malware, ransomware, and other forms of attacks.",
         features: [
-          "Monitoring and maintenance of Windows servers.",
-          "Regular updates and patch management.",
-          "Backup and disaster recovery solutions.",
+          "Real-Time Malware Detection and Prevention ",
+          "Device Control and Management",
+          "Application Control and Whitelisting",
+          "Endpoint Detection and Response (EDR) Integration",
         ],
         benefits: [
-          "Increased uptime and reliability.",
-          "Enhanced security and compliance.",
-          "Reduced operational costs through efficient management.",
+          "Real-time malware scanning and threat prevention on all endpoints.",
+          "Centralized management of endpoint security across the organization.",
+          "Protection for remote and hybrid workforces with cloud-based security solutions.",
+          "Automated updates to defend against new and emerging threats.",
         ],
       },
 
       {
-        title: "Appilcaiton Visibility Control",
+        title: "Managed Threat Detection and Response",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "The threats in cyberspace are now complex and advanced, thus requiring a proactive stance.  MDR offers round the clock monitoring, threat detection, and incident response services which help in containing the damage from threats at all times.",
         features: [
-          "User account creation and management.",
-          "Group policy management.",
-          "Security auditing and reporting.",
+          "Threat Intelligence Integration",
+          "Managed Detection Technology",
+          "Continuous Vulnerability Assessment",
+          "Proactive Threat Hunting",
+          "Incident Response and Remediation",
         ],
         benefits: [
-          "Simplified user access management.",
-          "Improved security through centralized control.",
-          "Enhanced productivity with efficient user provisioning.",
+          "Continuous monitoring of network traffic and endpoints.",
+          "Rapid detection and resolution of security incidents to prevent data breaches.",
+          "Expert remediation and support from a dedicated security team.",
         ],
       },
 
       {
-        title: "Advance Threat Protection",
+        title: "Firewall and VPN Protection",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "A strong firewall and secure VPN are essential for safeguarding your business’s network from unauthorized access and ensuring secure communication across remote locations. These solutions prevent external threats from infiltrating your network while enabling encrypted, secure connections for remote employees.",
         features: [
-          "Remote Desktop Services (RDS) setup and management.",
-          "VPN solutions for secure connections.",
-          "User training and support.",
+          "Combined Firewall and VPN Integration",
+          "Firewall Protection",
+          "VPN Protection",
         ],
         benefits: [
-          "Flexibility for remote work.",
-          "Enhanced security for remote access.",
-          "Improved collaboration among teams.",
+          "Firewall Protection: Safeguard against unauthorized network access, malware, and potential cyber threats.",
+          "VPN (Virtual Private Network): Secure remote access for employees, ensuring encrypted data transmission and protection from cyber threats in transit.",
+          "Network Segmentation: Isolate sensitive data and systems to limit the impact of potential breaches.",
+          "Real-Time Traffic Filtering: Block malicious traffic before it can enter your network.",
         ],
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Advanced Security Needs?",
+      title: "Why Choose Us for Your Advanced Security Needs?",
       content:
-        "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-              We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
-              business success. Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-              We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive business success. \
-              Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. We combine cutting-edge \
-              technology with a customer-centric approach to deliver tailored network solutions that drive business success.",
+        "At Avitell technologies, we offer an all-inclusive security approach to meet the advanced level of threats that are present today and the emerging ones in the future. The security solutions provided are by based us on the concept of proactive defense with the aim of protecting your business’s vital assets at all times irrespective of the environment being cloud, on-premise or a hybrid model. Using threat intelligence, integration, and monitoring, we help you manage risk, meet compliance requirements, and protect information. Let us be your security solution by giving you the protection you need and the freedom to focus on other important aspects of your business. ",
     },
   },
 ];
@@ -946,7 +928,7 @@ export const ourPrcocessContent = {
 export const contactContent = {
   title: "Schedule a consultation with us",
   subText:
-    "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment. Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+    "At Avitell Technologies Solutions, we specialize in delivering cutting-edge technology solutions tailored to your unique business needs. Whether you're looking to optimize your operations, enhance your IT infrastructure, or explore new tech innovations, our experts are here to guide you every step of the way.",
   formTitle: "Arrange a complimentary 30-minute consultation.",
   formText:
     "Would you like to schedule a brief conversation to discuss your organization's IT strategy, services, business solutions, compliance concerns, or any other high-priority technology matters? Please feel free to use our calendar to set up a convenient time. We are excited to learn more about your organization, share our approach, and offer our assistance in delivering value to you regularly and promptly. We are committed to supporting you in every way we can.",

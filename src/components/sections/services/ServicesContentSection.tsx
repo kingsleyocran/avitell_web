@@ -55,7 +55,7 @@ function Section({ pageData }: Props) {
                       : "bg-[#C9E1F4] text-black hover:bg-th-primary-medium hover:text-white"
                   }
                   h-full flex-1 text-base lg:text-lg font-medium hover:bg-th-primary-medium flex flex-row
-                  justify-center items-center text-center py-8 cursor-pointer px-4 md:px-3 transition-all duration-200`}
+                  justify-center items-center text-center py-8 cursor-pointer px-4 md:px-6 transition-all duration-200`}
                 >
                   {e.title}
                 </button>
@@ -63,11 +63,11 @@ function Section({ pageData }: Props) {
             </div>
 
             {/* Content */}
-            <div className="relative h-550 w-[60%] bg-[#3F7295] ">
+            <div className="relative h-900 w-[60%] bg-[#3F7295] ">
               {pageData.subList.map((e, index) => (
                 <div
                   key={index}
-                  className="text-white p-12 flex flex-col gap-6"
+                  className="text-white p-12 flex flex-col justify-center gap-6"
                   style={{
                     position: "absolute",
                     top: 0,
@@ -93,7 +93,7 @@ function Section({ pageData }: Props) {
                   {/* Benefits */}
                   <div className="bg-black/10 p-4 flex flex-col gap-2">
                     <p className="text-sm font-bold">Benefits</p>
-                    <ul className="flex flex-row gap-2">
+                    <ul className="flex flex-col gap-2">
                       {e.benefits.map((f, idx) => (
                         <li className="flex-1 text-sm bg-[#3F7295] p-3">{f}</li>
                       ))}

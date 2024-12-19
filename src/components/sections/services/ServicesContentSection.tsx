@@ -63,7 +63,7 @@ function Section({ pageData }: Props) {
             </div>
 
             {/* Content */}
-            <div className="relative h-900 w-[60%] bg-[#3F7295] ">
+            <div style={{height: pageData.height}} className="relative w-[60%] bg-[#3F7295] ">
               {pageData.subList.map((e, index) => (
                 <div
                   key={index}

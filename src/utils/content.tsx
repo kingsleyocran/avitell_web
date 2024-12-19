@@ -420,77 +420,100 @@ export const sampleBlogList = [
 export const mediumLink = "https://google.com";
 
 export const servicesContent = [
-  // Network Solutions //TODO
+  // Network Solutions //DONE
   {
     id: navlinks[0]?.subPages?.[0]?.href,
+    height: "1300px",
     title: "Enterprise Network Solutions",
     imgUrl: "/assets/images/services/network.png",
     subText:
-      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+      "The IT network is the foundation of all business operations, including lead conversion, invoice generation, phone communication, and file sharing. By adopting a comprehensive enterprise networking strategy that encompasses the data center core, cloud, and edge, businesses can experience a profound transformation from within. Discover how this approach can benefit your organization.",
     subList: [
       {
-        title: "Server Management",
+        title: "Route and switch",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "To establish a unified LAN and WAN technology environment, it is crucial to have routers and switches as the backbone of your network. Switches are responsible for connecting devices within a network, while routers enable connection between multiple networks within your infrastructure. Simply put, these networking devices serve as the fundamental building blocks of a robust and reliable network infrastructure.",
         features: [
-          "Monitoring and maintenance of Windows servers.",
-          "Regular updates and patch management.",
-          "Backup and disaster recovery solutions.",
+          "High-Performance Data Routing",
+          "Advanced Traffic Management",
+          "Scalability",
+          "Enhanced Security",
+          "Redundancy and Failover",
+          "Seamless Integration",
+          "Centralized Management",
         ],
         benefits: [
-          "Increased uptime and reliability.",
-          "Enhanced security and compliance.",
-          "Reduced operational costs through efficient management.",
+          "Optimized routing and switching minimize delays, providing faster data transfer for applications and services.",
+          "Reliable connectivity ensures employees can collaborate, communicate, and work without interruption.",
+          "Efficient traffic management reduces bandwidth costs and hardware investment over time.",
+          "Ensures smooth performance for voice, video, and data applications, improving customer and employee satisfaction.",
+          "Protects sensitive data and systems from external and internal threats, safeguarding business continuity.",
+          "Scalable solutions allow businesses to grow and adapt to new technologies without costly overhauls.",
+          "Redundancy and failover capabilities ensure critical systems remain operational, minimizing revenue loss.",
+          "Centralized tools save IT teams time and effort, allowing them to focus on strategic projects rather than daily troubleshooting.",
         ],
       },
 
       {
-        title: "Active Directory",
+        title: "Wireless Networking",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "Wireless networks offer employees the flexibility to work without being restricted to their desks, providing convenience. In today's world, where a mobile workforce heavily relies on laptops, tablets, and smartphones, wireless networking is not just a luxury, but a necessity.",
         features: [
-          "User account creation and management.",
-          "Group policy management.",
-          "Security auditing and reporting.",
+          "High-Speed Connectivity",
+          "Scalability",
+          "Advanced Security Protocols",
+          "Centralized Management",
+          "IoT Device Support",
+          "Guest Access and Network Segmentation",
+          "Quality of Service (QoS)",
         ],
         benefits: [
-          "Simplified user access management.",
-          "Improved security through centralized control.",
-          "Enhanced productivity with efficient user provisioning.",
+          "Enhanced Mobility and Productivity",
+          "Cost-Effective Deployment",
+          "Improved User Experience",
+          "Future-Proof Scalability",
+          "Stronger Security Measures",
+          "Centralized Management for Efficiency",
+          "Support for Flexible Work Environments",
+          "Competitive Advantage",
         ],
       },
 
       {
-        title: "Remote Desktop Solutions",
+        title: "Software-Defined WAN",
         content:
-          "Provide comprehensive server management solutions, ensuring optimal performance, security, and reliability.",
+          "SD-WAN technology empowers organizations to manage their WAN infrastructure using an extra layer of configuration that includes self-healing capabilities to detect and resolve traffic congestion. This approach not only helps to optimize resource utilization but also reduces operational costs.",
         features: [
-          "Remote Desktop Services (RDS) setup and management.",
-          "VPN solutions for secure connections.",
-          "User training and support.",
+          "Dynamic Path Selection",
+          "Centralized Management",
+          "Application Awareness",
+          "Enhanced Security",
+          "Multi-Cloud Connectivity",
+          "Scalability and Flexibility",
+          "Cost Efficiency",
         ],
         benefits: [
-          "Flexibility for remote work.",
-          "Enhanced security for remote access.",
-          "Improved collaboration among teams.",
+          "Improved Application Performance",
+          "Cost Savings",
+          "Increased Agility",
+          "Enhanced Security",
+          "Reliable Multi-Cloud Access",
+          "Simplified Management",
+          "Future-Proof Networking",
         ],
       },
     ],
     whyContent: {
-      title: "Why Choose Us For Your Enterprise Network Solutions Needs?",
+      title: "Why Choose Us for Your Enterprise Network Solutions Needs?",
       content:
-        "Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-      We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive \
-      business success. Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. \
-      We combine cutting-edge technology with a customer-centric approach to deliver tailored network solutions that drive business success. \
-      Our team of experienced network engineers brings a wealth of knowledge and expertise to every project. We combine cutting-edge \
-      technology with a customer-centric approach to deliver tailored network solutions that drive business success.",
+        "Your company requires an improved networking infrastructure. Many partners tend to stop at the point of connecting you and establishing a basic framework. However, to improve, it is necessary to surpass the fundamental LAN and WAN connectivity. As technology and security evolve quickly, networks can become outdated sooner than expected. Settling for mediocre or good enough can leave you vulnerable to problems such as congestion, underperformance, data loss, and security risks caused by inadequate integration and visibility. Our team of experts will customize our discussion to your unique needs and provide precise execution to ensure that your project is successfully completed. We can help you determine the optimal size and configuration of your network and implement it in a way that meets the specific requirements of your organization.",
     },
   },
 
-  // Windows Services //DONE
+  // Windows Services //TODO
   {
     id: navlinks[0]?.subPages?.[1]?.href,
+    height: "900px",
     title: "Windows Services",
     imgUrl: "/assets/images/services/windows.png",
     subText:
@@ -563,6 +586,7 @@ export const servicesContent = [
   // Cloud & Hybrid Services //DONE
   {
     id: navlinks[0]?.subPages?.[2]?.href,
+    height: "900px",
     title: "Cloud & Hybrid Services",
     imgUrl: "/assets/images/services/cloud.png",
     subText:
@@ -630,6 +654,7 @@ export const servicesContent = [
   // Unified Communications// done
   {
     id: navlinks[0]?.subPages?.[3]?.href,
+    height: "700px",
     title: "Unified Communications",
     imgUrl: "/assets/images/services/communications.png",
     subText:
@@ -693,6 +718,7 @@ export const servicesContent = [
   // Advanced Security //DONE
   {
     id: navlinks[0]?.subPages?.[4]?.href,
+    height: "900px",
     title: "Advanced Security",
     imgUrl: "/assets/images/services/security.png",
     subText:

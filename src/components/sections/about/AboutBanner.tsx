@@ -26,7 +26,7 @@ export default function AboutBanner({}: Props) {
 
       <div className=" h-400 w-full bg-gradient-to-t from-[#E7912C] via-[#E7912C]/95 to-transparent absolute z-20 bottom-0">
         <div className="flex flex-col justify-end h-full gap-8 max-w-[1200px] xl:mx-auto px-12 md:px-24 lg:px-24">
-          <div className="flex-none w-full md:max-w-[500px] h-full flex flex-col gap-4 justify-end pb-12">
+          <div className="flex-none w-full md:max-w-[750px] h-full flex flex-col gap-4 justify-end pb-12">
             <h1 className="text-white text-3xl md:text-4xl lg:text-4xl text-start">
               <TextOpacityWithMoveOnYAnimation
                 positionFrom={90}

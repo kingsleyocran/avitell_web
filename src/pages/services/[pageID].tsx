@@ -12,12 +12,12 @@ import ServicesBanner from "@/components/sections/services/ServicesBanner";
 import ServicesContentSection from "@/components/sections/services/ServicesContentSection";
 
 interface Props {
-  pageData: typeof servicesContent[0] | null;
+  pageData: (typeof servicesContent)[0] | null;
 }
 
 export async function getServerSideProps(context: any) {
   const { pageID } = context.query;
-  let returnData = null
+  let returnData = null;
   returnData = servicesContent.filter((e) => `/${pageID}` === e.id)[0];
   return {
     props: {
@@ -140,18 +140,22 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead
+        title={`Avitell | ${pageData?.title}`}
+        jsonLd={jsonLd}
+        metaDataTag={metaDataTag}
+      />
 
       <NavigationAnimation>
         <Header />
 
         {pageData && <ServicesBanner pageData={pageData} />}
-        
-        {pageData && <ServicesContentSection pageData={pageData}/>}
-        
+
+        {pageData && <ServicesContentSection pageData={pageData} />}
+
         <CTASection />
-        
-        <InsightsUpdatesSection/>
+
+        <InsightsUpdatesSection />
 
         <Footer />
       </NavigationAnimation>

@@ -135,7 +135,7 @@ const Page: NextPage<Props> = ({ pageData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead title="Avitell | Industries" jsonLd={jsonLd} metaDataTag={metaDataTag} />
 
       <NavigationAnimation>
         <Header />

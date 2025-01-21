@@ -136,7 +136,7 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead title="Avitell | Consultation" jsonLd={jsonLd} metaDataTag={metaDataTag} />
 
       <NavigationAnimation>
         <Header />

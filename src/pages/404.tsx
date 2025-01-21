@@ -8,7 +8,7 @@ export default function PageEmpty() {
   return (
     <>
       <CustomHead
-        title="GSCN - 404"
+        title="Avitell - 404"
         jsonLd={undefined}
         metaDataTag={undefined}
       />

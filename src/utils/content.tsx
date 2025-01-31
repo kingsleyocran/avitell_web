@@ -425,7 +425,7 @@ export const servicesContent = [
     id: navlinks[0]?.subPages?.[0]?.href,
     height: "1300px",
     title: "Enterprise Network Solutions",
-    imgUrl: "/assets/images/services/network.png",
+    imgUrl: "/assets/images/services/network.jpeg",
     subText:
       "The IT network is the foundation of all business operations, including lead conversion, invoice generation, phone communication, and file sharing. By adopting a comprehensive enterprise networking strategy that encompasses the data center core, cloud, and edge, businesses can experience a profound transformation from within. Discover how this approach can benefit your organization.",
     subList: [
@@ -515,7 +515,7 @@ export const servicesContent = [
     id: navlinks[0]?.subPages?.[1]?.href,
     height: "900px",
     title: "Windows Services",
-    imgUrl: "/assets/images/services/windows.png",
+    imgUrl: "/assets/images/services/windows.jpeg",
     subText:
       "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
     subList: [
@@ -588,7 +588,7 @@ export const servicesContent = [
     id: navlinks[0]?.subPages?.[2]?.href,
     height: "900px",
     title: "Cloud & Hybrid Services",
-    imgUrl: "/assets/images/services/cloud.png",
+    imgUrl: "/assets/images/services/cloud.jpeg",
     subText:
       "Achieve your business’s greatest potential with our Cloud & Hybrid Services which provide the adaptability, security and manageability that you require to grow. Whether you wish to optimize processes, improve collaboration or protect your business from disruption, we have the solutions that can take you to the next level in today’s environment. ",
     subList: [
@@ -656,7 +656,7 @@ export const servicesContent = [
     id: navlinks[0]?.subPages?.[3]?.href,
     height: "700px",
     title: "Unified Communications",
-    imgUrl: "/assets/images/services/communications.png",
+    imgUrl: "/assets/images/services/communications.jpeg",
     subText:
       "Whether you're working in the office, remotely, or on the go, our Unified Communications tools ensure that you can communicate efficiently and securely. From enhancing team collaboration to improving customer service, we provide the technology you need to keep your business connected, agile, and ahead of the competition. Choose us for a future-proof, all-in-one solution that simplifies your communication and elevates your business.",
     subList: [
@@ -720,7 +720,7 @@ export const servicesContent = [
     id: navlinks[0]?.subPages?.[4]?.href,
     height: "900px",
     title: "Advanced Security",
-    imgUrl: "/assets/images/services/security.png",
+    imgUrl: "/assets/images/services/security.jpeg",
     subText:
       "In the modern world where technology is rapidly expanding, cyber threats are also increasing at an unprecedented rate. At Avitell Technologies, we offer advanced security services to meet the latest threats and protect your data, applications, and networks. With threat detection, monitoring, and encryption, we guarantee the security of your ordinary business threat from management, all using possible proactive threats. threat We detection, offer real-time you monitoring, comprehensive and security state-of-the-art solutions that go a mile beyond just encryption. Our approach to security is comprehensive and strategic; we employ the latest technologies and the expertise of our security professionals to manage and mitigate all your security risks.",
     subList: [

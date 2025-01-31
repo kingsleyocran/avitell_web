@@ -146,7 +146,7 @@ function Section({ pageData }: Props) {
         max-w-[1200px] xl:mx-auto py-12 md:py-24  px-6 md:px-12 lg:px-12 "
         >
           {/* Images */}
-          <div className="flex-none relative bg-neutral-100 h-400 md:h-500 md:w-450 w-full">
+          <div className="flex-none relative bg-neutral-100 h-400 md:h-500 md:w-550 w-full">
             <Image
               src={pageData.imgUrl}
               alt={pageData.title}

@@ -10,7 +10,7 @@ export default function Section({}: Props) {
       <div className="z-10 relative w-full flex flex-col gap-8 max-w-[1600px] xl:mx-auto pt-[60px] px-6 md:px-12 lg:px-12">
         <div className="h-550 w-full relative ">
           <Image
-            src={"/assets/images/industries-banner.png"}
+            src={"/assets/images/industries-banner.jpeg"}
             alt={"about-banner-image"}
             fill
             style={{

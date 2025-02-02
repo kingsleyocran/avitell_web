@@ -150,14 +150,14 @@ export const industriesHomeContent = [
     title: "Transforming Healthcare with Secure, Scalable IT Solutions",
     content:
       "Avitell Technologies delivers tailored IT solutions to meet the unique demands of the healthcare industry. From scalable infrastructures and 24/7 operational support to seamless cloud transitions, Avitell empowers healthcare providers to enhance collaboration, streamline workflows, and enable faster decision-making. With advanced cybersecurity and HIPAA compliance at the core, they safeguard sensitive patient data and ensure regulatory adherence. As a strategic partner, Avitell supports healthcare transformation by modernizing IT infrastructures and building future-ready digital environments that prioritize patient care and operational excellence.",
-    imgUrl: "/assets/images/industries/healthcare.png",
+    imgUrl: "/assets/images/industries/healthcare.jpeg",
   },
   {
     industry: "Finance",
     title: "Powering Financial Growth with Secure, Scalable IT Solutions",
     content:
       "Avitell Technologies delivers tailored IT solutions to meet the precision, efficiency, and security demands of the finance sector. From scalable infrastructures and real-time data access to advanced cybersecurity, Avitell empowers financial organizations to optimize operations, enhance client experiences, and drive growth. Their solutions ensure compliance with standards like PCI DSS and GDPR, safeguarding sensitive financial data. As a strategic partner, Avitell supports digital transformation by modernizing legacy systems, securing IT frameworks, and integrating next-gen financial technologies for sustainable success in a rapidly evolving industry.",
-    imgUrl: "/assets/images/industries/finance.png",
+    imgUrl: "/assets/images/industries/finance.jpeg",
   },
   {
     industry: "Education",
@@ -165,7 +165,7 @@ export const industriesHomeContent = [
       "Empowering Education with Scalable IT & Secure Digital Learning Solutions",
     content:
       "Avitell Technologies delivers advanced IT solutions tailored to modern education. By providing scalable infrastructures, seamless connectivity, and secure cloud-based learning platforms, Avitell empowers educational institutions to enhance learning experiences, foster collaboration, and drive operational efficiency. Their advanced cybersecurity solutions protect student data and ensure compliance with regulations like FERPA. As a strategic partner, Avitell supports digital transformation by modernizing legacy systems, integrating next-gen learning technologies, and enabling institutions to thrive in the digital age. ",
-    imgUrl: "/assets/images/industries/education.png",
+    imgUrl: "/assets/images/industries/education.jpeg",
   },
   {
     industry: "Retail",
@@ -173,7 +173,7 @@ export const industriesHomeContent = [
       "Driving Retail Innovation with Scalable IT & Cybersecurity Solutions",
     content:
       "Avitell Technologies delivers advanced IT solutions tailored to the fast-paced retail sector. From omnichannel networks and cloud-based inventory management to data-driven decision-making, Avitell empowers retailers to boost efficiency, enhance customer engagement, and achieve long-term growth. With a focus on advanced cybersecurity and PCI DSS compliance, they protect customer data and business operations. As a strategic partner, Avitell supports retail transformation by modernizing IT systems, integrating innovative technologies, and enhancing both digital and in-store experiences",
-    imgUrl: "/assets/images/industries/retail.png",
+    imgUrl: "/assets/images/industries/retail.jpeg",
   },
   {
     industry: "Manufacturing",
@@ -181,7 +181,7 @@ export const industriesHomeContent = [
       "Powering Smart Manufacturing with Scalable IT & Cybersecurity Solutions",
     content:
       "Avitell Technologies delivers advanced IT solutions tailored to the unique demands of the manufacturing sector. From scalable infrastructures and real-time analytics to robust cybersecurity and regulatory compliance, Avitell empowers manufacturers to optimize processes, boost productivity, and drive sustainable growth. As a strategic partner, they modernize legacy systems, integrate IoT and AI, and support digital transformation to maintain a competitive edge. ",
-    imgUrl: "/assets/images/industries/manufacturing.png",
+    imgUrl: "/assets/images/industries/manufacturing.jpeg",
   },
 ];
 
@@ -228,7 +228,7 @@ export const industriesPageContent = [
         process.
       </>
     ),
-    imgUrl: "/assets/images/industries/healthcare.png",
+    imgUrl: "/assets/images/industries/healthcare.jpeg",
   },
   {
     industry: "Finance",
@@ -266,7 +266,7 @@ export const industriesPageContent = [
         of your business.
       </>
     ),
-    imgUrl: "/assets/images/industries/finance.png",
+    imgUrl: "/assets/images/industries/finance.jpeg",
   },
   {
     industry: "Education",
@@ -306,7 +306,7 @@ export const industriesPageContent = [
         institutions, we are here to offer support.
       </>
     ),
-    imgUrl: "/assets/images/industries/education.png",
+    imgUrl: "/assets/images/industries/education.jpeg",
   },
   {
     industry: "Retail",
@@ -347,7 +347,7 @@ export const industriesPageContent = [
         the new generation of retail.
       </>
     ),
-    imgUrl: "/assets/images/industries/retail.png",
+    imgUrl: "/assets/images/industries/retail.jpeg",
   },
   {
     industry: "Manufacturing",
@@ -389,7 +389,7 @@ export const industriesPageContent = [
         enhance your business and achieve the sustainability
       </>
     ),
-    imgUrl: "/assets/images/industries/manufacturing.png",
+    imgUrl: "/assets/images/industries/manufacturing.jpeg",
   },
 ];
 
@@ -420,7 +420,7 @@ export const sampleBlogList = [
 export const mediumLink = "https://google.com";
 
 export const servicesContent = [
-  // Network Solutions //DONE
+  // Network Solutions
   {
     id: navlinks[0]?.subPages?.[0]?.href,
     height: "1300px",
@@ -510,14 +510,14 @@ export const servicesContent = [
     },
   },
 
-  // Windows Services //TODO
+  // Windows Services 
   {
     id: navlinks[0]?.subPages?.[1]?.href,
     height: "900px",
     title: "Windows Services",
     imgUrl: "/assets/images/services/windows.jpeg",
     subText:
-      "Avitell utilizes top-notch Project Management methodologies to handle its projects. As a result, you can expect a dynamic, superior, and constantly improving environment.",
+      "Power your business with the reliability and efficiency of Windows Services. These essential background processes keep your operations running smoothly managing security, automating updates, supporting applications, and ensuring system stability. Whether you’re handling large-scale data, critical business apps, or everyday workflows, optimized Windows Services deliver the performance, security, and scalability your organization needs to thrive. Discover how we can help you unlock their full potential.",
     subList: [
       {
         title: "Windows Server Management and Support",
@@ -583,7 +583,7 @@ export const servicesContent = [
     },
   },
 
-  // Cloud & Hybrid Services //DONE
+  // Cloud & Hybrid Services
   {
     id: navlinks[0]?.subPages?.[2]?.href,
     height: "900px",
@@ -651,7 +651,7 @@ export const servicesContent = [
     },
   },
 
-  // Unified Communications// done
+  // Unified Communications
   {
     id: navlinks[0]?.subPages?.[3]?.href,
     height: "700px",
@@ -715,7 +715,7 @@ export const servicesContent = [
     },
   },
 
-  // Advanced Security //DONE
+  // Advanced Security
   {
     id: navlinks[0]?.subPages?.[4]?.href,
     height: "900px",

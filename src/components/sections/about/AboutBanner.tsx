@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import LinkButton from "@/components/button/LinkButton";
 import { aboutBannerContent } from "@/utils/content";
 import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
 
@@ -12,7 +11,7 @@ export default function AboutBanner({}: Props) {
       <div className="z-10 relative w-full flex flex-col gap-8 max-w-[1600px] xl:mx-auto pt-[65px] px-4 md:px-12 lg:px-12">
         <div className="h-600 w-full relative ">
           <Image
-            src={"/assets/images/about-banner.png"}
+            src={"/assets/images/about-banner.jpeg"}
             alt={"about-banner-image"}
             fill
             style={{

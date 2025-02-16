@@ -10,119 +10,142 @@ import ConsultationBanner from "@/components/sections/consultation/ConsultationB
 import ConsultationProcess from "@/components/sections/consultation/ConsultationProcess";
 
 interface Props {
-  networkMemberData: any;
+  pageData: any;
 }
 
 export async function getServerSideProps(context: any) {
   let returnData = null;
   return {
     props: {
-      networkMemberData: returnData,
+      pageData: returnData,
     },
   };
 }
 
-const Homepage: NextPage<Props> = ({ networkMemberData }) => {
+const ConsultationPage: NextPage<Props> = ({ pageData }) => {
   const metaDataTag = {
-    title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+    title: "Schedule a Consultation | Avitell Technologies",
     authors: [
       {
-        name: "Global Climate Storytellers Network",
+        name: "Avitell Technologies",
       },
     ],
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+      "Schedule a complimentary 30-minute consultation with Avitell Technologies. Discuss your IT strategy, services, business solutions, and compliance concerns with our experts. Let us help optimize your technology infrastructure for sustainable growth.",
     keywords:
-      "Climate Storytelling, Sustainability, Climate Justice, Storytelling Network, Climate Action, Climate Change, Environmental Storytelling",
+      "IT Consultation, Technology Assessment, Business IT Strategy, IT Solutions Consultation, Enterprise IT Planning, Technology Consulting, IT Infrastructure Assessment, Digital Transformation Consultation",
     openGraph: {
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      title: "Schedule a Consultation | Avitell Technologies",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Book a free 30-minute consultation with Avitell Technologies' experts. We'll discuss your organization's IT strategy, services, compliance, and technology priorities to deliver value promptly and consistently.",
       type: "website",
-      url: `https://www.climatestorytellers.earth/`,
-      publishedTime: "2024-11-07",
-      modifiedTime: "2024-11-07",
-      authors: ["Global Climate Storytellers Network"],
-      tags: "Climate Action, Storytelling, Sustainability, Community, Climate Justice",
+      url: "https://www.avitelltechnologies.com/consultation",
+      publishedTime: "2025-01-01",
+      modifiedTime: new Date().toISOString().split("T")[0],
+      authors: ["Avitell Technologies", "Yao Avidi"],
+      tags: "IT Consultation, Technology Assessment, Business Strategy, Digital Transformation",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/consultation-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Schedule a Consultation with Avitell Technologies",
           type: "image/png",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@climatestorytellers",
-      creator: "@climatestorytellers",
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      site: "@AvitellTech",
+      creator: "@AvitellTech",
+      title: "Schedule a Consultation | Avitell Technologies",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Book a free 30-minute consultation with Avitell Technologies' experts. We'll discuss your organization's IT strategy, services, compliance, and technology priorities to deliver value promptly and consistently.",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/consultation-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Schedule a Consultation with Avitell Technologies",
         },
       ],
     },
     alternates: {
-      canonical: `https://www.climatestorytellers.earth/`,
+      canonical: "https://www.avitelltechnologies.com/consultation",
     },
   };
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    url: "https://www.climatestorytellers.earth/",
-    name: "Global Climate Storytellers Network",
+    "@type": "ContactPage",
+    url: "https://www.avitelltechnologies.com/consultation",
+    name: "Schedule a Consultation with Avitell Technologies",
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.climatestorytellers.earth/",
-    },
-    datePublished: "2024-11-07",
-    dateModified: "2024-11-07",
-    publisher: {
-      "@type": "Organization",
-      name: "Global Climate Storytellers Network",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.climatestorytellers.earth/logo.png",
-      },
-    },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.climatestorytellers.earth/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
-    about: [
-      {
+      "Schedule a complimentary 30-minute consultation to discuss your organization's IT strategy and technology needs with our experts.",
+    mainEntity: {
+      "@type": "Service",
+      name: "IT Consultation Service",
+      provider: {
         "@type": "Organization",
-        name: "Global Climate Storytellers Network",
-        description:
-          "A network dedicated to empowering storytellers to drive action towards climate justice and sustainability.",
-        url: "https://www.climatestorytellers.earth/",
-        image: "https://www.climatestorytellers.earth/logo.png",
-        memberOf: [
-          {
-            "@type": "CreativeWork",
-            name: "Who Are We?",
-            text: "Our mission is to empower storytellers to drive action towards a sustainable and climate-just future. We provide a space for collaboration, learning, and sharing resources to amplify the impact of climate-themed stories and projects.",
-          },
-          {
-            "@type": "CreativeWork",
-            name: "Meet Our Storytelling Community",
-            text: "We aim to bring new energy, ideas, and perspectives from all who are working on climate-themed stories and projects. A community for storytellers to access resources, share opportunities, and collaborate for impactful storytelling.",
-          },
-        ],
+        name: "Avitell Technologies",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "500 N Central Expressway, Suite 500",
+          addressLocality: "Plano",
+          addressRegion: "Texas",
+          postalCode: "75074",
+          addressCountry: "US",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "214-713-7194",
+          email: "info@avitelltechnologies.com",
+          contactType: "customer service",
+        },
       },
-    ],
+      offers: {
+        "@type": "Offer",
+        name: "Free IT Consultation",
+        description: "30-minute complimentary consultation session",
+        price: "0",
+        priceCurrency: "USD",
+      },
+      serviceType: "IT Consultation",
+      steps: [
+        {
+          "@type": "HowToStep",
+          position: 1,
+          name: "Strategy Session",
+          text: "We'll delve into your current configuration and future objectives, guiding you through our IT approach and illustrating how it might be applicable to your situation.",
+        },
+        {
+          "@type": "HowToStep",
+          position: 2,
+          name: "Technology Assessment",
+          text: "Our engineering team will examine your system, evaluate the infrastructure, and identify any security weaknesses to deliver a thorough solution.",
+        },
+        {
+          "@type": "HowToStep",
+          position: 3,
+          name: "Solutions Presentation",
+          text: "We will thoroughly evaluate the assessment and provide recommendations to enhance your surroundings.",
+        },
+        {
+          "@type": "HowToStep",
+          position: 4,
+          name: "Executive Q&A Session",
+          text: "Your executive team will be given the chance to engage in a discussion with us regarding the presented information.",
+        },
+        {
+          "@type": "HowToStep",
+          position: 5,
+          name: "Kick-Off Meeting",
+          text: "Avitell will introduce you to your new IT department and provide guidance on how to access support and initiate your first project.",
+        },
+      ],
+    },
+    datePublished: "2025-01-01",
+    dateModified: new Date().toISOString().split("T")[0],
   };
 
   useEffect(() => {
@@ -136,16 +159,20 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell | Consultation" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead
+        title="Avitell | Consultation"
+        jsonLd={jsonLd}
+        metaDataTag={metaDataTag}
+      />
 
       <NavigationAnimation>
         <Header />
 
         <ConsultationBanner />
 
-        <ConsultationProcess/>
+        <ConsultationProcess />
 
-        <ContactForm/>
+        <ContactForm />
 
         <Footer />
       </NavigationAnimation>
@@ -153,4 +180,4 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
   );
 };
 
-export default Homepage;
+export default ConsultationPage;

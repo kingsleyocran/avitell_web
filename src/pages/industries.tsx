@@ -21,107 +21,136 @@ export async function getServerSideProps(context: any) {
   };
 }
 
-const Page: NextPage<Props> = ({ pageData }) => {
+const IndustriesPage: NextPage<Props> = ({ pageData }) => {
   const metaDataTag = {
-    title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+    title: "Industry Solutions | Avitell Technologies",
     authors: [
       {
-        name: "Global Climate Storytellers Network",
+        name: "Avitell Technologies",
       },
     ],
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+      "Avitell Technologies provides specialized IT solutions for Healthcare, Finance, Education, Retail, and Manufacturing industries. From secure healthcare systems to scalable retail solutions, we deliver industry-specific technology services that drive growth and innovation.",
     keywords:
-      "Climate Storytelling, Sustainability, Climate Justice, Storytelling Network, Climate Action, Climate Change, Environmental Storytelling",
+      "Healthcare IT Solutions, Financial Technology Services, Education Technology, Retail IT Systems, Manufacturing Technology, Industry-Specific IT, Digital Transformation, Cybersecurity Solutions, Cloud Services, Enterprise IT",
     openGraph: {
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      title: "Industry Solutions | Avitell Technologies",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Transform your industry with Avitell's specialized IT solutions. Expert technology services for Healthcare, Finance, Education, Retail, and Manufacturing sectors, delivering security, scalability, and innovation.",
       type: "website",
-      url: `https://www.climatestorytellers.earth/`,
-      publishedTime: "2024-11-07",
-      modifiedTime: "2024-11-07",
-      authors: ["Global Climate Storytellers Network"],
-      tags: "Climate Action, Storytelling, Sustainability, Community, Climate Justice",
+      url: "https://www.avitelltechnologies.com/industries",
+      publishedTime: "2025-01-01",
+      modifiedTime: new Date().toISOString().split("T")[0],
+      authors: ["Avitell Technologies", "Yao Avidi"],
+      tags: "Healthcare IT, Financial Technology, EdTech, Retail Solutions, Manufacturing IT",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/industries-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Avitell Technologies Industry Solutions",
           type: "image/png",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@climatestorytellers",
-      creator: "@climatestorytellers",
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      site: "@AvitellTech",
+      creator: "@AvitellTech",
+      title: "Industry Solutions | Avitell Technologies",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Transform your industry with Avitell's specialized IT solutions. Expert technology services for Healthcare, Finance, Education, Retail, and Manufacturing sectors, delivering security, scalability, and innovation.",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/industries-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Avitell Technologies Industry Solutions",
         },
       ],
     },
     alternates: {
-      canonical: `https://www.climatestorytellers.earth/`,
+      canonical: "https://www.avitelltechnologies.com/industries",
     },
   };
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    url: "https://www.climatestorytellers.earth/",
-    name: "Global Climate Storytellers Network",
+    url: "https://www.avitelltechnologies.com/industries",
+    name: "Industry Solutions | Avitell Technologies",
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.climatestorytellers.earth/",
+      "Specialized IT Solutions That Make a Difference across Healthcare, Finance, Education, Retail, and Manufacturing sectors.",
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: [
+        {
+          "@type": "Service",
+          position: 1,
+          name: "Healthcare IT Solutions",
+          description:
+            "Transforming Healthcare with Secure, Scalable IT Solutions. From scalable infrastructures and 24/7 operational support to seamless cloud transitions, Avitell empowers healthcare providers to enhance collaboration, streamline workflows, and enable faster decision-making.",
+          image:
+            "https://www.avitelltechnologies.com/assets/images/industries/healthcare.jpeg",
+        },
+        {
+          "@type": "Service",
+          position: 2,
+          name: "Financial Technology Solutions",
+          description:
+            "Powering Financial Growth with Secure, Scalable IT Solutions. From scalable infrastructures and real-time data access to advanced cybersecurity, Avitell empowers financial organizations to optimize operations, enhance client experiences, and drive growth.",
+          image:
+            "https://www.avitelltechnologies.com/assets/images/industries/finance.jpeg",
+        },
+        {
+          "@type": "Service",
+          position: 3,
+          name: "Education Technology Solutions",
+          description:
+            "Empowering Education with Scalable IT & Secure Digital Learning Solutions. By providing scalable infrastructures, seamless connectivity, and secure cloud-based learning platforms, Avitell empowers educational institutions.",
+          image:
+            "https://www.avitelltechnologies.com/assets/images/industries/education.jpeg",
+        },
+        {
+          "@type": "Service",
+          position: 4,
+          name: "Retail IT Solutions",
+          description:
+            "Driving Retail Innovation with Scalable IT & Cybersecurity Solutions. From omnichannel networks and cloud-based inventory management to data-driven decision-making, Avitell empowers retailers to boost efficiency.",
+          image:
+            "https://www.avitelltechnologies.com/assets/images/industries/retail.jpeg",
+        },
+        {
+          "@type": "Service",
+          position: 5,
+          name: "Manufacturing Technology Solutions",
+          description:
+            "Powering Smart Manufacturing with Scalable IT & Cybersecurity Solutions. From scalable infrastructures and real-time analytics to robust cybersecurity and regulatory compliance, Avitell empowers manufacturers.",
+          image:
+            "https://www.avitelltechnologies.com/assets/images/industries/manufacturing.jpeg",
+        },
+      ],
     },
-    datePublished: "2024-11-07",
-    dateModified: "2024-11-07",
-    publisher: {
+    provider: {
       "@type": "Organization",
-      name: "Global Climate Storytellers Network",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.climatestorytellers.earth/logo.png",
+      name: "Avitell Technologies",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "500 N Central Expressway, Suite 500",
+        addressLocality: "Plano",
+        addressRegion: "Texas",
+        postalCode: "75074",
+        addressCountry: "US",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "214-713-7194",
+        email: "info@avitelltechnologies.com",
+        contactType: "customer service",
       },
     },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.climatestorytellers.earth/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
-    about: [
-      {
-        "@type": "Organization",
-        name: "Global Climate Storytellers Network",
-        description:
-          "A network dedicated to empowering storytellers to drive action towards climate justice and sustainability.",
-        url: "https://www.climatestorytellers.earth/",
-        image: "https://www.climatestorytellers.earth/logo.png",
-        memberOf: [
-          {
-            "@type": "CreativeWork",
-            name: "Who Are We?",
-            text: "Our mission is to empower storytellers to drive action towards a sustainable and climate-just future. We provide a space for collaboration, learning, and sharing resources to amplify the impact of climate-themed stories and projects.",
-          },
-          {
-            "@type": "CreativeWork",
-            name: "Meet Our Storytelling Community",
-            text: "We aim to bring new energy, ideas, and perspectives from all who are working on climate-themed stories and projects. A community for storytellers to access resources, share opportunities, and collaborate for impactful storytelling.",
-          },
-        ],
-      },
-    ],
+    datePublished: "2025-01-01",
+    dateModified: new Date().toISOString().split("T")[0],
   };
 
   useEffect(() => {
@@ -135,7 +164,11 @@ const Page: NextPage<Props> = ({ pageData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell | Industries" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead
+        title="Avitell | Industries"
+        jsonLd={jsonLd}
+        metaDataTag={metaDataTag}
+      />
 
       <NavigationAnimation>
         <Header />
@@ -150,4 +183,4 @@ const Page: NextPage<Props> = ({ pageData }) => {
   );
 };
 
-export default Page;
+export default IndustriesPage;

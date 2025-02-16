@@ -28,105 +28,121 @@ export async function getServerSideProps(context: any) {
 
 const Homepage: NextPage<Props> = ({ networkMemberData }) => {
   const metaDataTag = {
-    title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+    title: "Avitell Technologies | Empowering Your Business Through Technology",
     authors: [
       {
-        name: "Global Climate Storytellers Network",
+        name: "Avitell Technologies",
       },
     ],
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+      "Since 2017, Avitell Technologies has been delivering tailored IT solutions for SMEs, specializing in network solutions, cloud services, cybersecurity, and IT infrastructure modernization. Transform your business with our reliable, cost-effective technology solutions.",
     keywords:
-      "Climate Storytelling, Sustainability, Climate Justice, Storytelling Network, Climate Action, Climate Change, Environmental Storytelling",
+      "IT Solutions, Enterprise Network Solutions, Cloud Services, Cybersecurity, Windows Services, Unified Communications, IT Infrastructure, SME Technology, Managed IT Services, IT Consulting",
     openGraph: {
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      title:
+        "Avitell Technologies | Empowering Your Business Through Technology",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Transform your business with Avitell Technologies' comprehensive IT solutions. Specializing in network solutions, cloud services, cybersecurity, and IT infrastructure for SMEs since 2017.",
       type: "website",
-      url: `https://www.climatestorytellers.earth/`,
-      publishedTime: "2024-11-07",
-      modifiedTime: "2024-11-07",
-      authors: ["Global Climate Storytellers Network"],
-      tags: "Climate Action, Storytelling, Sustainability, Community, Climate Justice",
+      url: "https://www.avitelltechnologies.com/",
+      publishedTime: "2025-01-01",
+      modifiedTime: new Date().toISOString().split("T")[0],
+      authors: ["Avitell Technologies", "Yao Avidi"],
+      tags: "IT Solutions, Cloud Services, Cybersecurity, Network Solutions, IT Infrastructure",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Avitell Technologies - IT Solutions",
           type: "image/png",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@climatestorytellers",
-      creator: "@climatestorytellers",
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      site: "@AvitellTech",
+      creator: "@AvitellTech",
+      title:
+        "Avitell Technologies | Empowering Your Business Through Technology",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Transform your business with Avitell Technologies' comprehensive IT solutions. Specializing in network solutions, cloud services, cybersecurity, and IT infrastructure for SMEs since 2017.",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "Avitell Technologies - IT Solutions",
         },
       ],
     },
     alternates: {
-      canonical: `https://www.climatestorytellers.earth/`,
+      canonical: "https://www.avitelltechnologies.com/",
     },
   };
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    url: "https://www.climatestorytellers.earth/",
-    name: "Global Climate Storytellers Network",
+    "@type": "Organization",
+    url: "https://www.avitelltechnologies.com/",
+    name: "Avitell Technologies",
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.climatestorytellers.earth/",
+      "Since 2017, Avitell Technologies has been a trusted partner for small and medium-sized enterprises (SMEs), delivering tailored IT solutions that drive growth, innovation, and security.",
+    foundingDate: "2017",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "500 N Central Expressway, Suite 500",
+      addressLocality: "Plano",
+      addressRegion: "Texas",
+      postalCode: "75074",
+      addressCountry: "US",
     },
-    datePublished: "2024-11-07",
-    dateModified: "2024-11-07",
-    publisher: {
-      "@type": "Organization",
-      name: "Global Climate Storytellers Network",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.climatestorytellers.earth/logo.png",
-      },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "214-713-7194",
+      email: "info@avitelltechnologies.com",
+      contactType: "customer service",
     },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.climatestorytellers.earth/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
-    about: [
+    sameAs: [
+      "https://www.linkedin.com/company/avitell-technologies",
+      // Add other social media links here
+    ],
+    services: [
       {
-        "@type": "Organization",
-        name: "Global Climate Storytellers Network",
+        "@type": "Service",
+        name: "Enterprise Network Solutions",
         description:
-          "A network dedicated to empowering storytellers to drive action towards climate justice and sustainability.",
-        url: "https://www.climatestorytellers.earth/",
-        image: "https://www.climatestorytellers.earth/logo.png",
-        memberOf: [
-          {
-            "@type": "CreativeWork",
-            name: "Who Are We?",
-            text: "Our mission is to empower storytellers to drive action towards a sustainable and climate-just future. We provide a space for collaboration, learning, and sharing resources to amplify the impact of climate-themed stories and projects.",
-          },
-          {
-            "@type": "CreativeWork",
-            name: "Meet Our Storytelling Community",
-            text: "We aim to bring new energy, ideas, and perspectives from all who are working on climate-themed stories and projects. A community for storytellers to access resources, share opportunities, and collaborate for impactful storytelling.",
-          },
-        ],
+          "With the prevalence of extensive communication channels, companies cannot rely on a haphazard approach to network planning and management.",
+      },
+      {
+        "@type": "Service",
+        name: "Windows Services",
+        description:
+          "Industry-leading IT consulting services helping achieve competitive edge through highly effective strategies and innovative solutions.",
+      },
+      {
+        "@type": "Service",
+        name: "Cloud & Hybrid Services",
+        description:
+          "Expert DevOps and Cloud Engineering team ensuring full leverage of Azure throughout your entire Cloud experience.",
+      },
+      {
+        "@type": "Service",
+        name: "Unified Communications",
+        description:
+          "IaaS solutions providing quick access to required infrastructure without extensive time and resource investment.",
+      },
+      {
+        "@type": "Service",
+        name: "Advanced Security",
+        description:
+          "Tailored managed services eliminating expenses and difficulties associated with managing intricate hybrid Cloud setups.",
       },
     ],
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://www.avitelltechnologies.com/",
+    },
   };
 
   useEffect(() => {
@@ -140,7 +156,7 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead title="Avitell | Empowering Your Business Through Technology" jsonLd={jsonLd} metaDataTag={metaDataTag} />
 
       <NavigationAnimation>
         <Header />
@@ -148,16 +164,16 @@ const Homepage: NextPage<Props> = ({ networkMemberData }) => {
         <HomeBanner />
 
         <HomeAboutSection />
-        
+
         <HomePlanSection />
-        
+
         <HomeIndustriesSection />
 
         <CertificationsPartnersSection />
-        
+
         <CTASection />
-        
-        <InsightsUpdatesSection/>
+
+        <InsightsUpdatesSection />
 
         <Footer />
       </NavigationAnimation>

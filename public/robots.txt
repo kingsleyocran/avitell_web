@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.climatestorytellers.earth
+Host: https://www.avitelltechnologies.com
 
 # Sitemaps
-Sitemap: https://www.climatestorytellers.earth/sitemap.xml
-Sitemap: https://www.climatestorytellers.earth/server-sitemap.xml
+Sitemap: https://www.avitelltechnologies.com/sitemap.xml
+Sitemap: https://www.avitelltechnologies.com/server-sitemap.xml

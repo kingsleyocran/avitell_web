@@ -31,7 +31,7 @@ export const navlinks = [
 export const ctaSection = {
   title: "Speak with a knowledgeable professional",
   content:
-    "We should have a conversation about finding a solution that aligns with both your business objectives and technical requirements.",
+    "Engage in a qualified professional to explore potential solutions that align with both your business objectives and technical specifications.",
 };
 
 export const footerContactDetails = {
@@ -43,7 +43,7 @@ export const footerContactDetails = {
 export const footerCTASection = {
   title: "Discover How We Work",
   content:
-    "We would be delighted to assist you in discovering more about Avitell services if you have any interest.",
+    "We would be pleased to provide you with further information regarding Avitell Services if you are interested. ",
 };
 
 export const ctaButton = {
@@ -510,7 +510,7 @@ export const servicesContent = [
     },
   },
 
-  // Windows Services 
+  // Windows Services
   {
     id: navlinks[0]?.subPages?.[1]?.href,
     height: "900px",

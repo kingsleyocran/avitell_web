@@ -30,107 +30,137 @@ export async function getServerSideProps(context: any) {
   };
 }
 
-const Homepage: NextPage<Props> = ({ pageData }) => {
+const AboutUspage: NextPage<Props> = ({ pageData }) => {
   const metaDataTag = {
-    title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+    title:
+      "About Avitell Technologies | Transforming Businesses with IT Solutions",
     authors: [
       {
-        name: "Global Climate Storytellers Network",
+        name: "Avitell Technologies",
       },
     ],
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+      "Since 2017, Avitell Technologies empowers SMEs with cutting-edge IT solutions that drive growth, security, and operational excellence. Learn about our mission, vision, and commitment to delivering scalable, cost-effective technology solutions.",
     keywords:
-      "Climate Storytelling, Sustainability, Climate Justice, Storytelling Network, Climate Action, Climate Change, Environmental Storytelling",
+      "About Avitell, IT Solutions Provider, Technology Partner, SME IT Services, IT Infrastructure, Cloud Solutions, Cybersecurity Experts, IT Consulting, Business Technology, Digital Transformation",
     openGraph: {
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      title:
+        "About Avitell Technologies | Transforming Businesses with IT Solutions",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Discover how Avitell Technologies transforms SMEs through innovative IT solutions. With expertise in network solutions, cloud services, and cybersecurity, we've been driving business growth since 2017.",
       type: "website",
-      url: `https://www.climatestorytellers.earth/`,
-      publishedTime: "2024-11-07",
-      modifiedTime: "2024-11-07",
-      authors: ["Global Climate Storytellers Network"],
-      tags: "Climate Action, Storytelling, Sustainability, Community, Climate Justice",
+      url: "https://www.avitelltechnologies.com/about-us",
+      publishedTime: "2025-01-01",
+      modifiedTime: new Date().toISOString().split("T")[0],
+      authors: ["Avitell Technologies", "Yao Avidi"],
+      tags: "IT Solutions Provider, Technology Partner, SME Services, Digital Transformation",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/about-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "About Avitell Technologies - Transforming Businesses",
           type: "image/png",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@climatestorytellers",
-      creator: "@climatestorytellers",
-      title: `We believe in the power of storytelling to challenge the status quo | Global Climate Storytellers Network`,
+      site: "@AvitellTech",
+      creator: "@AvitellTech",
+      title:
+        "About Avitell Technologies | Transforming Businesses with IT Solutions",
       description:
-        "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
+        "Discover how Avitell Technologies transforms SMEs through innovative IT solutions. With expertise in network solutions, cloud services, and cybersecurity, we've been driving business growth since 2017.",
       images: [
         {
-          url: `https://www.climatestorytellers.earth/hero-image.png`,
+          url: "https://www.avitelltechnologies.com/assets/images/about-og-image.png",
           width: 1200,
           height: 630,
-          alt: "Global Climate Storytellers Network Hero Image",
+          alt: "About Avitell Technologies - Transforming Businesses",
         },
       ],
     },
     alternates: {
-      canonical: `https://www.climatestorytellers.earth/`,
+      canonical: "https://www.avitelltechnologies.com/about-us",
     },
   };
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    url: "https://www.climatestorytellers.earth/",
-    name: "Global Climate Storytellers Network",
+    "@type": "AboutPage",
+    url: "https://www.avitelltechnologies.com/about-us",
+    name: "About Avitell Technologies",
     description:
-      "Join a global community harnessing the power of storytelling to tackle climate change. Empowering storytellers to drive sustainable action through collaboration, resources, and impactful climate-themed narratives.",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": "https://www.climatestorytellers.earth/",
-    },
-    datePublished: "2024-11-07",
-    dateModified: "2024-11-07",
-    publisher: {
+      "Since 2017, Avitell Technologies empowers SMEs with cutting-edge IT solutions that drive growth, security, and operational excellence.",
+    mainEntity: {
       "@type": "Organization",
-      name: "Global Climate Storytellers Network",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.climatestorytellers.earth/logo.png",
+      name: "Avitell Technologies",
+      foundingDate: "2017",
+      description:
+        "Avitell Technologies aims to provide cutting-edge, scalable, and secure information technology solutions for the optimization of the operations and productivity of small and medium enterprises to achieve sustainable growth.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "500 N Central Expressway, Suite 500",
+        addressLocality: "Plano",
+        addressRegion: "Texas",
+        postalCode: "75074",
+        addressCountry: "US",
       },
-    },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.climatestorytellers.earth/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
-    about: [
-      {
-        "@type": "Organization",
-        name: "Global Climate Storytellers Network",
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "214-713-7194",
+        email: "info@avitelltechnologies.com",
+        contactType: "customer service",
+      },
+      mission: {
+        "@type": "Thing",
+        name: "Mission",
         description:
-          "A network dedicated to empowering storytellers to drive action towards climate justice and sustainability.",
-        url: "https://www.climatestorytellers.earth/",
-        image: "https://www.climatestorytellers.earth/logo.png",
-        memberOf: [
+          "Avitell Technologies aims to provide cutting-edge, scalable, and secure information technology solutions for the optimization of the operations and productivity of small and medium enterprises to achieve sustainable growth. It specializes in cybersecurity, cloud integration, IT infrastructure, and data management.",
+      },
+      vision: {
+        "@type": "Thing",
+        name: "Vision",
+        description:
+          "Our vision is to become a trusted pioneer in innovatory and scalable IT solutions that enable SMEs within core sectors. Creating a new benchmark for excellence, by leading the way in the progression of security, cloud technologies, and IT modernization to help businesses succeed within a constantly changing digital world.",
+      },
+      process: {
+        "@type": "ItemList",
+        itemListElement: [
           {
-            "@type": "CreativeWork",
-            name: "Who Are We?",
-            text: "Our mission is to empower storytellers to drive action towards a sustainable and climate-just future. We provide a space for collaboration, learning, and sharing resources to amplify the impact of climate-themed stories and projects.",
+            "@type": "ListItem",
+            position: 1,
+            name: "Plan",
+            description:
+              "Before project execution, it is common to have a preliminary phase of discovery and prototyping.",
           },
           {
-            "@type": "CreativeWork",
-            name: "Meet Our Storytelling Community",
-            text: "We aim to bring new energy, ideas, and perspectives from all who are working on climate-themed stories and projects. A community for storytellers to access resources, share opportunities, and collaborate for impactful storytelling.",
+            "@type": "ListItem",
+            position: 2,
+            name: "Design",
+            description:
+              "Our strategy involves iterating to achieve early learning and ROI by conducting research and analysis.",
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Implement",
+            description:
+              "Break down work into multiple iterations of planning, designing, and implementing.",
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: "Manage",
+            description:
+              "We provide comprehensive system administration, management, and optimization services.",
           },
         ],
       },
-    ],
+    },
+    datePublished: "2025-01-01",
+    dateModified: new Date().toISOString().split("T")[0],
   };
 
   useEffect(() => {
@@ -144,7 +174,11 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
 
   return (
     <>
-      <CustomHead title="Avitell | About Us" jsonLd={jsonLd} metaDataTag={metaDataTag} />
+      <CustomHead
+        title="Avitell | About Us"
+        jsonLd={jsonLd}
+        metaDataTag={metaDataTag}
+      />
 
       <NavigationAnimation>
         <Header />
@@ -169,4 +203,4 @@ const Homepage: NextPage<Props> = ({ pageData }) => {
   );
 };
 
-export default Homepage;
+export default AboutUspage;

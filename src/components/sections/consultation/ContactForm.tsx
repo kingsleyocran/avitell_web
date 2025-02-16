@@ -1,17 +1,16 @@
 import React from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import contactApiRequest from "@/backend/api_requests/contact/contactRequest";
 import {
   ComponentStateEnum,
   ComponentStateEnumValues,
 } from "@/backend/models/_shared";
 import PrimaryButton from "@/components/button/PrimaryButton";
 import ArrowDownIcon from "../../../../public/assets/icons/menu_arrow_up.svg";
-import TextOpacityWithMoveOnYAnimation from "@/components/animation/TextOpacityWithMoveOnYAnimation";
 import { contactContent } from "@/utils/content";
 import TextOpacityInViewAnimation from "@/components/animation/TextOpacityInViewAnimation";
+import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
   const nameRef = useRef(null);
@@ -31,10 +30,8 @@ export default function ContactSection() {
   const [message, setmessage] = useState("");
   const [email, setemail] = useState("");
   const [interest, setinterest] = useState<string | null>(null);
-  const [showError, setshowError] = useState(false);
-  const [showSuccess, setshowSuccess] = useState<ComponentStateEnumValues>(
-    ComponentStateEnum.IDLE
-  );
+  const [componentState, setComponentState] =
+    useState<ComponentStateEnumValues>(ComponentStateEnum.IDLE);
 
   function resetForm() {
     setname("");
@@ -72,41 +69,39 @@ export default function ContactSection() {
   };
 
   async function handleSubmit() {
-    setshowError(false);
-    setshowSuccess("loading");
+    setComponentState("loading");
 
     if (!name || !email || !message || !interest) {
-      setshowError(true);
-      setshowSuccess("idle");
+      toast.error("Please make sure your form is filled correctly");
+      setComponentState("idle");
       return;
     }
 
-    let dataPayload = {
-      name,
-      email,
-      message,
-      interest,
+    // EmailJS template parameters
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+      interest: interest,
     };
 
-    let dataResponse = await contactApiRequest(dataPayload);
-
-    if (dataResponse === "success") {
-      console.log("RESPONSE FROM API", dataResponse);
-      //setshowSuccess("success");
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "",
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "",
+        templateParams,
+        {
+          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "",
+        }
+      );
+      console.log("Email sent successfully");
+      setComponentState("idle");
       resetForm();
-      toast.success("Your contact enquiry has been submitted successfully", {
-        style: {
-          borderRadius: "0px",
-        },
-      });
-    } else {
-      console.log("RESPONSE FROM API", dataResponse);
-      setshowSuccess("failed");
-      toast.error("Your contact enquiry failed on submission", {
-        style: {
-          borderRadius: "0px",
-        },
-      });
+      toast.success("Your contact enquiry has been submitted successfully");
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setComponentState("failed");
+      toast.error("Your contact enquiry failed on submission");
     }
   }
 
@@ -258,7 +253,15 @@ export default function ContactSection() {
             </div>
 
             {/* Submit Button */}
-            <PrimaryButton rounded onClicked={() => {}} title={"Submit"} />
+            <PrimaryButton
+              rounded
+              onClicked={handleSubmit}
+              title={
+                componentState === ComponentStateEnum.LOADING
+                  ? "Sending..."
+                  : "Submit"
+              }
+            />
           </div>
         </div>
       </div>
